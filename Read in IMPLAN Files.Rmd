@@ -11,16 +11,16 @@ library(dplyr)
 library(readr)
 library(stargazer)
 library(ggformula)
-library(ioanalysis)
+library(tidyverse)
+library(matsindf)
+library(matsbyname)
 library(igraph)
 
-implan <- file.path("~/ImplanPaper")
 data   <- file.path("Data")
 pgms <- file.path("Data Management Files")
 indepvars <- file.path("IMPLAN Independent Vars")
 IOFiles <- file.path("IMPLAN IO Tables")
-results <- file.path("IMPLAN Simulation Results")
-onepctshock <- file.path("FinalResults")
+results <- file.path("FinalResults")
 setup <- file.path("IMPLAN Simulation Set-up Files")
 
 ```
@@ -33,10 +33,10 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 ## Read in the IO matrices 
 ```{r readfiles}
 filename="AggIOall.csv"
-fileNamewithPath <- file.path(gdrive,implan,indepvars,IOFiles,filename)
+fileNamewithPath <- file.path(data,IOFiles,filename)
 
 IOall <- as_tibble(read_csv(fileNamewithPath)) %>% 
-                  mutate_all(~replace(., is.na(.), 0)) %>%     # replace missings with zeroes
+                  mutate_all(~replace(., is.na(.), 0)) %>%     # replace missings with 0
                   select(-desc)                                # drop description column
 
 ```
@@ -44,19 +44,32 @@ IOall <- as_tibble(read_csv(fileNamewithPath)) %>%
 ## Create the IO Metrics as needed.
 ```{r IO metrics}
 
+IOwide <- IOall %>% filter(sector!=0) %>%
+            mutate(rownames=dplyr::recode(sector,`1`="s1",`2`="s2",`3`="s3",
+                                        `4`="s4",`5`="s5",
+                                        `6`="s6",`7`="s7",`8`="s8",
+                                        `9`="s9",`10`="s10",`11`="s11")) %>%
+            select(-sector)
 
+IOlong <- gather(IOwide,key="colnames",value="IO",-county,-rownames) %>%
+          mutate(matrix="IO",rowtypes="sector",coltypes="sector") %>%
+          group_by(county,matrix)
+
+IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="IO")
 
 ```
 
 ## Read in the Simulation Results and Create Variables for Analysis
 ```{r IO}
 filename="AggResults01pct.csv"
-fileNamewithPath <- file.path(gdrive,implan,results,onepctshock,filename)
+fileNamewithPath <- file.path(data,results,filename)
 
 shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
-            mutate(sector=dplyr::recode(sector,`20`=2,`41`=3,`52`=4,`65`=5,
-                                        `395`=6,`396`=7,`408`=8,
-                                        `417`=9,`472`=10,`520`=11)) %>% select(-description)
+            mutate(sector=dplyr::recode(sector,`1`="s1",`20`="s2",`41`="s3",
+                                        `52`="s4",`65`="s5",
+                                        `395`="s6",`396`="s7",`408`="s8",
+                                        `417`="s9",`472`="s10",`520`="s11")) %>%
+            select(-description, -sector)
 
 ```
 
