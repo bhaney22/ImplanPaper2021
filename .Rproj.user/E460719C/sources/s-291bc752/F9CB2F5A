@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564084003052.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "431724453",
+    "id" : "F9CB2F5A",
+    "lastKnownWriteTime" : 1564084717,
+    "last_content_update" : 1564084717358,
+    "path" : "~/ImplanPaper/CreateAggResultsFile.sh",
+    "project_path" : "CreateAggResultsFile.sh",
+    "properties" : {
+        "cursorPosition" : "31,43",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sh"
+}

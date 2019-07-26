@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564086936011.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B026E1DA",
+    "lastKnownWriteTime" : 14,
+    "last_content_update" : 1564086936011,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1A761AA2",
+        "caption" : "IOall",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=IOall&cache_key=1A761AA2",
+        "displayedObservations" : 900,
+        "environment" : "",
+        "expression" : "IOall",
+        "object" : "IOall",
+        "preview" : 0,
+        "totalObservations" : 900,
+        "variables" : 13
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

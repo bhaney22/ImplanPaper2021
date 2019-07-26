@@ -1,0 +1,152 @@
+---
+title: "Read In Implan Results Files"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(readr)
+library(stargazer)
+library(ggformula)
+library(ioanalysis)
+library(igraph)
+
+data   <- file.path("Data")
+pgms <- file.path("Data Management Files")
+indepvars <- file.path("IMPLAN Independent Vars")
+IOFiles <- file.path("IMPLAN IO Tables")
+results <- file.path("IMPLAN Simulation Results")
+onepctshock <- file.path("FinalResults")
+setup <- file.path("IMPLAN Simulation Set-up Files")
+
+```
+
+```{bash}
+./CreateAggIOFile.sh
+./CreateAggResultsFile.sh
+```
+
+## Read in the IO matrices 
+```{r readfiles}
+filename="AggIOall.csv"
+fileNamewithPath <- file.path(gdrive,implan,indepvars,IOFiles,filename)
+
+IOall <- as_tibble(read_csv(fileNamewithPath)) %>% 
+                  mutate_all(~replace(., is.na(.), 0)) %>%     # replace missings with zeroes
+                  select(-desc)                                # drop description column
+
+```
+
+## Create the IO Metrics as needed.
+```{r IO metrics}
+
+
+
+```
+
+## Read in the Simulation Results and Create Variables for Analysis
+```{r IO}
+filename="AggResults01pct.csv"
+fileNamewithPath <- file.path(gdrive,implan,results,onepctshock,filename)
+
+shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
+            mutate(sector=dplyr::recode(sector,`20`=2,`41`=3,`52`=4,`65`=5,
+                                        `395`=6,`396`=7,`408`=8,
+                                        `417`=9,`472`=10,`520`=11)) %>% select(-description)
+
+```
+
+
+
+
+```
+
+		egen Bona_cent = rowtotal(l_1 - l_`lsize')   /* total outdegree of each sector */
+		egen Conc_cent = rowsd(l_1 - l_`lsize')      /* sd of outdegree of each sector */
+		
+/* Add the 0 sector to match with the results */													 
+		set obs 12
+		replace county = "`name'" if _n == 12
+		replace sector = 0 if _n == 12	
+		 
+		egen B_mean = mean(Bona_cent)                /* avg Bonacich centrality for county */
+		egen C_mean = mean(Conc_cent)                /* avg Concentration centrality for county */
+		egen B_sd = sd(Bona_cent)                    /* sd of Bonacich centrality for county */
+		egen C_sd = sd(Conc_cent)                    /* sd of Concentration centrality for county */
+		drop l_*  /* to move L and IO to the end of the variable list */
+		getmata (l_*)=L, force
+		getmata (s_*)=IO, force
+
+		drop s1-s11                                  /* drop the original Implan IO matrix */	
+
+		sort county sector    
+		
+		save temp1,replace
+		use "$datadir\MICountyData", clear
+			append using temp1
+			save "$datadir\MICountyData", replace
+/*                                                                                            */
+/*    End FOREACH loop                                                                        */
+/*                                                                                            */
+}
+
+/*                                                                                            */
+/*    Merge the other Independent Vars                                                        */
+/*                                                                                            */
+		import delimited "$datadir\NonIMPLANVars.csv", clear
+			save temp2, replace
+		import delimited "$datadir\IMPLANVars.csv", clear
+			merge 1:1 county using temp2
+			drop _merge
+			save temp3,replace
+			
+	use "$datadir\MICountyData", clear
+		merge m:1 county using temp3
+		drop _merge
+		save "$datadir\MICountyData", replace
+
+/* Clean up */
+erase temp1.dta
+erase temp2.dta
+erase temp3.dta
+erase tempIO.dta
+```
+```{r}
+
+
+simoutput <- shock01 %>% mutate(description=NULL) %>%
+                         mutate(indirectdrop=100*(indirect-direct)/direct) %>%
+                         mutate(induceddrop=100*(induced-direct)/direct) %>%
+                         mutate(totaldrop=100*(total-direct)/direct) 
+
+simoutput
+```
+
+## Explore Bivariate Relationships
+
+```{r, results='asis'}
+
+gf_point(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0), color="blue", size = ~ numind,
+         title = "Centrality in Production Networks and Propogation of Sectoral Shock",
+         subtitle = "(Using Bonacich Centrality)",
+         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
+  
+gf_lm(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0) )
+lm(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0) ) %>% stargazer(type="html")
+
+```
+
+```{r, results='asis'}
+
+gf_point(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0), color="blue", size = ~ numind,
+         title = "Centrality in Production Networks and Propogation of Sectoral Shock",
+         subtitle = "(Using Bonacich Centrality)",
+         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
+  
+gf_lm(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0) )
+lm(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0) ) %>% stargazer(type="html")
+
+```

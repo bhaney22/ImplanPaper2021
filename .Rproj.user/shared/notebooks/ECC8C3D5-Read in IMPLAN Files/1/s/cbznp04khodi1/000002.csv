@@ -1,0 +1,34 @@
+"0","filename=""AggIOall.csv"""
+"0","fileNamewithPath <- file.path(data,IOFiles,filename)"
+"0",""
+"0","IOall <- as_tibble(read_csv(fileNamewithPath)) %>% "
+"0","                  mutate_all(~replace(., is.na(.), 0)) %>%     # replace missings with 0"
+"0","                  select(-desc)                                # drop description column"
+"2","Parsed with column specification:
+cols(
+  county = [31mcol_character()[39m,
+  sector = [32mcol_double()[39m,
+  desc = [31mcol_character()[39m,
+  s1 = [32mcol_double()[39m,
+  s2 = [32mcol_double()[39m,
+  s3 = [32mcol_double()[39m,
+  s4 = [32mcol_double()[39m,
+  s5 = [32mcol_double()[39m,
+  s6 = [32mcol_double()[39m,
+  s7 = [32mcol_double()[39m,
+  s8 = [32mcol_double()[39m,
+  s9 = [32mcol_double()[39m,
+  s10 = [32mcol_double()[39m,
+  s11 = [32mcol_double()[39m
+)
+"
+"2","900 parsing failures.
+row col   expected     actual                                 file
+  1  -- 14 columns 38 columns 'Data/IMPLAN IO Tables/AggIOall.csv'
+  2  -- 14 columns 38 columns 'Data/IMPLAN IO Tables/AggIOall.csv'
+  3  -- 14 columns 38 columns 'Data/IMPLAN IO Tables/AggIOall.csv'
+  4  -- 14 columns 38 columns 'Data/IMPLAN IO Tables/AggIOall.csv'
+  5  -- 14 columns 38 columns 'Data/IMPLAN IO Tables/AggIOall.csv'
+... ... .......... .......... ....................................
+See problems(...) for more details.
+"

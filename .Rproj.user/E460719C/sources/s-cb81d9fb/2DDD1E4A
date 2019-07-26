@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564086490218.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3443612479",
+    "id" : "2DDD1E4A",
+    "lastKnownWriteTime" : 1564087180,
+    "last_content_update" : 1564087181048,
+    "path" : "~/ImplanPaper/Read in IMPLAN Files.Rmd",
+    "project_path" : "Read in IMPLAN Files.Rmd",
+    "properties" : {
+        "cursorPosition" : "56,75",
+        "last_setup_crc32" : "cb81d9fbad347540",
+        "scrollLine" : "39"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
