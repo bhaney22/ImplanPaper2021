@@ -14,28 +14,20 @@ library(ggformula)
 library(ioanalysis)
 library(igraph)
 
-gdrive <- file.path("C:/Users/brh22/Google Drive")
-implan <- file.path("_ Energy Economics","Sabbatical Project","KN - Implan Research")
+implan <- file.path("~/ImplanPaper")
+data   <- file.path("Data")
 pgms <- file.path("Data Management Files")
 indepvars <- file.path("IMPLAN Independent Vars")
 IOFiles <- file.path("IMPLAN IO Tables")
 results <- file.path("IMPLAN Simulation Results")
 onepctshock <- file.path("FinalResults")
 setup <- file.path("IMPLAN Simulation Set-up Files")
-analysis <- file.path("Research Analysis in R")
 
 ```
 
-
-```{r AgggregateIMPLANfiles}
-library(icesTAF)  # for the dos2unix command. Editing files in R puts dos line endings.
-
-dos2unix('CreateAggIOFile.sh')
-dos2unix('CreateAggResultsFile.sh')
-
-system2('bash',arg=c('CreateAggIOFile.sh'))
-system2('bash',arg=c('CreateAggResultsFile.sh'))
-
+```{bash}
+./CreateAggIOFile.sh
+./CreateAggResultsFile.sh
 ```
 
 ## Read in the IO matrices 

@@ -4,15 +4,11 @@
 #####################################################################################
 # Concat all of the output files that have been run for one simulation.
 #####################################################################################
-gdrive="/mnt/c/Users/brh22/Google Drive"
-implan="/mnt/c/Users/brh22/Google Drive/_ Energy Economics/Sabbatical Project/KN - Implan Research"
-pgms="Data Management Files"
-indepvars="IMPLAN Independent Vars"
-results="IMPLAN Simulation Results/FinalResults"
-setup="IMPLAN Simulation Set-up Files"
-analysis="Research Analysis in R"
+data="Data"
+results="FinalResults"
 
-cd "$implan/$results"
+
+cd "$data/$results"
 
 table=Output
 filename=AggResults01pct.csv
@@ -33,7 +29,7 @@ do
 	for table in Output Employment 
 	do
 		cat "$county"*"$table".csv | \
-		  awk -v var1="$county" -v var2="$table" --field-separator ',' '{print var1 "," var2 "," $0}' | \
+		  awk -v var1="$county" -v var2="$table" '{print var1 "," var2 "," $0}' | \
 			sed -n -e '3,14p' >> $filename
 	done
 
