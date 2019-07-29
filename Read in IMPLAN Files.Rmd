@@ -36,8 +36,8 @@ filename="AggIOall.csv"
 fileNamewithPath <- file.path(data,IOFiles,filename)
 
 IOall <- as_tibble(read_csv(fileNamewithPath)) %>% 
-                  mutate_all(~replace(., is.na(.), 0)) %>%     # replace missings with 0
-                  select(-desc)                                # drop description column
+                  mutate_all(~replace(., is.na(.), 0)) %>% # replace missings with 0
+                  select(-desc)                            # drop description column
 
 ```
 
@@ -51,11 +51,19 @@ IOwide <- IOall %>% filter(sector!=0) %>%
                                         `9`="s9",`10`="s10",`11`="s11")) %>%
             select(-sector)
 
-IOlong <- gather(IOwide,key="colnames",value="IO",-county,-rownames) %>%
+IOlong <- gather(IOwide,key="colnames",value="vals",-county,-rownames) %>%
           mutate(matrix="IO",rowtypes="sector",coltypes="sector") %>%
           group_by(county,matrix)
 
-IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="IO")
+IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
+   mutate(g = t(rowsums_byname(vals)),
+          A = matrixproduct_byname(vals,hatinv_byname(g)))
+
+,
+          L = solve(diag(nrow(A))-A),
+          Bona_cent=colsums_byname(L))  %>%
+    select(-matrix, -vals)
+
 
 ```
 
@@ -65,16 +73,13 @@ filename="AggResults01pct.csv"
 fileNamewithPath <- file.path(data,results,filename)
 
 shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
-            mutate(sector=dplyr::recode(sector,`1`="s1",`20`="s2",`41`="s3",
+            mutate(sector=dplyr::recode(sector,`0`="Total",`1`="s1",`20`="s2",`41`="s3",
                                         `52`="s4",`65`="s5",
                                         `395`="s6",`396`="s7",`408`="s8",
                                         `417`="s9",`472`="s10",`520`="s11")) %>%
-            select(-description, -sector)
+            select(-description)
 
 ```
-
-
-
 
 ```
 
