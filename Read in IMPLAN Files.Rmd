@@ -14,7 +14,9 @@ library(ggformula)
 library(tidyverse)
 library(matsindf)
 library(matsbyname)
+library(statnet)
 library(igraph)
+library(qgraph)
 
 data   <- file.path("Data")
 pgms <- file.path("Data Management Files")
@@ -93,6 +95,58 @@ IOwide <- IOall %>% filter(sector!=0) %>%
 IOlong <- gather(IOwide,key="colnames",value="vals",-county,-rownames,factor_key = TRUE) %>%
           mutate(matrix="IO",rowtypes="sector",coltypes="sector") %>%
           group_by(county,matrix)
+
+K.mat <-IOwide%>%filter(county=="Kalamazoo") %>%
+  select(rownames,s01:s11)
+
+write_csv(K.mat,"temp1.csv")
+
+dat=read.csv("temp1.csv",header=TRUE,row.names=1,check.names=FALSE) # read .csv file
+m=as.matrix(dat)
+net=graph.adjacency(m,mode="directed",weighted=TRUE,diag=FALSE) 
+
+plot.igraph(net)
+
+```
+,vertex.label=V(net)$name,layout=layout.fruchterman.reingold, vertex.label.color="black",edge.color="black",edge.width=E(net)$weight/3, edge.arrow.size=1.5)
+
+Ottawa.network <-IOlong%>%filter(county=="Ottawa") %>%
+  rename(from="colnames",to="rownames") %>% select(-county)
+
+
+pdf(width=7, file="Ottawanet.pdf")
+
+g<-graph_from_data_frame(Kalamazoo.network,directed=TRUE)
+print(g)
+
+```
+
+qgraph(df$Flows.curr[[scenario]],
+        edge.labels=T,
+        edge.label.cex=1.25,edge.color="black",fade=F,
+        edge.label.position=edge.label.position.vals,
+        layout=L,
+        groups=groups.curr,
+        borders=F,
+        labels=nodes.names,
+        nodeNames=nodes.names.curr.legend,
+        shape=shapes,
+        palette="colorblind",
+        mar=c(3,3,5,3),
+        title=paste0(scenario.name,
+                    # "\tGDP $",format(df$GDP.curr[[scenario]],width=7)," (million)",
+                     "\t (Flows in $millions)",
+                    "\n \t Net Energy Ratio = ",round(df$PRR.phys[[scenario]],2),
+                    "\n \t Value-Added = $",round(df$PRR.curr[[scenario]],2), 
+                    "\n \t F_econ =",round(df$F.curr[[scenario]],2),
+                    "\t (a=",round(df$alpha.curr[[scenario]],2),")",
+                    "\n \t F_phys =",round(df$F.phys[[scenario]],2),
+                    "\t (a=",round(df$alpha.phys[[scenario]],2),")"
+                    ) )
+dev.off()  
+
+``` {r}
+
 
 IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
    rename(IO=vals) %>% select(-matrix) %>%
