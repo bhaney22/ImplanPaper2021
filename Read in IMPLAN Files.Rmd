@@ -36,15 +36,32 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 #create the shock01 file in stata
 
 shock01 <- read_csv("shock01.csv", na = "0")  %>% filter(shocksector==6) %>%
-  mutate(pctindirect = indirect/direct)
+   select(-pctinduced,-pctadddrop,-pcttotdrop,-pctinddrop) %>%
+  mutate(pctindirect = indirect/direct,
+         pctinduced = induced/direct,
+         GRP=grp/1000000000) 
+ 
+write.csv(shock01,"shock01R.csv")
 
-gf_point(pctindirect ~ B_sd,data=shock01, color="blue",
-         title = "How Much Sectoral Shocks Propogate to the Aggregate Economy",
-         subtitle = "As Production Networks are more Centralized",
-         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
+gf_point(pctindirect ~ B_sd,data=shock01, color="blue",size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Propogation to Other Sectors (Indirect)") %>%
   gf_lm(pctindirect ~ B_sd,data=shock01) 
 
-lm(pctindirect ~ B_mean + B_sd,data=shock01) %>% stargazer(type="text")
+gf_point(pctinduced ~ B_sd,data=shock01, color="blue",size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Propogation to Other Sectors (Induced)") %>%
+  gf_lm(pctinduced ~ B_sd,data=shock01) 
+
+lm1<-lm(pctindirect ~ B_mean + B_sd,data=shock01) 
+lm2<-lm(pctinduced ~ B_mean + B_sd,data=shock01) 
+stargazer(lm1,lm2,type="text")
 
 ```
 
@@ -80,8 +97,10 @@ IOlong <- gather(IOwide,key="colnames",value="vals",-county,-rownames,factor_key
 IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
    rename(IO=vals) %>% select(-matrix) %>%
    mutate(g = (rowsums_byname(IO)),
-          A = matrixproduct_byname(IO,hatinv_byname(g)),
-          L = inverse_byname(Iminus_byname(A))
+          A = matrixproduct_byname(IO,hatinv_byname(g)))
+```
+,
+          L = invert_byname(Iminus_byname(A)))
 ```
           Bona_cent=colsums_byname(L))  %>%
     select(-matrix, -vals)
@@ -91,6 +110,7 @@ IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
 
 ## Read in the Simulation Results and Create Variables for Analysis
 ```{r IO}
+
 filename="AggResults01pct.csv"
 fileNamewithPath <- file.path(data,results,filename)
 
@@ -100,32 +120,5 @@ shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
                                         `395`="s06",`396`="s07",`408`="s08",
                                         `417`="s09",`472`="s10",`520`="s11")) %>%
             select(-description)
-
-```
-
-```{r}
-
-
-simoutput <- shock01 %>% mutate(description=NULL) %>%
-                         mutate(indirectdrop=100*(indirect-direct)/direct) %>%
-                         mutate(induceddrop=100*(induced-direct)/direct) %>%
-                         mutate(totaldrop=100*(total-direct)/direct) 
-
-simoutput
-```
-
-## Explore Bivariate Relationships
-
-
-
-```{r, results='asis'}
-
-gf_point(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0), color="blue", size = ~ numind,
-         title = "Centrality in Production Networks and Propogation of Sectoral Shock",
-         subtitle = "(Using Bonacich Centrality)",
-         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
-  
-gf_lm(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0) )
-lm(indirectdrop ~ B_mean,data=simoutput %>% filter(sector==0) ) %>% stargazer(type="html")
 
 ```
