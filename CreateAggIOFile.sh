@@ -9,7 +9,7 @@ data="Data"
 IOfiles="IMPLAN IO Tables"
 
 cd "$data/$IOfiles"
-ls *Regional*.csv | awk '{if ($2 = /Regional/) print $1; else print $1 " " $2}' > temp1
+ls *Regional*.csv | awk '{if ($2 ~ /Regional/) print $1; else print $1 " " $2}' > temp1
 
 input="temp1"
 
@@ -24,8 +24,10 @@ do
 	cat "$county"*.csv | \
 	awk -v var="$county"  '{print var "," $0}' | \
 	sed -n -e '3,13p' -e '38p'  >> AggIOall.csv
+	#|\
+	#cut -d "," -f 1,3-13   >> AggIOall.csv
 
 done < "$input"
 
-rm temp1
+# rm temp1
 exit
