@@ -25,11 +25,31 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 
 ```
 
+# Aggregate the IO files and the Results output
 ```{bash}
 ./CreateAggIOFile.sh
 ./CreateAggResultsFile.sh
 ```
 
+#Explore by reading in the data created in Stata
+```{r, results='asis'}
+#create the shock01 file in stata
+
+shock01 <- read_csv("shock01.csv", na = "0")  %>% filter(shocksector==6) %>%
+  mutate(pctindirect = indirect/direct)
+
+gf_point(pctindirect ~ B_sd,data=shock01, color="blue",
+         title = "How Much Sectoral Shocks Propogate to the Aggregate Economy",
+         subtitle = "As Production Networks are more Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
+  gf_lm(pctindirect ~ B_sd,data=shock01) 
+
+lm(pctindirect ~ B_mean + B_sd,data=shock01) %>% stargazer(type="text")
+
+```
+
+#########################################################################
+### Create the data in R rather than read in Stata file
 ## Read in the IO matrices 
 ```{r readfiles}
 filename="AggIOall.csv"
@@ -58,13 +78,11 @@ IOlong <- gather(IOwide,key="colnames",value="vals",-county,-rownames,factor_key
           group_by(county,matrix)
 
 IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
-   mutate(g = (rowsums_byname(vals)))
+   rename(IO=vals) %>% select(-matrix) %>%
+   mutate(g = (rowsums_byname(IO)),
+          A = matrixproduct_byname(IO,hatinv_byname(g)),
+          L = inverse_byname(Iminus_byname(A))
 ```
-,
-          A = matrixproduct_byname(vals,hatinv_byname(g)))
-```
-,
-          L = solve(diag(nrow(A))-A),
           Bona_cent=colsums_byname(L))  %>%
     select(-matrix, -vals)
 
@@ -98,17 +116,7 @@ simoutput
 
 ## Explore Bivariate Relationships
 
-```{r, results='asis'}
 
-gf_point(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0), color="blue", size = ~ numind,
-         title = "Centrality in Production Networks and Propogation of Sectoral Shock",
-         subtitle = "(Using Bonacich Centrality)",
-         caption = "Source: IMPLAN Michigan County Data, 2014") %>%
-  
-gf_lm(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0) )
-lm(indirectdrop ~ Bona_cent,data=simoutput %>% filter(sector==0) ) %>% stargazer(type="html")
-
-```
 
 ```{r, results='asis'}
 
