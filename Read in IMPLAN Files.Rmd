@@ -26,6 +26,10 @@ results <- file.path("FinalResults")
 setup <- file.path("IMPLAN Simulation Set-up Files")
 
 ```
+# Aggregate the Top Ten Industries by Employment
+```{bash}
+./CreateAggTopTenIndustryFile.sh
+```
 
 # Aggregate the IO files and the Results output
 ```{bash}
@@ -33,50 +37,15 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 ./CreateAggResultsFile.sh
 ```
 
-#Explore by reading in the data created in Stata
-```{r, results='asis'}
-#create the shock01 file in stata
-
-shock01 <- read_csv("shock01.csv", na = "0")  %>% filter(shocksector==6) %>%
-   select(-pctinduced,-pctadddrop,-pcttotdrop,-pctinddrop) %>%
-  mutate(pctindirect = indirect/direct,
-         pctinduced = induced/direct,
-         GRP=grp/1000000000) 
- 
-write.csv(shock01,"shock01R.csv")
-
-gf_point(pctindirect ~ B_sd,data=shock01, color="blue",size=~GRP,
-         title = "How Much a Shock Propogates through the County",
-         subtitle = "as Production Network is More Centralized",
-         caption = "Source: IMPLAN Michigan County Data, 2014",
-         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
-         ylab = "% Propogation to Other Sectors (Indirect)") %>%
-  gf_lm(pctindirect ~ B_sd,data=shock01) 
-
-gf_point(pctinduced ~ B_sd,data=shock01, color="blue",size=~GRP,
-         title = "How Much a Shock Propogates through the County",
-         subtitle = "as Production Network is More Centralized",
-         caption = "Source: IMPLAN Michigan County Data, 2014",
-         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
-         ylab = "% Propogation to Other Sectors (Induced)") %>%
-  gf_lm(pctinduced ~ B_sd,data=shock01) 
-
-lm1<-lm(pctindirect ~ B_mean + B_sd,data=shock01) 
-lm2<-lm(pctinduced ~ B_mean + B_sd,data=shock01) 
-stargazer(lm1,lm2,type="text")
-
-```
-
-#########################################################################
-### Create the data in R rather than read in Stata file
 ## Read in the IO matrices 
 ```{r readfiles}
 filename="AggIOall.csv"
 fileNamewithPath <- file.path(data,IOFiles,filename)
 
-IOall <- as_tibble(read_csv(fileNamewithPath)) %>% rename(s01=s1,s02=s2,s03=s3,
-                                                          s04=s4,s05=s5,s06=s6,
-                                                          s07=s7,s08=s8,s09=s9) %>%
+IOall <- as_tibble(read_csv(fileNamewithPath)) %>% 
+  rename(s01=s1,s02=s2,s03=s3,                                            
+         s04=s4,s05=s5,s06=s6,                                                        
+         s07=s7,s08=s8,s09=s9) %>%
                   mutate_all(~replace(., is.na(.), 0)) %>% 
                   select(-desc)   
 
@@ -85,82 +54,33 @@ IOall <- as_tibble(read_csv(fileNamewithPath)) %>% rename(s01=s1,s02=s2,s03=s3,
 ## Create the IO Metrics as needed.
 ```{r IO metrics}
 
-IOwide <- IOall %>% filter(sector!=0) %>%
-            mutate(rownames=dplyr::recode(sector,`1`="s01",`2`="s02",`3`="s03",
+IO.df <- IOall %>%
+            mutate(rownames=dplyr::recode(sector,`0`="TotIndOut",
+                                        `1`="s01",`2`="s02",`3`="s03",
                                         `4`="s04",`5`="s05",
                                         `6`="s06",`7`="s07",`8`="s08",
                                         `9`="s09",`10`="s10",`11`="s11")) %>%
-            select(-sector)
-
-IOlong <- gather(IOwide,key="colnames",value="vals",-county,-rownames,factor_key = TRUE) %>%
+            select(-sector) %>%
+  
+          gather(key="colnames",value="vals",-county,-rownames,factor_key = TRUE) %>%
           mutate(matrix="IO",rowtypes="sector",coltypes="sector") %>%
-          group_by(county,matrix)
+          mutate(matrix=case_when(rownames=="TotIndOut" ~ "g",TRUE ~ "IO")) %>%
+          group_by(county,matrix) %>%
+  
+          collapse_to_matrices(matnames="matrix",matvals="vals") %>% 
+  
+          spread(key="matrix",value="vals") %>%
 
-K.mat <-IOwide%>%filter(county=="Kalamazoo") %>%
-  select(rownames,s01:s11)
-
-write_csv(K.mat,"temp1.csv")
-
-dat=read.csv("temp1.csv",header=TRUE,row.names=1,check.names=FALSE) # read .csv file
-m=as.matrix(dat)
-net=graph.adjacency(m,mode="directed",weighted=TRUE,diag=FALSE) 
-
-plot.igraph(net)
-
-```
-,vertex.label=V(net)$name,layout=layout.fruchterman.reingold, vertex.label.color="black",edge.color="black",edge.width=E(net)$weight/3, edge.arrow.size=1.5)
-
-Ottawa.network <-IOlong%>%filter(county=="Ottawa") %>%
-  rename(from="colnames",to="rownames") %>% select(-county)
-
-
-pdf(width=7, file="Ottawanet.pdf")
-
-g<-graph_from_data_frame(Kalamazoo.network,directed=TRUE)
-print(g)
-
-```
-
-qgraph(df$Flows.curr[[scenario]],
-        edge.labels=T,
-        edge.label.cex=1.25,edge.color="black",fade=F,
-        edge.label.position=edge.label.position.vals,
-        layout=L,
-        groups=groups.curr,
-        borders=F,
-        labels=nodes.names,
-        nodeNames=nodes.names.curr.legend,
-        shape=shapes,
-        palette="colorblind",
-        mar=c(3,3,5,3),
-        title=paste0(scenario.name,
-                    # "\tGDP $",format(df$GDP.curr[[scenario]],width=7)," (million)",
-                     "\t (Flows in $millions)",
-                    "\n \t Net Energy Ratio = ",round(df$PRR.phys[[scenario]],2),
-                    "\n \t Value-Added = $",round(df$PRR.curr[[scenario]],2), 
-                    "\n \t F_econ =",round(df$F.curr[[scenario]],2),
-                    "\t (a=",round(df$alpha.curr[[scenario]],2),")",
-                    "\n \t F_phys =",round(df$F.phys[[scenario]],2),
-                    "\t (a=",round(df$alpha.phys[[scenario]],2),")"
-                    ) )
-dev.off()  
-
-``` {r}
-
-
-IO.df  <- collapse_to_matrices(IOlong,matnames="matrix",matvals="vals") %>%
-   rename(IO=vals) %>% select(-matrix) %>%
-   mutate(g = (rowsums_byname(IO)),
-          A = matrixproduct_byname(IO,hatinv_byname(g)))
-```
-,
-          L = invert_byname(Iminus_byname(A)))
-```
-          Bona_cent=colsums_byname(L))  %>%
-    select(-matrix, -vals)
+   mutate(A = matrixproduct_byname(IO,hatinv_byname(g)),
+          L = invert_byname(Iminus_byname(A)),
+          Y = matrixproduct_byname(invert_byname(L),transpose_byname(g)),
+          Bona_cent=rowsums_byname(L),
+          B_mean=unaryapply_byname(mean,Bona_cent),
+          B_sd=unaryapply_byname(sd,Bona_cent))
 
 
 ```
+
 
 ## Read in the Simulation Results and Create Variables for Analysis
 ```{r IO}
@@ -169,10 +89,51 @@ filename="AggResults01pct.csv"
 fileNamewithPath <- file.path(data,results,filename)
 
 shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
-            mutate(sector=dplyr::recode(sector,`0`="Total",`1`="s01",`20`="s02",`41`="s03",
+            mutate(sector=recode(sector,`0`="Total",`1`="s01",`20`="s02",`41`="s03",
                                         `52`="s04",`65`="s05",
                                         `395`="s06",`396`="s07",`408`="s08",
                                         `417`="s09",`472`="s10",`520`="s11")) %>%
-            select(-description)
+            select(-description) %>%
+            filter(sector=="Total") %>%
+            select(-sector)
 
+
+shock01 <- inner_join(shock01,IO.df) %>% 
+  mutate(county=recode(county,`St Clair`="St. Clair", `St Joseph`="St. Joseph"))
+```
+
+```{r getvars}
+filename="IMPLAN Industry Type Code.csv"
+fileNamewithPath <- file.path(data,indepvars,filename)
+vars <-as_tibble(read_csv(fileNamewithPath))
+shock01 <- inner_join(shock01,vars)
+
+filename="IMPLANVars.csv"
+fileNamewithPath <- file.path(data,indepvars,filename)
+vars <-as_tibble(read_csv(fileNamewithPath))
+shock01 <- inner_join(shock01,vars)
+
+filename="NonIMPLANVars.csv"
+fileNamewithPath <- file.path(data,indepvars,filename)
+vars <-as_tibble(read_csv(fileNamewithPath))
+shock01 <- inner_join(shock01,vars)
+
+shock01 <- shock01 %>% mutate(pctindirect = indirect/direct,
+                 pctinduced = induced/direct,
+                 GRP = grp/100000) 
+
+```
+
+
+```{r graphs}
+
+gf_point(pctindirect ~ as.numeric(B_sd),data=(shock01 %>% filter(table=="Output")),
+         color=~industrytype,size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Propogation to Other Sectors (Indirect)") %>%
+  gf_refine(scale_color_manual(values = c("navy","limegreen",  "purple"))) %>%
+  gf_lm(pctindirect ~ as.numeric(B_sd),data=(shock01 %>% filter(table=="Output")))
 ```
