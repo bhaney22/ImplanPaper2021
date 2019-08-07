@@ -39,7 +39,7 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 ```
 
 
-```{bash, include=FALSE}
+```{bash}
 # Aggregate the Top Ten Industries by Employment
 
 # This program cuts out the TopTen Industry information from the Overview files.
