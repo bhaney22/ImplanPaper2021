@@ -4,7 +4,7 @@ output:
   html_document:
     fig_height: 5
     fig_width: 5
-bibliography: ABM.bib
+bibliography: Implan Paper.bib
 csl: apa.csl
 ---
 
@@ -178,7 +178,7 @@ This paper proposes that the rate of aggregation decay is much smaller than sqrt
 1st and higher order connections responsible
 
 
-```{r graphs, include=FALSE}
+```{r graphs, include=TRUE}
 ###
 ### Indirect Impacts (ie. BEA)
 ###
@@ -232,7 +232,7 @@ gf_point(pctinduced ~ B_sd,data=(shock01 %>%
     theme=theme_tufte())
 ```
 
-```{r dens, include=FALSE }
+```{r dens, include=TRUE }
 gf_density(~B_sd,
            data=shock01 %>%filter(table=="Output"),
          fill=~ as_label(IndustryType),
