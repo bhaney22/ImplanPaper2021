@@ -159,15 +159,15 @@ dollar_format(shock01$GRP)
 
 Introduction and Background:
 Description of where Economic Resilience stands within mainstream economics (literature review)
-Prevailing theory is that single sector or idiosyncratic shocks cancel each other out in the aggregate [@nelson1985, p.2].
+Prevailing theory is that single sector or idiosyncratic shocks cancel each other out in the aggregate [@dupor1999].
 
 
-Long and Plosser [@epstein1996]
+Long and Plosser [@long1983]
 important initial work in 1980s explore how sectoral shocks impact business cycles as a whole
 Bak 
 says that this may not be true, trading of intermediates between industries is not linear, may not be additive to result in cancelling out (page 2).
 Acemoglu et al. (Network Origins of aggregate fluctuations)
-expands on this by pointing out the influence of Lucas, who says that micro shocks are negligible in the macroeconomy due to high levels of disaggregation (Acemoglu, 2011, page 1)
+expands on this by pointing out the influence of Lucas, who says that micro shocks are negligible in the macroeconomy due to high levels of disaggregation (@Acemoglu2012)
 
 
 Interplay of network structure and sectoral shocks can create aggregate fluctuations (3)
