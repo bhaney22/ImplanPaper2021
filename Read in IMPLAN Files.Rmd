@@ -1,11 +1,16 @@
 ---
-title: "Read In Implan Results Files"
-output: html_document
+title: "Implan Results"
+output:   
+  html_document:
+    fig_height: 5
+    fig_width: 5
+bibliography: ABM.bib
+csl: apa.csl
 ---
 
 ```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
 library(dplyr)
 library(readr)
@@ -17,6 +22,12 @@ library(matsbyname)
 library(statnet)
 library(igraph)
 library(qgraph)
+library(expss)
+library(sjmisc)
+library(sjlabelled)
+library(scales)
+library(ggthemes)
+library(citr)
 
 data   <- file.path("Data")
 pgms <- file.path("Data Management Files")
@@ -26,19 +37,31 @@ results <- file.path("FinalResults")
 setup <- file.path("IMPLAN Simulation Set-up Files")
 
 ```
+
+
+```{bash, include=FALSE}
 # Aggregate the Top Ten Industries by Employment
-```{bash}
+
+# This program cuts out the TopTen Industry information from the Overview files.
+# The aggregated spreadsheet is then used to categorize each county as mfg or svc. 
+# See google sheet.
+
 ./CreateAggTopTenIndustryFile.sh
+
 ```
 
+
+```{bash, include=FALSE}
 # Aggregate the IO files and the Results output
-```{bash}
+
 ./CreateAggIOFile.sh
 ./CreateAggResultsFile.sh
 ```
 
+
+```{r readfiles, include=FALSE}
 ## Read in the IO matrices 
-```{r readfiles}
+
 filename="AggIOall.csv"
 fileNamewithPath <- file.path(data,IOFiles,filename)
 
@@ -51,8 +74,9 @@ IOall <- as_tibble(read_csv(fileNamewithPath)) %>%
 
 ```
 
+
+```{r IO metrics, include=TRUE}
 ## Create the IO Metrics as needed.
-```{r IO metrics}
 
 IO.df <- IOall %>%
             mutate(rownames=dplyr::recode(sector,`0`="TotIndOut",
@@ -62,10 +86,10 @@ IO.df <- IOall %>%
                                         `9`="s09",`10`="s10",`11`="s11")) %>%
             select(-sector) %>%
   
-          gather(key="colnames",value="vals",-county,-rownames,factor_key = TRUE) %>%
+          gather(key="colnames",value="vals",-county,-rownames,-year,factor_key = TRUE) %>%
           mutate(matrix="IO",rowtypes="sector",coltypes="sector") %>%
           mutate(matrix=case_when(rownames=="TotIndOut" ~ "g",TRUE ~ "IO")) %>%
-          group_by(county,matrix) %>%
+          group_by(county,year,matrix) %>%
   
           collapse_to_matrices(matnames="matrix",matvals="vals") %>% 
   
@@ -75,21 +99,22 @@ IO.df <- IOall %>%
           L = invert_byname(Iminus_byname(A)),
           Y = matrixproduct_byname(invert_byname(L),transpose_byname(g)),
           Bona_cent=rowsums_byname(L),
-          B_mean=unaryapply_byname(mean,Bona_cent),
-          B_sd=unaryapply_byname(sd,Bona_cent))
+          B_mean=unaryapply_byname(mean,Bona_cent) %>% as.numeric(),
+          B_sd=unaryapply_byname(sd,Bona_cent) %>% as.numeric())
 
 
 ```
 
 
+
+```{r IO, include=FALSE}
 ## Read in the Simulation Results and Create Variables for Analysis
-```{r IO}
 
 filename="AggResults01pct.csv"
 fileNamewithPath <- file.path(data,results,filename)
 
 shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
-            mutate(sector=recode(sector,`0`="Total",`1`="s01",`20`="s02",`41`="s03",
+            mutate(sector=dplyr::recode(sector,`0`="Total",`1`="s01",`20`="s02",`41`="s03",
                                         `52`="s04",`65`="s05",
                                         `395`="s06",`396`="s07",`408`="s08",
                                         `417`="s09",`472`="s10",`520`="s11")) %>%
@@ -99,11 +124,16 @@ shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
 
 
 shock01 <- inner_join(shock01,IO.df) %>% 
-  mutate(county=recode(county,`St Clair`="St. Clair", `St Joseph`="St. Joseph"))
+  mutate(county=dplyr::recode(county,`St Clair`="St. Clair", `St Joseph`="St. Joseph"))
 ```
 
-```{r getvars}
-filename="IMPLAN Industry Type Code.csv"
+```{r getvars, include=FALSE}
+filename="AggTopTenIndustrybyEmployment Industry Code.csv"
+fileNamewithPath <- file.path(data,indepvars,filename)
+vars <-as_tibble(read_csv(fileNamewithPath))
+shock01 <- inner_join(shock01,vars)
+
+filename="AggTopTenIndustrybyOutput Industry Code.csv"
 fileNamewithPath <- file.path(data,indepvars,filename)
 vars <-as_tibble(read_csv(fileNamewithPath))
 shock01 <- inner_join(shock01,vars)
@@ -120,20 +150,111 @@ shock01 <- inner_join(shock01,vars)
 
 shock01 <- shock01 %>% mutate(pctindirect = indirect/direct,
                  pctinduced = induced/direct,
-                 GRP = grp/100000) 
+                 GRP = grp/1000000000) 
+
+var_lab(shock01$IndustryTypebyOutput)="Primary Industry"
+
+shock01$IndustryTypebyOutput <- set_labels(
+  shock01$IndustryTypebyOutput,
+  labels = c(`M` = "Manufacturing", `S` = "Service")
+)
+
+dollar_format(shock01$GRP)
 
 ```
 
 
-```{r graphs}
+Introduction and Background:
+Description of where Economic Resilience stands within mainstream economics (literature review)
+Prevailing theory is that single sector or idiosyncratic shocks cancel each other out in the aggregate [@nelson1985, p.2].
 
-gf_point(pctindirect ~ as.numeric(B_sd),data=(shock01 %>% filter(table=="Output")),
-         color=~industrytype,size=~GRP,
+
+Long and Plosser [@epstein1996]
+important initial work in 1980s explore how sectoral shocks impact business cycles as a whole
+Bak 
+says that this may not be true, trading of intermediates between industries is not linear, may not be additive to result in cancelling out (page 2).
+Acemoglu et al. (Network Origins of aggregate fluctuations)
+expands on this by pointing out the influence of Lucas, who says that micro shocks are negligible in the macroeconomy due to high levels of disaggregation (Acemoglu, 2011, page 1)
+
+
+Interplay of network structure and sectoral shocks can create aggregate fluctuations (3)
+
+
+Certain network structures such as “star economies” show that the law of large numbers does not always prevail and aggregate performance will change based on network structure (3)
+This paper proposes that the rate of aggregation decay is much smaller than sqrt(n), meaning that even if the law of large numbers holds, the process of decay takes much longer and allows individual sectors to affect the aggregate economy (3 & 4)
+1st and higher order connections responsible
+
+
+```{r graphs}
+###
+### Indirect Impacts (ie. BEA)
+###
+
+gf_lm(pctindirect ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Employment")),
+               color=~as_label(IndustryTypebyOutput)) %>%
+  
+gf_point(pctindirect ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Employment")),
+         alpha=.5,
+         color=~as_label(IndustryTypebyOutput),
+         size=~GRP,
          title = "How Much a Shock Propogates through the County",
          subtitle = "as Production Network is More Centralized",
          caption = "Source: IMPLAN Michigan County Data, 2014",
          xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
-         ylab = "% Propogation to Other Sectors (Indirect)") %>%
-  gf_refine(scale_color_manual(values = c("navy","limegreen",  "purple"))) %>%
-  gf_lm(pctindirect ~ as.numeric(B_sd),data=(shock01 %>% filter(table=="Output")))
+         ylab = "% Impact on Other Sectors (Indirect)") %>%
+  gf_labs(
+    color="Main Industry",
+    size="GRP (billions)") %>%
+  gf_refine(
+    scale_color_manual(values = c("navy","limegreen"))) %>%
+  gf_theme(
+    theme=theme_tufte())
+
+###
+### Induced Impact (IMPLAN) 
+###
+
+gf_lm(pctinduced ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Employment")),
+               color=~as_label(IndustryTypebyOutput)) %>%
+
+gf_point(pctinduced ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Employment")),
+         alpha=.5,
+         color=~as_label(IndustryTypebyOutput),
+         size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Impact on Other Sectors (Induced)") %>%
+  gf_labs(
+    color="Main Industry",
+    size="GRP (billions)") %>%
+  gf_refine(
+    scale_color_manual(values = c("navy","limegreen"))) %>%
+  gf_theme(
+    theme=theme_tufte())
 ```
+
+```{r }
+gf_density(~B_sd,
+           data=shock01 %>%filter(table=="Output"),
+         fill=~ as_label(IndustryTypebyOutput),
+         title = "Distribution of Balanced and Unbalanced Economies",
+         subtitle = "across MI Counties",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Measure of Balance",
+         ylab = "Density",
+         alpha=.5 )%>%
+  gf_refine(theme=theme_tufte()) %>%
+  gf_labs(
+    fill="Main Industry") %>%
+  gf_refine(scale_fill_manual(values = c("navy","limegreen")))
+
+```
+
+
+### References
