@@ -30,21 +30,19 @@ library(ggthemes)
 library(citr)
 
 data   <- file.path("Data")
-pgms <- file.path("Data Management Files")
-indepvars <- file.path("IMPLAN Independent Vars")
-IOFiles <- file.path("IMPLAN IO Tables")
-results <- file.path("FinalResults")
-setup <- file.path("IMPLAN Simulation Set-up Files")
 
 ```
 
 
-```{bash}
+```{bash, include=FALSE}
 # Aggregate the Top Ten Industries by Employment
 
 # This program cuts out the TopTen Industry information from the Overview files.
 # The aggregated spreadsheet is then used to categorize each county as mfg or svc. 
 # See google sheet.
+
+## ON WINDOWS: must go to shell and run "dos2windows Create*" before running 
+## the script below
 
 ./CreateAggTopTenIndustryFile.sh
 
@@ -62,8 +60,8 @@ setup <- file.path("IMPLAN Simulation Set-up Files")
 ```{r readfiles, include=FALSE}
 ## Read in the IO matrices 
 
-filename="AggIOall.csv"
-fileNamewithPath <- file.path(data,IOFiles,filename)
+filename="AggIOall2014.csv"
+fileNamewithPath <- file.path(data,filename)
 
 IOall <- as_tibble(read_csv(fileNamewithPath)) %>% 
   rename(s01=s1,s02=s2,s03=s3,                                            
@@ -75,7 +73,7 @@ IOall <- as_tibble(read_csv(fileNamewithPath)) %>%
 ```
 
 
-```{r IO metrics, include=TRUE}
+```{r IO metrics, include=FALSE}
 ## Create the IO Metrics as needed.
 
 IO.df <- IOall %>%
@@ -110,8 +108,8 @@ IO.df <- IOall %>%
 ```{r IO, include=FALSE}
 ## Read in the Simulation Results and Create Variables for Analysis
 
-filename="AggResults01pct.csv"
-fileNamewithPath <- file.path(data,results,filename)
+filename="AggResults2014.csv"
+fileNamewithPath <- file.path(data,filename)
 
 shock01 <- as_tibble(read_csv(fileNamewithPath)) %>%
             mutate(sector=dplyr::recode(sector,`0`="Total",`1`="s01",`20`="s02",`41`="s03",
@@ -128,23 +126,18 @@ shock01 <- inner_join(shock01,IO.df) %>%
 ```
 
 ```{r getvars, include=FALSE}
-filename="AggTopTenIndustrybyEmployment Industry Code.csv"
-fileNamewithPath <- file.path(data,indepvars,filename)
+filename="IMPLAN Industry Type 2014.csv"
+fileNamewithPath <- file.path(data,filename)
 vars <-as_tibble(read_csv(fileNamewithPath))
 shock01 <- inner_join(shock01,vars)
 
-filename="AggTopTenIndustrybyOutput Industry Code.csv"
-fileNamewithPath <- file.path(data,indepvars,filename)
-vars <-as_tibble(read_csv(fileNamewithPath))
-shock01 <- inner_join(shock01,vars)
-
-filename="IMPLANVars.csv"
-fileNamewithPath <- file.path(data,indepvars,filename)
+filename="IMPLANVars2014.csv"
+fileNamewithPath <- file.path(data,filename)
 vars <-as_tibble(read_csv(fileNamewithPath))
 shock01 <- inner_join(shock01,vars)
 
 filename="NonIMPLANVars.csv"
-fileNamewithPath <- file.path(data,indepvars,filename)
+fileNamewithPath <- file.path(data,filename)
 vars <-as_tibble(read_csv(fileNamewithPath))
 shock01 <- inner_join(shock01,vars)
 
@@ -152,7 +145,7 @@ shock01 <- shock01 %>% mutate(pctindirect = indirect/direct,
                  pctinduced = induced/direct,
                  GRP = grp/1000000000) 
 
-var_lab(shock01$IndustryTypebyOutput)="Primary Industry"
+var_lab(shock01$IndustryType)="Primary Industry"
 
 shock01$IndustryTypebyOutput <- set_labels(
   shock01$IndustryTypebyOutput,
@@ -185,19 +178,19 @@ This paper proposes that the rate of aggregation decay is much smaller than sqrt
 1st and higher order connections responsible
 
 
-```{r graphs}
+```{r graphs, include=FALSE}
 ###
 ### Indirect Impacts (ie. BEA)
 ###
 
 gf_lm(pctindirect ~ B_sd,data=(shock01 %>%
-                                    filter(table=="Employment")),
-               color=~as_label(IndustryTypebyOutput)) %>%
+                                    filter(table=="Output")),
+               color=~as_label(IndustryType)) %>%
   
 gf_point(pctindirect ~ B_sd,data=(shock01 %>%
-                                    filter(table=="Employment")),
+                                    filter(table=="Output")),
          alpha=.5,
-         color=~as_label(IndustryTypebyOutput),
+         color=~as_label(IndustryType),
          size=~GRP,
          title = "How Much a Shock Propogates through the County",
          subtitle = "as Production Network is More Centralized",
@@ -217,13 +210,13 @@ gf_point(pctindirect ~ B_sd,data=(shock01 %>%
 ###
 
 gf_lm(pctinduced ~ B_sd,data=(shock01 %>%
-                                    filter(table=="Employment")),
-               color=~as_label(IndustryTypebyOutput)) %>%
+                                    filter(table=="Output")),
+               color=~as_label(IndustryType)) %>%
 
 gf_point(pctinduced ~ B_sd,data=(shock01 %>%
-                                    filter(table=="Employment")),
+                                    filter(table=="Output")),
          alpha=.5,
-         color=~as_label(IndustryTypebyOutput),
+         color=~as_label(IndustryType),
          size=~GRP,
          title = "How Much a Shock Propogates through the County",
          subtitle = "as Production Network is More Centralized",
@@ -239,10 +232,10 @@ gf_point(pctinduced ~ B_sd,data=(shock01 %>%
     theme=theme_tufte())
 ```
 
-```{r }
+```{r dens, include=FALSE }
 gf_density(~B_sd,
            data=shock01 %>%filter(table=="Output"),
-         fill=~ as_label(IndustryTypebyOutput),
+         fill=~ as_label(IndustryType),
          title = "Distribution of Balanced and Unbalanced Economies",
          subtitle = "across MI Counties",
          caption = "Source: IMPLAN Michigan County Data, 2014",

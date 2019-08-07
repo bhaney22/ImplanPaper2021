@@ -12,8 +12,9 @@ IMPLAN="_ Energy Economics/Sabbatical Project/KN - Implan Research"
 setup="IMPLAN Simulation Set-up Files/$year/IMPLAN Overview Files TopTen by Output/csv"
 
 rhome="/mnt/c/Users/brh22/Documents/R Projects/Implan Paper"
-input="$rhome/MIcounties.csv"
-outfilename="$rhome/AggTopTenIndustryFileOutput$year.csv"
+data="Data"
+input="$rhome/$data/MIcounties.csv"
+outfilename="AggTopTenIndustryFileOutput$year.csv"
 
 cd "$g/$IMPLAN/$setup"
 echo "county,year,industry,description,notused1,notused2,\
@@ -27,4 +28,5 @@ do
 		
 done < "$input"
 
+cp $outfilename "$rhome/$data/"
 exit
