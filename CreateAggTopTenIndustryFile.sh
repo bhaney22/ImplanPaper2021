@@ -7,11 +7,11 @@
 
 year="2014"    ### SET THE YEAR for the Simulation
 
-g="/mnt/c/Users/brh22/Google Drive"
+g="/mnt/c/Users/bhane/Google Drive"
 IMPLAN="_ Energy Economics/Sabbatical Project/KN - Implan Research"
-setup="IMPLAN Simulation Set-up Files/$year/IMPLAN Overview Files TopTen by Output/csv"
+setup="IMPLAN Overview Files and Simulation Set-up Files/$year/IMPLAN Overview Files TopTen by Output/csv"
 
-rhome="/mnt/c/Users/brh22/Documents/R Projects/Implan Paper"
+rhome="/mnt/c/Users/bhane/Google Drive/_ Energy Economics/Sabbatical Project/KN - Implan Research/ImplanPaper2021"
 data="Data"
 input="$rhome/$data/MIcounties.csv"
 outfilename="AggTopTenIndustryFileOutput$year.csv"
