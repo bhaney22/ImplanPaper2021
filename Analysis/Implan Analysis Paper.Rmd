@@ -1,0 +1,193 @@
+---
+title: "Implan Analysis"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+---
+
+
+```{r setup, include=FALSE}
+library(readr)      # for reading in .csv files
+library(haven)      # for reading in Stata .dta files
+library(tidyverse)  # data wrangling
+library(dplyr)      # for filter and select commands. etc.
+
+library(wooldridge) # datasets in the textbook
+library(stats)      # basic statistic commands
+library(DataExplorer) # nice commands to learn about a new data set
+library(stargazer)  # nice regression output
+library(ggformula)  # easy graphing interface for ggplot
+library(mosaic)     # accompanies ggformula
+library(expss)      # apply_labels() cro()
+
+library(AER)        # data and commands specific to econometrics
+library(car)        # for linearhypothesis tests lht(), predict() hccm() heterosced.
+library(lmtest)     # post-reg tests coeftest()
+library(effects)    # to plot effects of one regressor, holding all others constant
+library(visualize)  # to visualize hypothesis test p-values
+
+library(dynlm)      # lm commands for time series data
+library(plm)        # lm commands for panel data
+
+
+options(digits=9)   # limits number of decimals to 4 when printing
+
+knitr::opts_chunk$set(echo = TRUE) # TRUE = commands in r chunks to be echoed in outfile
+
+```
+
+Introduction and Background:
+Description of where Economic Resilience stands within mainstream economics (literature review)
+Prevailing theory is that single sector or idiosyncratic shocks cancel each other out in the aggregate [@dupor1999].
+
+
+Long and Plosser [@long1983]
+important initial work in 1980s explore how sectoral shocks impact business cycles as a whole
+Bak 
+says that this may not be true, trading of intermediates between industries is not linear, may not be additive to result in cancelling out (page 2).
+Acemoglu et al. (Network Origins of aggregate fluctuations)
+expands on this by pointing out the influence of Lucas, who says that micro shocks are negligible in the macroeconomy due to high levels of disaggregation (@Acemoglu2012)
+
+
+Interplay of network structure and sectoral shocks can create aggregate fluctuations (3)
+
+
+Certain network structures such as “star economies” show that the law of large numbers does not always prevail and aggregate performance will change based on network structure (3)
+This paper proposes that the rate of aggregation decay is much smaller than sqrt(n), meaning that even if the law of large numbers holds, the process of decay takes much longer and allows individual sectors to affect the aggregate economy (3 & 4)
+1st and higher order connections responsible
+
+## Data
+
+```{r getdata, include=TRUE}
+
+shock01 <- read_dta("../IMPLAN Simulation Results/shock01.dta")
+
+```
+
+## Graphs
+
+```{r graphs, include=TRUE}
+###
+### Indirect Impacts (ie. BEA)
+###
+
+gf_lm(pctindirect ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Output")),
+               color=~as_label(IndustryType)) %>%
+  
+gf_point(pctindirect ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Output")),
+         alpha=.5,
+         color=~as_label(IndustryType),
+         size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Impact on Other Sectors (Indirect)") %>%
+  gf_labs(
+    color="Main Industry",
+    size="GRP (billions)") %>%
+  gf_refine(
+    scale_color_manual(values = c("navy","limegreen"))) %>%
+  gf_theme(
+    theme=theme_tufte())
+
+###
+### Induced Impact (IMPLAN) 
+###
+
+gf_lm(pctinduced ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Output")),
+               color=~as_label(IndustryType)) %>%
+
+gf_point(pctinduced ~ B_sd,data=(shock01 %>%
+                                    filter(table=="Output")),
+         alpha=.5,
+         color=~as_label(IndustryType),
+         size=~GRP,
+         title = "How Much a Shock Propogates through the County",
+         subtitle = "as Production Network is More Centralized",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Degree of Centralization: s.d.(Bonacich Centrality)",
+         ylab = "% Impact on Other Sectors (Induced)") %>%
+  gf_labs(
+    color="Main Industry",
+    size="GRP (billions)") %>%
+  gf_refine(
+    scale_color_manual(values = c("navy","limegreen"))) %>%
+  gf_theme(
+    theme=theme_tufte())
+```
+
+```{r dens, include=TRUE }
+gf_density(~B_sd,
+           data=shock01 %>%filter(table=="Output"),
+         fill=~ as_label(IndustryType),
+         title = "Distribution of Balanced and Unbalanced Economies",
+         subtitle = "across MI Counties",
+         caption = "Source: IMPLAN Michigan County Data, 2014",
+         xlab = "Measure of Balance",
+         ylab = "Density",
+         alpha=.5 )%>%
+  gf_refine(theme=theme_tufte()) %>%
+  gf_labs(
+    fill="Main Industry") %>%
+  gf_refine(scale_fill_manual(values = c("navy","limegreen")))
+
+```
+
+
+## Regression Analysis
+
+```{r}
+mydata <- shock01 %>% 
+  select(year,county,sector,Y,TotIndOut,B_mean,B_sd,swindex,totemp,avghhinc,
+         pctunder18,pctover65,lfpover16,pctblack,pcthisp,cropacres,
+         pcttotdrop,pctadddrop,pctinduced,pctinddrop) %>%
+  filter(sector==0) %>%
+  filter(B_mean!=0) 
+
+```
+
+```{r}
+mydata$year06 <- NULL
+mydata$year06[mydata$year !=2006] = 0
+mydata$year06[mydata$year ==2006] = 1
+
+
+mydata$hi_income <- NULL
+mydata$hi_income[mydata$avghhinc <  mean(mydata$avghhinc)] = 0
+mydata$hi_income[mydata$avghhinc >= mean(mydata$avghhinc)] = 1
+
+# Give the values of the new categorical variable meaningful labels
+mydata$hi_income <- factor(mydata$hi_income,
+  levels = c(0,1),
+  labels = c("Below Avg HH Income","Above Avg HH Income"))
+
+```
+
+
+```{r}
+
+gf_point(pctinddrop ~ B_mean,data=mydata) %>%
+  gf_facet_grid(hi_income ~ year) %>%
+  gf_lm()
+
+```
+
+
+```{r}
+model_1 <- lm(pctinddrop ~ B_mean + B_sd + swindex, data=mydata %>% filter(year==2014))
+model_2 <- lm(pctinddrop ~ B_mean + swindex + avghhinc, data=mydata %>% filter(year==2014))
+
+stargazer(model_1,model_2,type="text")
+```
+
+```{r}
+model_3 <- lm(pctinddrop ~ B_mean + B_sd + swindex + year06, data=mydata %>% filter(year!=2001))
+model_4 <- lm(pctinddrop ~ B_mean + B_sd + swindex + year06 + year06*B_mean, data=mydata %>% filter(year!=2001))
+
+stargazer(model_1,model_3,model_4,type="text")
+```
