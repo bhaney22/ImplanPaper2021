@@ -29,3 +29,21 @@ keep if year==2014
 twoway (scatter pctinddrop B_mean), title(Add'l Indirect for a $1 Demand Shock to Wholesale Trade) subtitle(2014)
 
 restore
+
+preserve
+keep if year==2001
+twoway (scatter pctinddrop B_sd), title(Add'l Indirect for a $1 Demand Shock to Wholesale Trade) subtitle(2001)
+
+restore
+
+preserve
+keep if year==2006
+twoway (scatter pctinddrop B_sd), title(Add'l Indirect for a $1 Demand Shock to Wholesale Trade) subtitle(2006)
+
+restore
+
+preserve
+keep if year==2014
+twoway (scatter pctinddrop B_sd), title(Add'l Indirect for a $1 Demand Shock to Wholesale Trade) subtitle(2014)
+
+restore

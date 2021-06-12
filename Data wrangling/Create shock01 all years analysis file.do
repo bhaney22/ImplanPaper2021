@@ -1,4 +1,5 @@
 /* BRH Created 06.17.2019 */
+/* BRH Revised 01.28.2020 */
 
 /*                                                                                            */
 /* This do file reads in the MICountyData and Agg Scenario Results file to create one file    */
@@ -22,25 +23,28 @@ clear
 mata mata clear
 
 /* Get the concatenated IO files */
-import delimited "$simdir\AggOut01pct.csv"   /* HERE */
+use "$simdir\SimResultsAll"
 
 /* Clean up names and sectors */
-replace sector=2 if sector==20
-replace sector=3 if sector==41
-replace sector=4 if sector==52
-replace sector=5 if sector==65
-replace sector=6 if sector==395
-replace sector=7 if sector==396
-replace sector=8 if sector==408
-replace sector=9 if sector==417
+replace sector=01 if sector==1
+replace sector=02 if sector==20
+replace sector=03 if sector==41
+replace sector=04 if sector==52
+replace sector=05 if sector==65
+replace sector=06 if sector==395
+replace sector=07 if sector==396
+replace sector=08 if sector==408
+replace sector=09 if sector==417
 replace sector=10 if sector==472
-replace sector=11 if sector==518
+replace sector=11 if sector==520 | sector==518
+
 
 /*                                                                                            */
 /*    Merge with the Independent Vars                                                         */
-/*                                                                                            */
-sort county sector
-		merge 1:1 county sector using "$datadir\MICountyData"
+/* 
+                                                                                    */
+sort year county sector
+		merge 1:1 year county sector using "$datadir\MICountyData"
 		drop _merge
 
 /* record the centrality measures from the shocked sector observation*/
@@ -49,5 +53,12 @@ sort county sector
 		replace shocksector=1 if sector == `shocksector'
 		replace shocksector=`shocksector' if sector == 0
 
+/* calculate the percent total drop */
+		gen pcttotdrop = 100*(total/grp) if sector==0  
+		gen pctadddrop = ((total - direct)/direct)*100  
+		gen pctinddrop = ((indirect - direct)/direct)*100 
+		gen pctinduced= ((induced - indirect)/indirect)*100 
 
 save "$simdir\shock01", replace                                    /* HERE */
+
+
