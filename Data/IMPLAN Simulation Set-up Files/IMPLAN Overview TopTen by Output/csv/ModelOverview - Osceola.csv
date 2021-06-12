@@ -1,0 +1,37 @@
+Osceola,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,546087288,,Employee Compensation,,328922078
+Total Personal Income,,654037500,,Proprietor Income,,27775099
+Total Employment,,7844,,Other Property Type Income,,153226684
+,,,,Tax on Production and Import,,36163428
+Number of Industries,,159,,,,
+Land Area (Sq. Miles),,566,,Total Value Added,,546087288
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,23169,,Households,,728088509
+Total Households,,9163,,State/Local Government,,112163378
+Average Household Income,,71377,,Federal Government,,9008633
+,,,,Capital,,339804739
+Trade Flows Method,,Trade Flows Model,,Exports,,571638979
+Model Status,,Multipliers,,Imports,,-1177235438
+,,,,Institutional Sales,,-37381511
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68202,,Total Final Demand:,,546087288
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+84,Fluid milk manufacturing,,,196,13607610,153624800
+441,Owner-occupied dwellings,,,0,0,77393650
+195,Other plastics product manufacturing,,,236,14583780,62657980
+240,Metal window and door manufacturing,,,240,14892590,54380750
+12,Dairy cattle and milk production,,,163,8983013,40480110
+482,Hospitals,,,334,17288970,39620550
+58,Construction of other new nonresidential structures,,,190,14237620,33970490
+351,Motor vehicle electrical and electronic equipment manufacturing,,,77,6430608,33027310
+62,Maintenance and repair construction of nonresidential structures,,,157,11675990,30578230
+534,"* Employment and payroll of local govt, education",,,391,26863530,30237820
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Osceola County           ,,,,,

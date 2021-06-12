@@ -1,0 +1,37 @@
+Clinton,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1888966129,,Employee Compensation,,856396612
+Total Personal Income,,2997215000,,Proprietor Income,,225520973
+Total Employment,,30590,,Other Property Type Income,,609483644
+,,,,Tax on Production and Import,,197564900
+Number of Industries,,184,,,,
+Land Area (Sq. Miles),,572,,Total Value Added,,1888966129
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,77297,,Households,,2981929800
+Total Households,,29395,,State/Local Government,,239024897
+Average Household Income,,101965,,Federal Government,,65445665
+,,,,Capital,,803630082
+Trade Flows Method,,Trade Flows Model,,Exports,,1614636797
+Model Status,,Multipliers,,Imports,,-3726566306
+,,,,Institutional Sales,,-89134807
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72739,,Total Final Demand:,,1888966128
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,340378400
+395,Wholesale trade,,,1213,66937780,240139500
+87,"Dry, condensed, and evaporated dairy product manufacturing",,,126,9609107,204324700
+12,Dairy cattle and milk production,,,524,41583620,171907700
+354,Motor vehicle seating and interior trim manufacturing,,,298,21636730,164303800
+440,Real estate,,,1542,7621480,148573500
+170,Phosphatic fertilizer manufacturing,,,54,6071172,118398800
+61,Construction of other new residential structures,,,423,11865200,118135200
+154,Printing,,,758,31683230,108771600
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,127,22867700,104088600
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Clinton County           ,,,,,

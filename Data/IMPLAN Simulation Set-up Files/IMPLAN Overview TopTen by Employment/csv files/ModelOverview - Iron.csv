@@ -1,0 +1,37 @@
+Iron,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,280997626,,Employee Compensation,,166673460
+Total Personal Income,,430478400,,Proprietor Income,,15557077
+Total Employment,,5132,,Other Property Type Income,,70458282
+,,,,Tax on Production and Import,,28308806
+Number of Industries,,140,,,,
+Land Area (Sq. Miles),,1167,,Total Value Added,,280997626
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,11387,,Households,,426618957
+Total Households,,5465,,State/Local Government,,102572785
+Average Household Income,,78765,,Federal Government,,5032340
+,,,,Capital,,78429946
+Trade Flows Method,,Trade Flows Model,,Exports,,178607231
+Model Status,,Multipliers,,Imports,,-481423799
+,,,,Institutional Sales,,-28839836
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66029,,Total Final Demand:,,280997624
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,553,24833490,27976360
+482,Hospitals,,,310,19065930,40011460
+534,"* Employment and payroll of local govt, education",,,158,9679166,10894960
+440,Real estate,,,157,1023082,17526740
+511,Dry-cleaning and laundry services,,,154,8814119,14120790
+400,Retail - Food and beverage stores,,,153,5441595,11590040
+16,Commercial logging,,,139,3413897,10848950
+141,"Other millwork, including flooring",,,126,5592551,21790610
+271,All other industrial machinery manufacturing,,,125,5660704,28832480
+501,Full-service restaurants,,,117,1553334,4190893
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Iron County              ,,,,,

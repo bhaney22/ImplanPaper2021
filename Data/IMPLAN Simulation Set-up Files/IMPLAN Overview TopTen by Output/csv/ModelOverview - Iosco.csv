@@ -1,0 +1,37 @@
+Iosco,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,606574609,,Employee Compensation,,348500801
+Total Personal Income,,862315600,,Proprietor Income,,30795513
+Total Employment,,10377,,Other Property Type Income,,166988569
+,,,,Tax on Production and Import,,60289726
+Number of Industries,,164,,,,
+Land Area (Sq. Miles),,549,,Total Value Added,,606574609
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25420,,Households,,911919799
+Total Households,,11582,,State/Local Government,,170152846
+Average Household Income,,74451,,Federal Government,,32778263
+,,,,Capital,,151902341
+Trade Flows Method,,Trade Flows Model,,Exports,,505454813
+Model Status,,Multipliers,,Imports,,-1118218918
+,,,,Institutional Sales,,-47414537
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68037,,Total Final Demand:,,606574608
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+414,Scenic and sightseeing transportation and support activities for transportation,,,543,45825980,98568040
+441,Owner-occupied dwellings,,,0,0,96371590
+355,Motor vehicle metal stamping,,,199,9807938,68931380
+189,Unlaminated plastics profile shape manufacturing,,,177,6349376,55638040
+482,Hospitals,,,334,19493430,42043810
+502,Limited-service restaurants,,,570,8836591,41697480
+533,"* Employment and payroll of local govt, non-education",,,741,32614620,36742260
+440,Real estate,,,407,1085096,33089120
+534,"* Employment and payroll of local govt, education",,,484,26652330,30000100
+395,Wholesale trade,,,168,6282482,28204900
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Iosco County             ,,,,,

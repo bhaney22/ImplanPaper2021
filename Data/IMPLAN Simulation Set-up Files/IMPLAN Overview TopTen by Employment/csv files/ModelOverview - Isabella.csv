@@ -1,0 +1,37 @@
+Isabella,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,2333899028,,Employee Compensation,,1477711052
+Total Personal Income,,2287736000,,Proprietor Income,,142753015
+Total Employment,,39853,,Other Property Type Income,,564611610
+,,,,Tax on Production and Import,,148823350
+Number of Industries,,193,,,,
+Land Area (Sq. Miles),,574,,Total Value Added,,2333899028
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,70616,,Households,,2285948666
+Total Households,,28040,,State/Local Government,,916530071
+Average Household Income,,81587,,Federal Government,,50980964
+,,,,Capital,,670736874
+Trade Flows Method,,Trade Flows Model,,Exports,,2189773304
+Model Status,,Multipliers,,Imports,,-3485475820
+,,,,Institutional Sales,,-294595052
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.6651,,Total Final Demand:,,2333899007
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+532,"* Employment and payroll of state govt, education",,,5677,292859900,331673700
+526,Other local government enterprises,,,1821,93692530,421988500
+534,"* Employment and payroll of local govt, education",,,1722,104499000,117625000
+502,Limited-service restaurants,,,1528,22179250,107973400
+405,Retail - General merchandise stores,,,1192,30485190,86854930
+440,Real estate,,,1174,14065190,150936200
+533,"* Employment and payroll of local govt, non-education",,,1138,47845260,53900460
+501,Full-service restaurants,,,1030,19171320,42137340
+277,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",,,936,56656610,359135400
+483,Nursing and community care facilities,,,912,24356060,48272230
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Isabella County          ,,,,,

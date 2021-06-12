@@ -1,0 +1,37 @@
+Monroe,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4898733085,,Employee Compensation,,2610957921
+Total Personal Income,,6031727000,,Proprietor Income,,289796154
+Total Employment,,59624,,Other Property Type Income,,1454789888
+,,,,Tax on Production and Import,,543189122
+Number of Industries,,244,,,,
+Land Area (Sq. Miles),,551,,Total Value Added,,4898733085
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,149824,,Households,,5474445123
+Total Households,,57195,,State/Local Government,,646252966
+Average Household Income,,105459,,Federal Government,,64708704
+,,,,Capital,,1163222208
+Trade Flows Method,,Trade Flows Model,,Exports,,5813338012
+Model Status,,Multipliers,,Imports,,-8062376852
+,,,,Institutional Sales,,-200857035
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73464,,Total Final Demand:,,4898733126
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,3269,202438400,227866500
+395,Wholesale trade,,,2070,134164800,435463300
+502,Limited-service restaurants,,,1963,28775150,139173700
+440,Real estate,,,1791,9567002,174242300
+501,Full-service restaurants,,,1676,44092140,80636020
+461,Management of companies and enterprises,,,1622,235260200,403232400
+482,Hospitals,,,1403,83963090,178698700
+533,"* Employment and payroll of local govt, non-education",,,1265,71336020,80364160
+405,Retail - General merchandise stores,,,1201,29213280,85710690
+400,Retail - Food and beverage stores,,,1186,30794770,75146370
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Monroe County            ,,,,,

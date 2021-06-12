@@ -1,0 +1,37 @@
+Menominee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,676091637,,Employee Compensation,,389501084
+Total Personal Income,,831786100,,Proprietor Income,,54880174
+Total Employment,,11463,,Other Property Type Income,,200718794
+,,,,Tax on Production and Import,,30991586
+Number of Industries,,169,,,,
+Land Area (Sq. Miles),,1044,,Total Value Added,,676091637
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,23714,,Households,,847672713
+Total Households,,10375,,State/Local Government,,165098353
+Average Household Income,,80175,,Federal Government,,10349430
+,,,,Capital,,146022761
+Trade Flows Method,,Trade Flows Model,,Exports,,1240072307
+Model Status,,Multipliers,,Imports,,-1684013085
+,,,,Institutional Sales,,-49110839
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67563,,Total Final Demand:,,676091640
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,1150,48361760,253189000
+533,"* Employment and payroll of local govt, non-education",,,732,33519420,37761570
+534,"* Employment and payroll of local govt, education",,,565,31079730,34983620
+512,Other personal services,,,386,458797,4255092
+395,Wholesale trade,,,363,21847680,71812690
+254,"Valve and fittings, other than plumbing, manufacturing",,,297,21095450,95165720
+327,Small electrical appliance manufacturing,,,291,28991350,146324900
+502,Limited-service restaurants,,,282,4257271,20249160
+483,Nursing and community care facilities,,,278,7627429,14927860
+501,Full-service restaurants,,,276,3630672,9875766
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Menominee County         ,,,,,

@@ -1,0 +1,37 @@
+Newaygo,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1093579139,,Employee Compensation,,545340793
+Total Personal Income,,1521974000,,Proprietor Income,,85205166
+Total Employment,,16703,,Other Property Type Income,,356923417
+,,,,Tax on Production and Import,,106109763
+Number of Industries,,172,,,,
+Land Area (Sq. Miles),,842,,Total Value Added,,1093579139
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,47900,,Households,,1543996754
+Total Households,,18215,,State/Local Government,,259976651
+Average Household Income,,83554,,Federal Government,,53039644
+,,,,Capital,,282823744
+Trade Flows Method,,Trade Flows Model,,Exports,,1219817171
+Model Status,,Multipliers,,Imports,,-2187204593
+,,,,Institutional Sales,,-78870230
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69933,,Total Final Demand:,,1093579141
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,967,59880830,67402390
+533,"* Employment and payroll of local govt, non-education",,,828,40138820,45218710
+19,Support activities for agriculture and forestry,,,540,3920094,11938770
+437,Insurance carriers,,,537,31727340,202015800
+440,Real estate,,,489,1561490,41674340
+401,Retail - Health and personal care stores,,,466,19430950,41264230
+502,Limited-service restaurants,,,461,7105177,33401310
+482,Hospitals,,,452,28640030,59262640
+82,Canned specialties,,,450,24975580,377865500
+513,Religious organizations,,,352,9486892,39609260
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Newaygo County           ,,,,,

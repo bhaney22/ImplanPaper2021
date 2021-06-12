@@ -1,0 +1,37 @@
+Marquette,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,2729286630,,Employee Compensation,,1442677586
+Total Personal Income,,2438120000,,Proprietor Income,,87904746
+Total Employment,,34472,,Other Property Type Income,,941691760
+,,,,Tax on Production and Import,,257012538
+Number of Industries,,196,,,,
+Land Area (Sq. Miles),,1821,,Total Value Added,,2729286630
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,67676,,Households,,2604481654
+Total Households,,29608,,State/Local Government,,533556506
+Average Household Income,,82348,,Federal Government,,87299083
+,,,,Capital,,513958886
+Trade Flows Method,,Trade Flows Model,,Exports,,2240004458
+Model Status,,Multipliers,,Imports,,-3081325710
+,,,,Institutional Sales,,-168688241
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69646,,Total Final Demand:,,2729286637
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,2184,110516000,256504800
+532,"* Employment and payroll of state govt, education",,,2053,130981600,148341100
+534,"* Employment and payroll of local govt, education",,,1382,78016980,87816600
+502,Limited-service restaurants,,,1328,18866190,93489360
+23,Iron ore mining,,,1275,164512300,983834200
+501,Full-service restaurants,,,1275,21811480,50308050
+533,"* Employment and payroll of local govt, non-education",,,1217,58992140,66458070
+440,Real estate,,,951,7458513,123291900
+405,Retail - General merchandise stores,,,831,20249510,59373320
+400,Retail - Food and beverage stores,,,726,15919020,42438300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Marquette County         ,,,,,

@@ -1,0 +1,37 @@
+Mecosta,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1319127289,,Employee Compensation,,709801029
+Total Personal Income,,1301364000,,Proprietor Income,,91405163
+Total Employment,,19664,,Other Property Type Income,,414267898
+,,,,Tax on Production and Import,,103653199
+Number of Industries,,178,,,,
+Land Area (Sq. Miles),,556,,Total Value Added,,1319127289
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,43186,,Households,,1443961839
+Total Households,,17428,,State/Local Government,,528835409
+Average Household Income,,74670,,Federal Government,,20496942
+,,,,Capital,,201079301
+Trade Flows Method,,Trade Flows Model,,Exports,,1554261657
+Model Status,,Multipliers,,Imports,,-2277927979
+,,,,Institutional Sales,,-151579894
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66477,,Total Final Demand:,,1319127274
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+532,"* Employment and payroll of state govt, education",,,2794,148695200,168402300
+531,"* Employment and payroll of state govt, non-education",,,858,72256640,82030790
+440,Real estate,,,773,3478463,70627060
+533,"* Employment and payroll of local govt, non-education",,,769,37052000,41741230
+405,Retail - General merchandise stores,,,665,17395630,48909130
+501,Full-service restaurants,,,606,8720676,22368690
+14,"Animal production, except cattle and poultry and eggs",,,551,11461140,34003870
+534,"* Employment and payroll of local govt, education",,,437,26180680,29469200
+464,Employment services,,,425,12894900,21872620
+132,Footwear manufacturing,,,417,19637080,73863710
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Mecosta County           ,,,,,

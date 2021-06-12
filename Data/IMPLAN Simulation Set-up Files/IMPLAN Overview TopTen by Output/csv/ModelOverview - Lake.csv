@@ -1,0 +1,37 @@
+Lake,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,138797032,,Employee Compensation,,62254232
+Total Personal Income,,343531700,,Proprietor Income,,20555350
+Total Employment,,3132,,Other Property Type Income,,37195108
+,,,,Tax on Production and Import,,18792343
+Number of Industries,,116,,,,
+Land Area (Sq. Miles),,568,,Total Value Added,,138797032
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,11341,,Households,,373500597
+Total Households,,5191,,State/Local Government,,46896082
+Average Household Income,,66175,,Federal Government,,14273099
+,,,,Capital,,67991008
+Trade Flows Method,,Trade Flows Model,,Exports,,81250155
+Model Status,,Multipliers,,Imports,,-431769816
+,,,,Institutional Sales,,-13344093
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.63098,,Total Final Demand:,,138797032
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,38479630
+475,Offices of physicians,,,175,10878690,18731800
+395,Wholesale trade,,,115,2970216,16133600
+61,Construction of other new residential structures,,,56,1234222,15046120
+440,Real estate,,,183,714102,14302090
+533,"* Employment and payroll of local govt, non-education",,,254,11254950,12679350
+446,Lessors of nonfinancial intangible assets,,,17,7109,11142780
+483,Nursing and community care facilities,,,169,4821432,9255762
+463,Facilities support services,,,85,1601651,8877299
+260,Fabricated pipe and pipe fitting manufacturing,,,26,1046963,6077675
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Lake County              ,,,,,

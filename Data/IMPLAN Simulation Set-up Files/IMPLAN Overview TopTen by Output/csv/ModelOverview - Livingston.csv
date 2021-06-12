@@ -1,0 +1,37 @@
+Livingston,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,5918674593,,Employee Compensation,,2943817218
+Total Personal Income,,8453330000,,Proprietor Income,,395811986
+Total Employment,,80453,,Other Property Type Income,,2036228638
+,,,,Tax on Production and Import,,542816751
+Number of Industries,,269,,,,
+Land Area (Sq. Miles),,568,,Total Value Added,,5918674593
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,185596,,Households,,7731145453
+Total Households,,68728,,State/Local Government,,749924161
+Average Household Income,,122996,,Federal Government,,77058548
+,,,,Capital,,1691540283
+Trade Flows Method,,Trade Flows Model,,Exports,,5080274984
+Model Status,,Multipliers,,Imports,,-9177317521
+,,,,Institutional Sales,,-233951318
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73004,,Total Final Demand:,,5918674590
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,903602500
+356,Other motor vehicle parts manufacturing,,,1479,139354500,839925800
+440,Real estate,,,4306,40748590,631478100
+395,Wholesale trade,,,2378,192127600,565290000
+437,Insurance carriers,,,778,69554220,358647600
+159,Petroleum lubricating oil and grease manufacturing,,,237,30565900,341164200
+156,Petroleum refineries,,,38,6227580,334810900
+502,Limited-service restaurants,,,3767,56636500,270740300
+454,Management consulting services,,,2756,105521200,239758000
+355,Motor vehicle metal stamping,,,609,39546710,226235300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Livingston County        ,,,,,

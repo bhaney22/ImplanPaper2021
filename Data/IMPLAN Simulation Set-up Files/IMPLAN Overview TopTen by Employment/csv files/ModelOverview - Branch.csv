@@ -1,0 +1,37 @@
+Branch,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1387540213,,Employee Compensation,,668181331
+Total Personal Income,,1359943000,,Proprietor Income,,101299845
+Total Employment,,19888,,Other Property Type Income,,497931714
+,,,,Tax on Production and Import,,120127323
+Number of Industries,,191,,,,
+Land Area (Sq. Miles),,507,,Total Value Added,,1387540213
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,43545,,Households,,1426707394
+Total Households,,16818,,State/Local Government,,327446425
+Average Household Income,,80862,,Federal Government,,18834090
+,,,,Capital,,344975280
+Trade Flows Method,,Trade Flows Model,,Exports,,1696111273
+Model Status,,Multipliers,,Imports,,-2339942414
+,,,,Institutional Sales,,-86591833
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.70152,,Total Final Demand:,,1387540215
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,1082,64767660,72964510
+502,Limited-service restaurants,,,974,14249570,69119230
+395,Wholesale trade,,,881,44085330,167205600
+416,Warehousing and storage,,,870,43138570,94396400
+534,"* Employment and payroll of local govt, education",,,774,52470760,59061550
+14,"Animal production, except cattle and poultry and eggs",,,586,10852630,24810050
+405,Retail - General merchandise stores,,,585,16501200,44465420
+411,Truck transportation,,,584,43313290,103522900
+440,Real estate,,,562,3859376,45991520
+531,"* Employment and payroll of state govt, non-education",,,507,40229410,45671240
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Branch County            ,,,,,

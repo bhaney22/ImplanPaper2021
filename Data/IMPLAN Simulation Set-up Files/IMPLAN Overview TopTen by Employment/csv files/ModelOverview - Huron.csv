@@ -1,0 +1,37 @@
+Huron,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1249072380,,Employee Compensation,,549279834
+Total Personal Income,,1375778000,,Proprietor Income,,186773069
+Total Employment,,17023,,Other Property Type Income,,422616770
+,,,,Tax on Production and Import,,90402707
+Number of Industries,,194,,,,
+Land Area (Sq. Miles),,837,,Total Value Added,,1249072380
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,32065,,Households,,1157709591
+Total Households,,13966,,State/Local Government,,192988592
+Average Household Income,,98506,,Federal Government,,21276952
+,,,,Capital,,304435244
+Trade Flows Method,,Trade Flows Model,,Exports,,1702833559
+Model Status,,Multipliers,,Imports,,-2066979932
+,,,,Institutional Sales,,-63191626
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71333,,Total Final Demand:,,1249072380
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,916,56692080,118661100
+534,"* Employment and payroll of local govt, education",,,767,47586380,53563640
+11,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",,,679,21888900,149979900
+533,"* Employment and payroll of local govt, non-education",,,674,28956860,32621580
+440,Real estate,,,544,2953119,40982500
+411,Truck transportation,,,459,26143860,71910760
+12,Dairy cattle and milk production,,,430,51762130,243227700
+395,Wholesale trade,,,406,21658360,78871340
+433,Monetary authorities and depository credit intermediation,,,405,20807480,56097950
+405,Retail - General merchandise stores,,,338,9844883,26060480
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Huron County             ,,,,,

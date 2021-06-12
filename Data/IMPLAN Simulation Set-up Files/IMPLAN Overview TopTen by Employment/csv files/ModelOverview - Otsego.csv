@@ -1,0 +1,37 @@
+Otsego,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,821618265,,Employee Compensation,,465948607
+Total Personal Income,,840871200,,Proprietor Income,,79556469
+Total Employment,,13664,,Other Property Type Income,,181082684
+,,,,Tax on Production and Import,,95030505
+Number of Industries,,175,,,,
+Land Area (Sq. Miles),,515,,Total Value Added,,821618265
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,24158,,Households,,874864514
+Total Households,,9789,,State/Local Government,,133089288
+Average Household Income,,85897,,Federal Government,,34003562
+,,,,Capital,,204602431
+Trade Flows Method,,Trade Flows Model,,Exports,,742905796
+Model Status,,Multipliers,,Imports,,-1133436119
+,,,,Institutional Sales,,-34411206
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69923,,Total Final Demand:,,821618267
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+405,Retail - General merchandise stores,,,679,18564890,50885100
+20,Extraction of natural gas and crude petroleum,,,665,25343240,92870000
+501,Full-service restaurants,,,564,9579115,22181070
+482,Hospitals,,,546,36556070,73730220
+440,Real estate,,,491,2963513,55303860
+400,Retail - Food and beverage stores,,,478,15542920,33811430
+533,"* Employment and payroll of local govt, non-education",,,476,26280020,29605970
+502,Limited-service restaurants,,,403,7694549,32084310
+395,Wholesale trade,,,357,19451690,70577670
+38,Support activities for oil and gas operations,,,276,18957020,39794230
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Otsego County            ,,,,,

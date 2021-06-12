@@ -1,0 +1,37 @@
+Eaton,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4121494597,,Employee Compensation,,2012714550
+Total Personal Income,,3958545000,,Proprietor Income,,143184845
+Total Employment,,47918,,Other Property Type Income,,1627075516
+,,,,Tax on Production and Import,,338519685
+Number of Industries,,222,,,,
+Land Area (Sq. Miles),,577,,Total Value Added,,4121494597
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,108579,,Households,,4203310357
+Total Households,,43998,,State/Local Government,,614107649
+Average Household Income,,89971,,Federal Government,,81208291
+,,,,Capital,,661153227
+Trade Flows Method,,Trade Flows Model,,Exports,,5510712183
+Model Status,,Multipliers,,Imports,,-6790745209
+,,,,Institutional Sales,,-158251867
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.70324,,Total Final Demand:,,4121494630
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+437,Insurance carriers,,,3288,314281200,1573392000
+464,Employment services,,,2077,60218440,103343900
+405,Retail - General merchandise stores,,,1794,46421610,131378400
+411,Truck transportation,,,1696,96037210,271037100
+534,"* Employment and payroll of local govt, education",,,1680,101623100,114387800
+502,Limited-service restaurants,,,1608,25098660,117932500
+531,"* Employment and payroll of state govt, non-education",,,1581,142458700,161729100
+416,Warehousing and storage,,,1539,82241870,174751000
+395,Wholesale trade,,,1339,93029080,294662300
+440,Real estate,,,1317,14902080,180912500
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Eaton County             ,,,,,

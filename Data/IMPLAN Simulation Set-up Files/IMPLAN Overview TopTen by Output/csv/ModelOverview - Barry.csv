@@ -1,0 +1,37 @@
+Barry,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1574563483,,Employee Compensation,,701098871
+Total Personal Income,,2180765000,,Proprietor Income,,188816946
+Total Employment,,23094,,Other Property Type Income,,548153752
+,,,,Tax on Production and Import,,136493914
+Number of Industries,,184,,,,
+Land Area (Sq. Miles),,556,,Total Value Added,,1574563483
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,59281,,Households,,2120662676
+Total Households,,22543,,State/Local Government,,251545093
+Average Household Income,,96736,,Federal Government,,23256186
+,,,,Capital,,472053652
+Trade Flows Method,,Trade Flows Model,,Exports,,2001271020
+Model Status,,Multipliers,,Imports,,-3213577267
+,,,,Institutional Sales,,-80647881
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71243,,Total Final Demand:,,1574563479
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+331,Other major household appliance manufacturing,,,1097,149766800,823346500
+441,Owner-occupied dwellings,,,0,0,237375800
+353,Motor vehicle transmission and power train parts manufacturing,,,307,22703830,182664200
+437,Insurance carriers,,,416,28745730,168095400
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,224,16107220,139550200
+197,Rubber and plastics hoses and belting manufacturing,,,371,19807480,104641200
+12,Dairy cattle and milk production,,,398,24085450,98952540
+61,Construction of other new residential structures,,,339,8755359,92482960
+440,Real estate,,,1146,3194289,86987870
+482,Hospitals,,,586,40685670,80619410
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Barry County             ,,,,,

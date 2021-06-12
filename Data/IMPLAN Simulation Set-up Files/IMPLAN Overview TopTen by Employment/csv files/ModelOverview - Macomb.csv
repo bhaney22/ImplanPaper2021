@@ -1,0 +1,37 @@
+Macomb,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,38609720132,,Employee Compensation,,20508526296
+Total Personal Income,,33705970000,,Proprietor Income,,1924375258
+Total Employment,,405135,,Other Property Type Income,,13798171395
+,,,,Tax on Production and Import,,2378647184
+Number of Industries,,368,,,,
+Land Area (Sq. Miles),,480,,Total Value Added,,38609720132
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,860112,,Households,,32818641089
+Total Households,,338813,,State/Local Government,,3683625159
+Average Household Income,,99483,,Federal Government,,3227610476
+,,,,Capital,,6819163696
+Trade Flows Method,,Trade Flows Model,,Exports,,49400356121
+Model Status,,Multipliers,,Imports,,-56163814707
+,,,,Institutional Sales,,-1175861965
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.74804,,Total Final Demand:,,38609719868
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,17203,1235847000,1391080000
+395,Wholesale trade,,,13795,1203200000,3346715000
+501,Full-service restaurants,,,13388,245325900,543809300
+440,Real estate,,,13277,266140300,2523430000
+502,Limited-service restaurants,,,12161,200850000,906538400
+405,Retail - General merchandise stores,,,10116,266619300,746208100
+482,Hospitals,,,10108,652169000,1338004000
+464,Employment services,,,9928,347424900,572186800
+475,Offices of physicians,,,7255,671076700,984447000
+400,Retail - Food and beverage stores,,,7121,232061000,507202700
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Macomb County            ,,,,,

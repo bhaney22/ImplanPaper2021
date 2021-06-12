@@ -1,0 +1,37 @@
+Cheboygan,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,534245303,,Employee Compensation,,253949382
+Total Personal Income,,858828200,,Proprietor Income,,55313644
+Total Employment,,11274,,Other Property Type Income,,147436405
+,,,,Tax on Production and Import,,77545873
+Number of Industries,,167,,,,
+Land Area (Sq. Miles),,716,,Total Value Added,,534245303
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25675,,Households,,902990754
+Total Households,,10989,,State/Local Government,,115947450
+Average Household Income,,78150,,Federal Government,,46436864
+,,,,Capital,,360678598
+Trade Flows Method,,Trade Flows Model,,Exports,,288076220
+Model Status,,Multipliers,,Imports,,-1141196731
+,,,,Institutional Sales,,-38687851
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69405,,Total Final Demand:,,534245304
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+440,Real estate,,,595,1497392,46265290
+534,"* Employment and payroll of local govt, education",,,463,29956640,33719460
+501,Full-service restaurants,,,460,8877494,19146530
+502,Limited-service restaurants,,,397,6735356,29830850
+405,Retail - General merchandise stores,,,341,8916935,25083700
+406,Retail - Miscellaneous store retailers,,,332,6512130,12539390
+533,"* Employment and payroll of local govt, non-education",,,327,15411370,17361800
+509,Personal care services,,,291,5001279,8387943
+448,"Accounting, tax preparation, bookkeeping, and payroll services",,,249,8891527,15988650
+503,All other food and drinking places,,,245,5795412,8504455
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Cheboygan County         ,,,,,

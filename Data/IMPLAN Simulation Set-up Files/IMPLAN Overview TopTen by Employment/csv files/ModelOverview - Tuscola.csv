@@ -1,0 +1,37 @@
+Tuscola,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1171279000,,Employee Compensation,,597931515
+Total Personal Income,,1709147000,,Proprietor Income,,78593511
+Total Employment,,16830,,Other Property Type Income,,401222594
+,,,,Tax on Production and Import,,93531379
+Number of Industries,,185,,,,
+Land Area (Sq. Miles),,813,,Total Value Added,,1171279000
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,54000,,Households,,1803401108
+Total Households,,21187,,State/Local Government,,320343714
+Average Household Income,,80669,,Federal Government,,26446718
+,,,,Capital,,243893640
+Trade Flows Method,,Trade Flows Model,,Exports,,1254502666
+Model Status,,Multipliers,,Imports,,-2388503439
+,,,,Institutional Sales,,-88805404
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69554,,Total Final Demand:,,1171279003
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,1315,77790420,87561580
+533,"* Employment and payroll of local govt, non-education",,,729,34359470,38707930
+395,Wholesale trade,,,658,43390070,141636400
+483,Nursing and community care facilities,,,655,23628930,40867150
+531,"* Employment and payroll of state govt, non-education",,,519,48678600,55263350
+502,Limited-service restaurants,,,500,6453982,33850020
+482,Hospitals,,,456,22962560,53582470
+411,Truck transportation,,,451,21193180,66323540
+2,Grain farming,,,445,5556648,93341990
+513,Religious organizations,,,381,10027260,42611960
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Tuscola County           ,,,,,

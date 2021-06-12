@@ -1,0 +1,37 @@
+Mason,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,996578610,,Employee Compensation,,548589958
+Total Personal Income,,1042491000,,Proprietor Income,,78943060
+Total Employment,,15617,,Other Property Type Income,,270783839
+,,,,Tax on Production and Import,,98261753
+Number of Industries,,175,,,,
+Land Area (Sq. Miles),,495,,Total Value Added,,996578610
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,28824,,Households,,1024750245
+Total Households,,12025,,State/Local Government,,206234558
+Average Household Income,,86694,,Federal Government,,27657229
+,,,,Capital,,275917734
+Trade Flows Method,,Trade Flows Model,,Exports,,1079030533
+Model Status,,Multipliers,,Imports,,-1555053196
+,,,,Institutional Sales,,-61958493
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71576,,Total Final Demand:,,996578610
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,110973700
+42,Electric power generation - Fossil  fuel,,,80,12329310,110297900
+375,"Office furniture, except wood, manufacturing",,,260,15668270,99872020
+164,Other basic inorganic chemical manufacturing,,,113,9579580,89463000
+81,Canned fruits and vegetables manufacturing,,,170,6606075,82442090
+440,Real estate,,,583,4274280,63752470
+482,Hospitals,,,502,28726300,62540120
+229,Ferrous metal foundries,,,204,13311980,61628560
+534,"* Employment and payroll of local govt, education",,,930,54274770,61092160
+312,Printed circuit assembly (electronic assembly) manufacturing,,,192,12014650,59972550
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Mason County             ,,,,,

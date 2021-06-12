@@ -1,0 +1,37 @@
+Shiawassee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1460532757,,Employee Compensation,,777915542
+Total Personal Income,,2192402000,,Proprietor Income,,69688385
+Total Employment,,22092,,Other Property Type Income,,446303643
+,,,,Tax on Production and Import,,166625187
+Number of Industries,,193,,,,
+Land Area (Sq. Miles),,539,,Total Value Added,,1460532757
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,68933,,Households,,2352663234
+Total Households,,26833,,State/Local Government,,349594885
+Average Household Income,,81705,,Federal Government,,30192344
+,,,,Capital,,305997177
+Trade Flows Method,,Trade Flows Model,,Exports,,1286118291
+Model Status,,Multipliers,,Imports,,-2759217708
+,,,,Institutional Sales,,-104815473
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68056,,Total Final Demand:,,1460532751
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+395,Wholesale trade,,,2137,84008620,370696600
+441,Owner-occupied dwellings,,,0,0,259278400
+345,Heavy duty truck manufacturing,,,249,14959650,256172400
+482,Hospitals,,,1310,71851060,159844400
+534,"* Employment and payroll of local govt, education",,,1647,97197730,109406600
+190,Plastics pipe and pipe fitting manufacturing,,,176,8748202,84293730
+356,Other motor vehicle parts manufacturing,,,159,7218200,76061180
+49,Electric power transmission and distribution,,,51,6442715,66371140
+333,Motor and generator manufacturing,,,171,12374120,63930590
+149,Paperboard container manufacturing,,,135,7710468,57152270
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Shiawassee County        ,,,,,

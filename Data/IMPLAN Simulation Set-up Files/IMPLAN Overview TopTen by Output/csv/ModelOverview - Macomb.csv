@@ -1,0 +1,37 @@
+Macomb,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,38609720132,,Employee Compensation,,20508526296
+Total Personal Income,,33705970000,,Proprietor Income,,1924375258
+Total Employment,,405135,,Other Property Type Income,,13798171395
+,,,,Tax on Production and Import,,2378647184
+Number of Industries,,368,,,,
+Land Area (Sq. Miles),,480,,Total Value Added,,38609720132
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,860112,,Households,,32818641089
+Total Households,,338813,,State/Local Government,,3683625159
+Average Household Income,,99483,,Federal Government,,3227610476
+,,,,Capital,,6819163696
+Trade Flows Method,,Trade Flows Model,,Exports,,49400356121
+Model Status,,Multipliers,,Imports,,-56163814707
+,,,,Institutional Sales,,-1175861965
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.74804,,Total Final Demand:,,38609719868
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+344,Light truck and utility vehicle manufacturing,,,6480,690345200,14362760000
+343,Automobile manufacturing,,,6677,1058216000,12767750000
+441,Owner-occupied dwellings,,,0,0,3705220000
+353,Motor vehicle transmission and power train parts manufacturing,,,5004,580810300,3363891000
+395,Wholesale trade,,,13795,1203200000,3346715000
+355,Motor vehicle metal stamping,,,6657,649183000,2822846000
+440,Real estate,,,13277,266140300,2523430000
+354,Motor vehicle seating and interior trim manufacturing,,,2588,240863000,1514888000
+534,"* Employment and payroll of local govt, education",,,17203,1235847000,1391080000
+482,Hospitals,,,10108,652169000,1338004000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Macomb County            ,,,,,

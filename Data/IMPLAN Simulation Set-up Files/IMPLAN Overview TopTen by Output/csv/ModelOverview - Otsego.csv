@@ -1,0 +1,37 @@
+Otsego,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,821618265,,Employee Compensation,,465948607
+Total Personal Income,,840871200,,Proprietor Income,,79556469
+Total Employment,,13664,,Other Property Type Income,,181082684
+,,,,Tax on Production and Import,,95030505
+Number of Industries,,175,,,,
+Land Area (Sq. Miles),,515,,Total Value Added,,821618265
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,24158,,Households,,874864514
+Total Households,,9789,,State/Local Government,,133089288
+Average Household Income,,85897,,Federal Government,,34003562
+,,,,Capital,,204602431
+Trade Flows Method,,Trade Flows Model,,Exports,,742905796
+Model Status,,Multipliers,,Imports,,-1133436119
+,,,,Institutional Sales,,-34411206
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69923,,Total Final Demand:,,821618267
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,96469260
+20,Extraction of natural gas and crude petroleum,,,665,25343240,92870000
+226,"Copper rolling, drawing, extruding and alloying",,,82,4322871,89487060
+482,Hospitals,,,546,36556070,73730220
+395,Wholesale trade,,,357,19451690,70577670
+356,Other motor vehicle parts manufacturing,,,123,9279173,65593740
+198,Other rubber product manufacturing,,,195,9196635,56383200
+440,Real estate,,,491,2963513,55303860
+405,Retail - General merchandise stores,,,679,18564890,50885100
+428,Wireless telecommunications carriers (except satellite),,,23,1595087,45105580
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Otsego County            ,,,,,

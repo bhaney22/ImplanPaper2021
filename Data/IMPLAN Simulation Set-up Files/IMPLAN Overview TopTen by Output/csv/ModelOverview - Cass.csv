@@ -1,0 +1,37 @@
+Cass,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,917271510,,Employee Compensation,,427322832
+Total Personal Income,,1935178000,,Proprietor Income,,106845683
+Total Employment,,15215,,Other Property Type Income,,298181385
+,,,,Tax on Production and Import,,84921610
+Number of Industries,,178,,,,
+Land Area (Sq. Miles),,492,,Total Value Added,,917271510
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,51608,,Households,,1796766237
+Total Households,,20329,,State/Local Government,,225780918
+Average Household Income,,95192,,Federal Government,,20094182
+,,,,Capital,,272417235
+Trade Flows Method,,Trade Flows Model,,Exports,,783120455
+Model Status,,Multipliers,,Imports,,-2110618086
+,,,,Institutional Sales,,-70289427
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69207,,Total Final Demand:,,917271514
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,198095800
+195,Other plastics product manufacturing,,,494,23784300,122984900
+395,Wholesale trade,,,516,29058670,102212700
+534,"* Employment and payroll of local govt, education",,,1162,68820980,77465500
+14,"Animal production, except cattle and poultry and eggs",,,862,24840990,65762940
+2,Grain farming,,,172,3672078,53337570
+440,Real estate,,,614,4178840,51313060
+49,Electric power transmission and distribution,,,39,5071929,51221190
+193,Urethane and other foam product (except polystyrene) manufacturing,,,144,8803971,51029700
+61,Construction of other new residential structures,,,177,4912432,48792640
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Cass County              ,,,,,

@@ -1,0 +1,37 @@
+Emmet,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1495503657,,Employee Compensation,,861215143
+Total Personal Income,,1464753000,,Proprietor Income,,95158395
+Total Employment,,23958,,Other Property Type Income,,410090162
+,,,,Tax on Production and Import,,129039958
+Number of Industries,,194,,,,
+Land Area (Sq. Miles),,468,,Total Value Added,,1495503657
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,33204,,Households,,1314933058
+Total Households,,13852,,State/Local Government,,256814034
+Average Household Income,,105741,,Federal Government,,17715224
+,,,,Capital,,471177275
+Trade Flows Method,,Trade Flows Model,,Exports,,1552928762
+Model Status,,Multipliers,,Imports,,-2046509038
+,,,,Institutional Sales,,-71555667
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68603,,Total Final Demand:,,1495503647
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+344,Light truck and utility vehicle manufacturing,,,197,16243870,418444900
+482,Hospitals,,,1489,106009900,207750900
+526,Other local government enterprises,,,724,33266170,162870700
+441,Owner-occupied dwellings,,,0,0,146667800
+440,Real estate,,,971,6816326,109512400
+475,Offices of physicians,,,585,61835530,86891640
+499,"Hotels and motels, including casino hotels",,,725,17672830,72851470
+502,Limited-service restaurants,,,942,16308560,72286020
+464,Employment services,,,1688,38053960,69671460
+395,Wholesale trade,,,311,15183690,57867800
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Emmet County             ,,,,,

@@ -1,0 +1,37 @@
+Gladwin,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,393022724,,Employee Compensation,,187470756
+Total Personal Income,,737479800,,Proprietor Income,,15093875
+Total Employment,,6032,,Other Property Type Income,,150280069
+,,,,Tax on Production and Import,,40178024
+Number of Industries,,148,,,,
+Land Area (Sq. Miles),,507,,Total Value Added,,393022724
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25411,,Households,,847996330
+Total Households,,10646,,State/Local Government,,91289806
+Average Household Income,,69273,,Federal Government,,10580559
+,,,,Capital,,122433324
+Trade Flows Method,,Trade Flows Model,,Exports,,456263172
+Model Status,,Multipliers,,Imports,,-1106579716
+,,,,Institutional Sales,,-28960752
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67604,,Total Final Demand:,,393022723
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+343,Automobile manufacturing,,,129,9212278,208855600
+441,Owner-occupied dwellings,,,0,0,90548750
+271,All other industrial machinery manufacturing,,,234,18674640,63369100
+440,Real estate,,,171,2968167,36075940
+41,Electric power generation - Hydroelectric,,,41,4392309,26545970
+188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,70,2081872,25268140
+534,"* Employment and payroll of local govt, education",,,325,21610160,24324580
+16,Commercial logging,,,217,6952570,19974930
+401,Retail - Health and personal care stores,,,176,8979877,17410890
+483,Nursing and community care facilities,,,250,7872327,14432710
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Gladwin County           ,,,,,

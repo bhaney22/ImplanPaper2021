@@ -1,0 +1,37 @@
+Charlevoix,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,932520824,,Employee Compensation,,516098674
+Total Personal Income,,1096574000,,Proprietor Income,,59150631
+Total Employment,,13923,,Other Property Type Income,,265849190
+,,,,Tax on Production and Import,,91422330
+Number of Industries,,180,,,,
+Land Area (Sq. Miles),,417,,Total Value Added,,932520824
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,26121,,Households,,983594594
+Total Households,,10944,,State/Local Government,,205479623
+Average Household Income,,100203,,Federal Government,,17989880
+,,,,Capital,,282659052
+Trade Flows Method,,Trade Flows Model,,Exports,,1005706041
+Model Status,,Multipliers,,Imports,,-1506501404
+,,,,Institutional Sales,,-56406958
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69099,,Total Final Demand:,,932520827
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,878,45420000,51168260
+501,Full-service restaurants,,,734,15780100,31996890
+440,Real estate,,,721,7674543,92425890
+195,Other plastics product manufacturing,,,580,35721110,153960700
+499,"Hotels and motels, including casino hotels",,,529,15966970,58195740
+229,Ferrous metal foundries,,,517,42002520,170430500
+534,"* Employment and payroll of local govt, education",,,503,33293770,37475760
+476,Offices of dentists,,,375,25605270,49823380
+482,Hospitals,,,305,23176780,44115570
+400,Retail - Food and beverage stores,,,273,7403662,17736010
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Charlevoix County        ,,,,,

@@ -1,0 +1,37 @@
+Genesee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,13222270507,,Employee Compensation,,7403110535
+Total Personal Income,,13942300000,,Proprietor Income,,815390776
+Total Employment,,191473,,Other Property Type Income,,3770833481
+,,,,Tax on Production and Import,,1232935715
+Number of Industries,,283,,,,
+Land Area (Sq. Miles),,640,,Total Value Added,,13222270507
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,412895,,Households,,14283363887
+Total Households,,164614,,State/Local Government,,2318997966
+Average Household Income,,84697,,Federal Government,,299203155
+,,,,Capital,,2560958891
+Trade Flows Method,,Trade Flows Model,,Exports,,10767356496
+Model Status,,Multipliers,,Imports,,-16328596372
+,,,,Institutional Sales,,-679013532
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72597,,Total Final Demand:,,13222270490
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+344,Light truck and utility vehicle manufacturing,,,1993,189764300,4333224000
+441,Owner-occupied dwellings,,,0,0,1559677000
+427,Wired telecommunications carriers,,,3087,257046900,1295612000
+395,Wholesale trade,,,6067,391157800,1290260000
+482,Hospitals,,,6784,506122300,971446600
+440,Real estate,,,5987,88250390,880127200
+475,Offices of physicians,,,4971,477600500,691594400
+534,"* Employment and payroll of local govt, education",,,9042,605594000,681662100
+355,Motor vehicle metal stamping,,,1654,123872000,640854700
+49,Electric power transmission and distribution,,,404,43943820,508544600
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Genesee County           ,,,,,

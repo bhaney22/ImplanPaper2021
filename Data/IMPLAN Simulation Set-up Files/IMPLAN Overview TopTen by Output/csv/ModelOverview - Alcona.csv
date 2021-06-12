@@ -1,0 +1,37 @@
+Alcona,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,171255613,,Employee Compensation,,71783974
+Total Personal Income,,348459100,,Proprietor Income,,22001652
+Total Employment,,3506,,Other Property Type Income,,54641322
+,,,,Tax on Production and Import,,22828666
+Number of Industries,,126,,,,
+Land Area (Sq. Miles),,675,,Total Value Added,,171255613
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,10454,,Households,,391337728
+Total Households,,4853,,State/Local Government,,34391877
+Average Household Income,,71808,,Federal Government,,4539360
+,,,,Capital,,70526417
+Trade Flows Method,,Trade Flows Model,,Exports,,146973919
+Model Status,,Multipliers,,Imports,,-465659809
+,,,,Institutional Sales,,-10853879
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66668,,Total Final Demand:,,171255613
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,41528320
+440,Real estate,,,254,1400644,20528580
+475,Offices of physicians,,,143,10693350,16980270
+47,Electric power generation - Biomass,,,15,1256283,16911320
+134,Sawmills,,,57,1357502,13668850
+279,"Special tool, die, jig, and fixture manufacturing",,,75,6043680,13247640
+61,Construction of other new residential structures,,,47,1255685,12972200
+446,Lessors of nonfinancial intangible assets,,,10,253298,12624070
+77,Chocolate and confectionery manufacturing from cacao beans,,,22,302070,12069960
+20,Extraction of natural gas and crude petroleum,,,72,102692,11604300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Alcona County            ,,,,,

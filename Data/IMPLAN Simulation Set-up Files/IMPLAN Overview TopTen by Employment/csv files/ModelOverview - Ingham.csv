@@ -1,0 +1,37 @@
+Ingham,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,16158561104,,Employee Compensation,,9218275135
+Total Personal Income,,10552820000,,Proprietor Income,,655899097
+Total Employment,,187304,,Other Property Type Income,,5349012347
+,,,,Tax on Production and Import,,935374525
+Number of Industries,,260,,,,
+Land Area (Sq. Miles),,559,,Total Value Added,,16158561104
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,284582,,Households,,10863097733
+Total Households,,119227,,State/Local Government,,4729304635
+Average Household Income,,88510,,Federal Government,,449646669
+,,,,Capital,,1824504627
+Trade Flows Method,,Trade Flows Model,,Exports,,15400096088
+Model Status,,Multipliers,,Imports,,-15949181298
+,,,,Institutional Sales,,-1158907412
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71237,,Total Final Demand:,,16158561042
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+532,"* Employment and payroll of state govt, education",,,13562,801003000,907162900
+531,"* Employment and payroll of state govt, non-education",,,10592,989786400,1123675000
+534,"* Employment and payroll of local govt, education",,,8506,574446800,646602400
+482,Hospitals,,,7445,578837100,1091229000
+440,Real estate,,,5584,153040500,1430506000
+502,Limited-service restaurants,,,5420,84046510,394446600
+501,Full-service restaurants,,,5405,99071470,219537100
+343,Automobile manufacturing,,,4369,520978300,7776703000
+533,"* Employment and payroll of local govt, non-education",,,4224,259709600,292577900
+395,Wholesale trade,,,3863,325786200,907238900
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Ingham County            ,,,,,

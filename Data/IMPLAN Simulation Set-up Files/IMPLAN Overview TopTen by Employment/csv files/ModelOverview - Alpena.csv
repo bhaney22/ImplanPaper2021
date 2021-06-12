@@ -1,0 +1,37 @@
+Alpena,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,980718041,,Employee Compensation,,561311583
+Total Personal Income,,1069259000,,Proprietor Income,,71430674
+Total Employment,,15736,,Other Property Type Income,,255828121
+,,,,Tax on Production and Import,,92147663
+Number of Industries,,180,,,,
+Land Area (Sq. Miles),,574,,Total Value Added,,980718041
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,28988,,Households,,1023151232
+Total Households,,12626,,State/Local Government,,343075390
+Average Household Income,,84686,,Federal Government,,30232060
+,,,,Capital,,245235463
+Trade Flows Method,,Trade Flows Model,,Exports,,814615198
+Model Status,,Multipliers,,Imports,,-1388862727
+,,,,Institutional Sales,,-86728571
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69776,,Total Final Demand:,,980718044
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,1366,77787570,87632200
+534,"* Employment and payroll of local govt, education",,,900,60109250,67659500
+485,Individual and family services,,,610,18068360,22754990
+400,Retail - Food and beverage stores,,,490,12237670,30430280
+395,Wholesale trade,,,478,24839220,92497420
+440,Real estate,,,472,4189553,57060430
+405,Retail - General merchandise stores,,,468,13102030,35467380
+468,Services to buildings,,,389,1642487,6988131
+501,Full-service restaurants,,,358,6889821,14920940
+531,"* Employment and payroll of state govt, non-education",,,290,27375030,31078050
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Alpena County            ,,,,,

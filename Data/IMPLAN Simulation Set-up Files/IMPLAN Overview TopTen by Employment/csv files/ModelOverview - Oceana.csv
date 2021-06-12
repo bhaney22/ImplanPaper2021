@@ -1,0 +1,37 @@
+Oceana,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,649786450,,Employee Compensation,,329117462
+Total Personal Income,,913596700,,Proprietor Income,,60613825
+Total Employment,,10038,,Other Property Type Income,,201178253
+,,,,Tax on Production and Import,,58876910
+Number of Industries,,154,,,,
+Land Area (Sq. Miles),,541,,Total Value Added,,649786450
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,26221,,Households,,827484842
+Total Households,,10049,,State/Local Government,,163269330
+Average Household Income,,90917,,Federal Government,,11291906
+,,,,Capital,,143588722
+Trade Flows Method,,Trade Flows Model,,Exports,,945608744
+Model Status,,Multipliers,,Imports,,-1399733972
+,,,,Institutional Sales,,-41723120
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66244,,Total Final Demand:,,649786452
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,731,38625540,43513900
+4,Fruit farming,,,694,23904830,39888160
+79,"Frozen fruits, juices and vegetables manufacturing",,,597,28833820,262312800
+395,Wholesale trade,,,462,33673540,104924600
+81,Canned fruits and vegetables manufacturing,,,370,17991520,184686700
+501,Full-service restaurants,,,369,5566481,13858030
+534,"* Employment and payroll of local govt, education",,,356,22195420,24983360
+14,"Animal production, except cattle and poultry and eggs",,,293,8118907,21501260
+440,Real estate,,,279,861569,23660120
+400,Retail - Food and beverage stores,,,246,5084091,13938580
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Oceana County            ,,,,,

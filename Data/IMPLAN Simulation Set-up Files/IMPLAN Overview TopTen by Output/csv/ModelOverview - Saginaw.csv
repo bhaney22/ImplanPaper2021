@@ -1,0 +1,37 @@
+Saginaw,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,7756269794,,Employee Compensation,,4561890457
+Total Personal Income,,6810764000,,Proprietor Income,,348880823
+Total Employment,,105965,,Other Property Type Income,,2154177131
+,,,,Tax on Production and Import,,691321383
+Number of Industries,,252,,,,
+Land Area (Sq. Miles),,809,,Total Value Added,,7756269794
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,195012,,Households,,6853560839
+Total Households,,79022,,State/Local Government,,1108882275
+Average Household Income,,86188,,Federal Government,,414130437
+,,,,Capital,,1133814235
+Trade Flows Method,,Trade Flows Model,,Exports,,7449914303
+Model Status,,Multipliers,,Imports,,-8896243588
+,,,,Institutional Sales,,-307788698
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72672,,Total Final Demand:,,7756269803
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,3469,321481400,1847021000
+482,Hospitals,,,6250,426905900,852649000
+441,Owner-occupied dwellings,,,0,0,748541800
+395,Wholesale trade,,,2641,192175100,593476500
+42,Electric power generation - Fossil  fuel,,,444,58005800,590658000
+214,Ground or treated mineral and earth manufacturing,,,613,71438420,414674900
+440,Real estate,,,2208,23059840,342950700
+437,Insurance carriers,,,722,62430120,326769500
+427,Wired telecommunications carriers,,,713,62863640,305461700
+475,Offices of physicians,,,2242,167407100,266206200
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Saginaw County           ,,,,,

@@ -1,0 +1,37 @@
+Mackinac,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,361950038,,Employee Compensation,,190851246
+Total Personal Income,,437557900,,Proprietor Income,,20621994
+Total Employment,,6409,,Other Property Type Income,,108803645
+,,,,Tax on Production and Import,,41673152
+Number of Industries,,152,,,,
+Land Area (Sq. Miles),,1022,,Total Value Added,,361950038
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,11042,,Households,,407769720
+Total Households,,4985,,State/Local Government,,81432536
+Average Household Income,,87771,,Federal Government,,32467767
+,,,,Capital,,108554925
+Trade Flows Method,,Trade Flows Model,,Exports,,383048557
+Model Status,,Multipliers,,Imports,,-628583075
+,,,,Institutional Sales,,-22740394
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.63409,,Total Final Demand:,,361950036
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,490,20749870,108097600
+499,"Hotels and motels, including casino hotels",,,643,20017950,71407980
+441,Owner-occupied dwellings,,,0,0,43579780
+410,Water transportation,,,66,1536703,38797280
+440,Real estate,,,270,1858177,27555700
+482,Hospitals,,,232,11561360,27085660
+531,"* Employment and payroll of state govt, non-education",,,173,18899870,21456450
+495,Gambling industries (except casino hotels),,,153,4738274,20304560
+17,Commercial fishing,,,340,1676386,19421710
+30,Stone mining and quarrying,,,82,4490032,18836590
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Mackinac County          ,,,,,

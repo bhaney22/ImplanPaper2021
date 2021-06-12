@@ -1,0 +1,37 @@
+Tuscola,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1171279000,,Employee Compensation,,597931515
+Total Personal Income,,1709147000,,Proprietor Income,,78593511
+Total Employment,,16830,,Other Property Type Income,,401222594
+,,,,Tax on Production and Import,,93531379
+Number of Industries,,185,,,,
+Land Area (Sq. Miles),,813,,Total Value Added,,1171279000
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,54000,,Households,,1803401108
+Total Households,,21187,,State/Local Government,,320343714
+Average Household Income,,80669,,Federal Government,,26446718
+,,,,Capital,,243893640
+Trade Flows Method,,Trade Flows Model,,Exports,,1254502666
+Model Status,,Multipliers,,Imports,,-2388503439
+,,,,Institutional Sales,,-88805404
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69554,,Total Final Demand:,,1171279003
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,196325900
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,292,20134580,180708700
+395,Wholesale trade,,,658,43390070,141636400
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,234,11557780,107232600
+2,Grain farming,,,445,5556648,93341990
+534,"* Employment and payroll of local govt, education",,,1315,77790420,87561580
+74,Beet sugar manufacturing,,,119,8482002,85786300
+165,Other basic organic chemical manufacturing,,,42,3328571,85769850
+356,Other motor vehicle parts manufacturing,,,172,8393420,83397940
+13,Poultry and egg production,,,204,9787853,70327640
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Tuscola County           ,,,,,

@@ -1,0 +1,37 @@
+Lenawee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,2691749928,,Employee Compensation,,1451876888
+Total Personal Income,,3477272000,,Proprietor Income,,164351396
+Total Employment,,39802,,Other Property Type Income,,821405612
+,,,,Tax on Production and Import,,254116032
+Number of Industries,,233,,,,
+Land Area (Sq. Miles),,751,,Total Value Added,,2691749928
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,99047,,Households,,3468460085
+Total Households,,38861,,State/Local Government,,538892045
+Average Household Income,,89479,,Federal Government,,43080932
+,,,,Capital,,533385997
+Trade Flows Method,,Trade Flows Model,,Exports,,4089348482
+Model Status,,Multipliers,,Imports,,-5827176295
+,,,,Institutional Sales,,-154241318
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73801,,Total Final Demand:,,2691749928
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+166,Plastics material and resin manufacturing,,,474,53709500,727865600
+355,Motor vehicle metal stamping,,,1208,93617460,473026300
+156,Petroleum refineries,,,43,9323449,397199000
+441,Owner-occupied dwellings,,,0,0,383432100
+356,Other motor vehicle parts manufacturing,,,686,49900530,361863300
+165,Other basic organic chemical manufacturing,,,172,16963010,359242700
+161,Petrochemical manufacturing,,,32,5424246,285947800
+395,Wholesale trade,,,851,61768460,192102000
+534,"* Employment and payroll of local govt, education",,,2171,138247700,155612800
+440,Real estate,,,1179,6951855,128371100
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Lenawee County           ,,,,,

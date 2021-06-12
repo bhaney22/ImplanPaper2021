@@ -1,0 +1,37 @@
+Gratiot,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1399336042,,Employee Compensation,,686712527
+Total Personal Income,,1416030000,,Proprietor Income,,215047108
+Total Employment,,18801,,Other Property Type Income,,383964691
+,,,,Tax on Production and Import,,113611717
+Number of Industries,,184,,,,
+Land Area (Sq. Miles),,570,,Total Value Added,,1399336042
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,41665,,Households,,1386881055
+Total Households,,16544,,State/Local Government,,275842387
+Average Household Income,,85590,,Federal Government,,15311294
+,,,,Capital,,210662748
+Trade Flows Method,,Trade Flows Model,,Exports,,1865460644
+Model Status,,Multipliers,,Imports,,-2276482881
+,,,,Institutional Sales,,-78339211
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.70922,,Total Final Demand:,,1399336037
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,1020,62649530,70518860
+483,Nursing and community care facilities,,,965,32088750,57469080
+395,Wholesale trade,,,747,124225800,235249700
+531,"* Employment and payroll of state govt, non-education",,,670,53502580,60739870
+405,Retail - General merchandise stores,,,566,15072870,41937280
+469,Landscape and horticultural services,,,518,21535700,34822770
+482,Hospitals,,,490,25835820,58755560
+473,"Junior colleges, colleges, universities, and professional schools",,,489,17098740,41588860
+533,"* Employment and payroll of local govt, non-education",,,465,22708150,25582050
+440,Real estate,,,434,2117560,38915560
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Gratiot County           ,,,,,

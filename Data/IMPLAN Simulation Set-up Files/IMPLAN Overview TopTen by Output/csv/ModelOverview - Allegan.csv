@@ -1,0 +1,37 @@
+Allegan,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4514235879,,Employee Compensation,,2191846542
+Total Personal Income,,4270726000,,Proprietor Income,,523459499
+Total Employment,,62838,,Other Property Type Income,,1462399807
+,,,,Tax on Production and Import,,336530031
+Number of Industries,,253,,,,
+Land Area (Sq. Miles),,828,,Total Value Added,,4514235879
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,113847,,Households,,3978688208
+Total Households,,42800,,State/Local Government,,489151862
+Average Household Income,,99783,,Federal Government,,51532976
+,,,,Capital,,1393931197
+Trade Flows Method,,Trade Flows Model,,Exports,,8575305715
+Model Status,,Multipliers,,Imports,,-9784073482
+,,,,Institutional Sales,,-190300621
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.74234,,Total Final Demand:,,4514235855
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+174,Pharmaceutical preparation manufacturing,,,2774,261842000,3262593000
+375,"Office furniture, except wood, manufacturing",,,1921,140692400,790714300
+89,"Animal, except poultry, slaughtering",,,1034,41500540,613556000
+156,Petroleum refineries,,,50,8499513,444991300
+441,Owner-occupied dwellings,,,0,0,444350700
+395,Wholesale trade,,,2206,112416700,419980500
+440,Real estate,,,2986,18547350,278760400
+526,Other local government enterprises,,,1088,50856780,245883000
+411,Truck transportation,,,1439,74218430,218043000
+179,Soap and other detergent manufacturing,,,221,23470810,213053900
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Allegan County           ,,,,,

@@ -1,0 +1,37 @@
+Arenac,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,385640526,,Employee Compensation,,193712911
+Total Personal Income,,508310500,,Proprietor Income,,43374170
+Total Employment,,7776,,Other Property Type Income,,101086985
+,,,,Tax on Production and Import,,47466460
+Number of Industries,,142,,,,
+Land Area (Sq. Miles),,367,,Total Value Added,,385640526
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,15353,,Households,,522714324
+Total Households,,6487,,State/Local Government,,84758147
+Average Household Income,,78356,,Federal Government,,7396364
+,,,,Capital,,133691269
+Trade Flows Method,,Trade Flows Model,,Exports,,418970095
+Model Status,,Multipliers,,Imports,,-757631283
+,,,,Institutional Sales,,-24258391
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68386,,Total Final Demand:,,385640525
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,55705260
+293,"Industrial truck, trailer, and stacker manufacturing",,,135,6585830,53928770
+395,Wholesale trade,,,309,6845470,44997960
+188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,99,3970937,37527510
+20,Extraction of natural gas and crude petroleum,,,230,937103,37491020
+411,Truck transportation,,,241,11308500,35649770
+428,Wireless telecommunications carriers (except satellite),,,16,843858,29609320
+291,Conveyor and conveying equipment manufacturing,,,113,6811486,28341230
+61,Construction of other new residential structures,,,103,2097197,27410100
+440,Real estate,,,347,1122736,25906290
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Arenac County            ,,,,,

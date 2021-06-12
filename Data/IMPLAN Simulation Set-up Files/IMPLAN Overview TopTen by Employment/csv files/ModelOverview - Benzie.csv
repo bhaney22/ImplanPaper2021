@@ -1,0 +1,37 @@
+Benzie,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,377505188,,Employee Compensation,,172549307
+Total Personal Income,,623759200,,Proprietor Income,,39288829
+Total Employment,,8167,,Other Property Type Income,,103530835
+,,,,Tax on Production and Import,,62136218
+Number of Industries,,151,,,,
+Land Area (Sq. Miles),,321,,Total Value Added,,377505188
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,17519,,Households,,641087760
+Total Households,,7309,,State/Local Government,,81806571
+Average Household Income,,85345,,Federal Government,,13691970
+,,,,Capital,,258912550
+Trade Flows Method,,Trade Flows Model,,Exports,,403897353
+Model Status,,Multipliers,,Imports,,-992204853
+,,,,Institutional Sales,,-29686162
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67976,,Total Final Demand:,,377505189
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+440,Real estate,,,521,576244,38755950
+499,"Hotels and motels, including casino hotels",,,431,10916980,44056470
+83,Dehydrated food products manufacturing,,,346,18183160,142342800
+533,"* Employment and payroll of local govt, non-education",,,344,16666200,18775440
+501,Full-service restaurants,,,274,4636246,10759290
+492,"Independent artists, writers, and performers",,,237,393320,4146994
+512,Other personal services,,,205,4344446,6369108
+61,Construction of other new residential structures,,,173,3264798,46116910
+460,"Marketing research and all other miscellaneous professional, scientific, and technical services",,,163,1910162,6314930
+534,"* Employment and payroll of local govt, education",,,159,10129130,11401440
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Benzie County            ,,,,,

@@ -1,0 +1,37 @@
+Arenac,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,385640526,,Employee Compensation,,193712911
+Total Personal Income,,508310500,,Proprietor Income,,43374170
+Total Employment,,7776,,Other Property Type Income,,101086985
+,,,,Tax on Production and Import,,47466460
+Number of Industries,,142,,,,
+Land Area (Sq. Miles),,367,,Total Value Added,,385640526
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,15353,,Households,,522714324
+Total Households,,6487,,State/Local Government,,84758147
+Average Household Income,,78356,,Federal Government,,7396364
+,,,,Capital,,133691269
+Trade Flows Method,,Trade Flows Model,,Exports,,418970095
+Model Status,,Multipliers,,Imports,,-757631283
+,,,,Institutional Sales,,-24258391
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68386,,Total Final Demand:,,385640525
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+440,Real estate,,,347,1122736,25906290
+395,Wholesale trade,,,309,6845470,44997960
+481,Other ambulatory health care services,,,299,6663296,18844440
+464,Employment services,,,288,9652385,16013610
+402,Retail - Gasoline stores,,,272,5730572,17128720
+502,Limited-service restaurants,,,266,3612684,18169950
+534,"* Employment and payroll of local govt, education",,,254,16978660,19111330
+411,Truck transportation,,,241,11308500,35649770
+20,Extraction of natural gas and crude petroleum,,,230,937103,37491020
+503,All other food and drinking places,,,216,5973262,7640632
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Arenac County            ,,,,,

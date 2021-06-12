@@ -1,0 +1,37 @@
+Alpena,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,980718041,,Employee Compensation,,561311583
+Total Personal Income,,1069259000,,Proprietor Income,,71430674
+Total Employment,,15736,,Other Property Type Income,,255828121
+,,,,Tax on Production and Import,,92147663
+Number of Industries,,180,,,,
+Land Area (Sq. Miles),,574,,Total Value Added,,980718041
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,28988,,Households,,1023151232
+Total Households,,12626,,State/Local Government,,343075390
+Average Household Income,,84686,,Federal Government,,30232060
+,,,,Capital,,245235463
+Trade Flows Method,,Trade Flows Model,,Exports,,814615198
+Model Status,,Multipliers,,Imports,,-1388862727
+,,,,Institutional Sales,,-86728571
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69776,,Total Final Demand:,,980718044
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+205,Cement manufacturing,,,270,27482070,155974900
+262,Farm machinery and equipment manufacturing,,,177,13709430,109716800
+441,Owner-occupied dwellings,,,0,0,109402000
+138,Reconstituted wood product manufacturing,,,213,13762600,106053000
+395,Wholesale trade,,,478,24839220,92497420
+533,"* Employment and payroll of local govt, non-education",,,1366,77787570,87632200
+291,Conveyor and conveying equipment manufacturing,,,287,18357810,73392550
+534,"* Employment and payroll of local govt, education",,,900,60109250,67659500
+440,Real estate,,,472,4189553,57060430
+405,Retail - General merchandise stores,,,468,13102030,35467380
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Alpena County            ,,,,,

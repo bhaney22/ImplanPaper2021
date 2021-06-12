@@ -1,0 +1,37 @@
+Shiawassee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1460532757,,Employee Compensation,,777915542
+Total Personal Income,,2192402000,,Proprietor Income,,69688385
+Total Employment,,22092,,Other Property Type Income,,446303643
+,,,,Tax on Production and Import,,166625187
+Number of Industries,,193,,,,
+Land Area (Sq. Miles),,539,,Total Value Added,,1460532757
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,68933,,Households,,2352663234
+Total Households,,26833,,State/Local Government,,349594885
+Average Household Income,,81705,,Federal Government,,30192344
+,,,,Capital,,305997177
+Trade Flows Method,,Trade Flows Model,,Exports,,1286118291
+Model Status,,Multipliers,,Imports,,-2759217708
+,,,,Institutional Sales,,-104815473
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68056,,Total Final Demand:,,1460532751
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+395,Wholesale trade,,,2137,84008620,370696600
+534,"* Employment and payroll of local govt, education",,,1647,97197730,109406600
+482,Hospitals,,,1310,71851060,159844400
+533,"* Employment and payroll of local govt, non-education",,,1068,49149740,55370020
+405,Retail - General merchandise stores,,,644,16989330,47528920
+501,Full-service restaurants,,,560,8810763,21363040
+502,Limited-service restaurants,,,504,7390704,35914150
+399,Retail - Building material and garden equipment and supplies stores,,,431,15354340,40792140
+440,Real estate,,,415,1965561,42789220
+503,All other food and drinking places,,,388,7195073,11546710
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Shiawassee County        ,,,,,

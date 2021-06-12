@@ -1,0 +1,37 @@
+Wexford,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1096006800,,Employee Compensation,,672144233
+Total Personal Income,,1037412000,,Proprietor Income,,42082943
+Total Employment,,17327,,Other Property Type Income,,271389013
+,,,,Tax on Production and Import,,110390611
+Number of Industries,,182,,,,
+Land Area (Sq. Miles),,566,,Total Value Added,,1096006800
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,32886,,Households,,1088523901
+Total Households,,13111,,State/Local Government,,220703568
+Average Household Income,,79125,,Federal Government,,32850758
+,,,,Capital,,172851764
+Trade Flows Method,,Trade Flows Model,,Exports,,1469841511
+Model Status,,Multipliers,,Imports,,-1830154927
+,,,,Institutional Sales,,-58609772
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69829,,Total Final Demand:,,1096006803
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+364,Boat building,,,900,74175870,252663800
+198,Other rubber product manufacturing,,,805,37584030,232232500
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,392,28212170,195047500
+165,Other basic organic chemical manufacturing,,,70,3859353,141750200
+441,Owner-occupied dwellings,,,0,0,117158000
+327,Small electrical appliance manufacturing,,,226,16049350,103296000
+482,Hospitals,,,588,36329710,76131200
+261,Other fabricated metal manufacturing,,,291,19342340,65474160
+411,Truck transportation,,,392,21673560,61771150
+534,"* Employment and payroll of local govt, education",,,775,49398660,55603570
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Wexford County           ,,,,,

@@ -1,0 +1,37 @@
+Kalkaska,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,405889845,,Employee Compensation,,269522706
+Total Personal Income,,544087400,,Proprietor Income,,42706813
+Total Employment,,6225,,Other Property Type Income,,57728265
+,,,,Tax on Production and Import,,35932061
+Number of Industries,,133,,,,
+Land Area (Sq. Miles),,561,,Total Value Added,,405889845
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,17394,,Households,,566799347
+Total Households,,7048,,State/Local Government,,144661028
+Average Household Income,,77193,,Federal Government,,6355099
+,,,,Capital,,157295705
+Trade Flows Method,,Trade Flows Model,,Exports,,324580988
+Model Status,,Multipliers,,Imports,,-755318571
+,,,,Institutional Sales,,-38483751
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.63655,,Total Final Demand:,,405889846
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+38,Support activities for oil and gas operations,,,418,37936770,70915020
+471,Waste management and remediation services,,,313,22948890,68258190
+441,Owner-occupied dwellings,,,0,0,60604980
+533,"* Employment and payroll of local govt, non-education",,,890,43538440,49048580
+395,Wholesale trade,,,167,13862720,40445820
+445,Commercial and industrial machinery and equipment rental and leasing,,,84,7330802,22320260
+37,Drilling oil and gas wells,,,81,8386977,21782370
+20,Extraction of natural gas and crude petroleum,,,145,16985940,21619980
+428,Wireless telecommunications carriers (except satellite),,,11,800902,21098640
+250,"Turned product and screw, nut, and bolt manufacturing",,,97,5105742,20210700
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Kalkaska County          ,,,,,

@@ -1,0 +1,37 @@
+Huron,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1249072380,,Employee Compensation,,549279834
+Total Personal Income,,1375778000,,Proprietor Income,,186773069
+Total Employment,,17023,,Other Property Type Income,,422616770
+,,,,Tax on Production and Import,,90402707
+Number of Industries,,194,,,,
+Land Area (Sq. Miles),,837,,Total Value Added,,1249072380
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,32065,,Households,,1157709591
+Total Households,,13966,,State/Local Government,,192988592
+Average Household Income,,98506,,Federal Government,,21276952
+,,,,Capital,,304435244
+Trade Flows Method,,Trade Flows Model,,Exports,,1702833559
+Model Status,,Multipliers,,Imports,,-2066979932
+,,,,Institutional Sales,,-63191626
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71333,,Total Final Demand:,,1249072380
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+12,Dairy cattle and milk production,,,430,51762130,243227700
+71,Soybean and other oilseed processing,,,45,2760487,234925600
+74,Beet sugar manufacturing,,,247,14682280,171917800
+11,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",,,679,21888900,149979900
+2,Grain farming,,,246,8271010,141613600
+21,Extraction of natural gas liquids,,,209,5807237,134549500
+441,Owner-occupied dwellings,,,0,0,124753400
+482,Hospitals,,,916,56692080,118661100
+66,Other animal food manufacturing,,,56,4438743,81832970
+395,Wholesale trade,,,406,21658360,78871340
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Huron County             ,,,,,

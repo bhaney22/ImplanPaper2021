@@ -1,0 +1,37 @@
+Washtenaw,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,20836267878,,Employee Compensation,,13270993058
+Total Personal Income,,16208420000,,Proprietor Income,,814535824
+Total Employment,,250081,,Other Property Type Income,,5592537579
+,,,,Tax on Production and Import,,1158201417
+Number of Industries,,311,,,,
+Land Area (Sq. Miles),,710,,Total Value Added,,20836267878
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,356874,,Households,,15752429295
+Total Households,,148257,,State/Local Government,,8307479308
+Average Household Income,,109326,,Federal Government,,1373293322
+,,,,Capital,,1708538420
+Trade Flows Method,,Trade Flows Model,,Exports,,11986933723
+Model Status,,Multipliers,,Imports,,-16355297540
+,,,,Institutional Sales,,-1937108769
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68204,,Total Final Demand:,,20836267758
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+531,"* Employment and payroll of state govt, non-education",,,36060,2665438000,3025991000
+532,"* Employment and payroll of state govt, education",,,16505,771044600,873234000
+534,"* Employment and payroll of local govt, education",,,7417,482968900,543634100
+482,Hospitals,,,6914,503328300,976657900
+440,Real estate,,,6799,128637300,1624962000
+501,Full-service restaurants,,,6310,129915900,269722300
+464,Employment services,,,6103,168753400,292779700
+456,Scientific research and development services,,,5845,550494300,1443329000
+502,Limited-service restaurants,,,5814,101039400,444861000
+395,Wholesale trade,,,5537,485668500,1364310000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Washtenaw County         ,,,,,

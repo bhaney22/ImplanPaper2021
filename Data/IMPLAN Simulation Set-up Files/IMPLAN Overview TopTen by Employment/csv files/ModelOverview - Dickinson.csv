@@ -1,0 +1,37 @@
+Dickinson,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1279387380,,Employee Compensation,,786089816
+Total Personal Income,,1171650000,,Proprietor Income,,29347786
+Total Employment,,16830,,Other Property Type Income,,357413863
+,,,,Tax on Production and Import,,106535914
+Number of Industries,,174,,,,
+Land Area (Sq. Miles),,766,,Total Value Added,,1279387380
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25957,,Households,,965289396
+Total Households,,11356,,State/Local Government,,253041739
+Average Household Income,,103175,,Federal Government,,241084377
+,,,,Capital,,659830055
+Trade Flows Method,,Trade Flows Model,,Exports,,1517778954
+Model Status,,Multipliers,,Imports,,-2278596947
+,,,,Institutional Sales,,-79040199
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69717,,Total Final Demand:,,1279387374
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,1130,68524900,77197260
+535,"* Employment and payroll of federal govt, non-military",,,707,67568740,99612100
+502,Limited-service restaurants,,,635,8499234,43697080
+534,"* Employment and payroll of local govt, education",,,519,32735930,36847860
+405,Retail - General merchandise stores,,,510,13671010,37890810
+395,Wholesale trade,,,492,32938560,107073600
+147,Paper mills,,,486,49115380,380687500
+264,Construction machinery manufacturing,,,440,31579060,307862600
+58,Construction of other new nonresidential structures,,,403,25627650,66203910
+229,Ferrous metal foundries,,,357,26725640,113834600
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Dickinson County         ,,,,,

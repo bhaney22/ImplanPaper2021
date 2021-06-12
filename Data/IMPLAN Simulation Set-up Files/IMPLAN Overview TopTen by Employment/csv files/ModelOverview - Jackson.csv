@@ -1,0 +1,37 @@
+Jackson,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,6047972454,,Employee Compensation,,3243265953
+Total Personal Income,,5600919000,,Proprietor Income,,261748998
+Total Employment,,73738,,Other Property Type Income,,1903547927
+,,,,Tax on Production and Import,,639409576
+Number of Industries,,245,,,,
+Land Area (Sq. Miles),,707,,Total Value Added,,6047972454
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,159741,,Households,,5707240233
+Total Households,,63686,,State/Local Government,,911350254
+Average Household Income,,87946,,Federal Government,,74738608
+,,,,Capital,,922186921
+Trade Flows Method,,Trade Flows Model,,Exports,,6651438864
+Model Status,,Multipliers,,Imports,,-7977478139
+,,,,Institutional Sales,,-241504250
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72933,,Total Final Demand:,,6047972492
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+464,Employment services,,,4022,87520990,161823300
+534,"* Employment and payroll of local govt, education",,,3546,238712700,268697100
+482,Hospitals,,,3169,248574900,466812200
+395,Wholesale trade,,,2514,151709600,516978900
+440,Real estate,,,2084,17900210,282474000
+502,Limited-service restaurants,,,2061,37770580,161651600
+405,Retail - General merchandise stores,,,1945,49397330,141308800
+531,"* Employment and payroll of state govt, non-education",,,1769,153173500,173893300
+501,Full-service restaurants,,,1749,28748530,67937750
+533,"* Employment and payroll of local govt, non-education",,,1498,79139840,89155620
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Jackson County           ,,,,,

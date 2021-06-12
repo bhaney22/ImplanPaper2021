@@ -1,0 +1,37 @@
+Jackson,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,6047972454,,Employee Compensation,,3243265953
+Total Personal Income,,5600919000,,Proprietor Income,,261748998
+Total Employment,,73738,,Other Property Type Income,,1903547927
+,,,,Tax on Production and Import,,639409576
+Number of Industries,,245,,,,
+Land Area (Sq. Miles),,707,,Total Value Added,,6047972454
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,159741,,Households,,5707240233
+Total Households,,63686,,State/Local Government,,911350254
+Average Household Income,,87946,,Federal Government,,74738608
+,,,,Capital,,922186921
+Trade Flows Method,,Trade Flows Model,,Exports,,6651438864
+Model Status,,Multipliers,,Imports,,-7977478139
+,,,,Institutional Sales,,-241504250
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72933,,Total Final Demand:,,6047972492
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+49,Electric power transmission and distribution,,,1416,230279300,1973906000
+42,Electric power generation - Fossil  fuel,,,488,81542060,689056600
+356,Other motor vehicle parts manufacturing,,,1255,77712580,637485200
+441,Owner-occupied dwellings,,,0,0,630656800
+395,Wholesale trade,,,2514,151709600,516978900
+217,Iron and steel mills and ferroalloy manufacturing,,,424,50925930,484341300
+97,"Dry pasta, mixes, and dough manufacturing",,,770,71277280,478545200
+482,Hospitals,,,3169,248574900,466812200
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,507,44426480,330536400
+440,Real estate,,,2084,17900210,282474000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Jackson County           ,,,,,

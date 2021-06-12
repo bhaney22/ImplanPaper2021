@@ -1,0 +1,37 @@
+St. Clair,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4936029442,,Employee Compensation,,2561940022
+Total Personal Income,,5908758000,,Proprietor Income,,316136553
+Total Employment,,62789,,Other Property Type Income,,1509118487
+,,,,Tax on Production and Import,,548834380
+Number of Industries,,251,,,,
+Land Area (Sq. Miles),,725,,Total Value Added,,4936029442
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,160078,,Households,,5719371238
+Total Households,,62807,,State/Local Government,,702403948
+Average Household Income,,94078,,Federal Government,,260999640
+,,,,Capital,,1017306701
+Trade Flows Method,,Trade Flows Model,,Exports,,5383470676
+Model Status,,Multipliers,,Imports,,-7936606571
+,,,,Institutional Sales,,-210916169
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73872,,Total Final Demand:,,4936029462
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,3124,203239100,228767800
+482,Hospitals,,,2633,158082800,335854500
+440,Real estate,,,2217,33025290,271650500
+502,Limited-service restaurants,,,2214,32190890,156783500
+405,Retail - General merchandise stores,,,1954,46428630,138150500
+395,Wholesale trade,,,1790,161882800,441006000
+533,"* Employment and payroll of local govt, non-education",,,1757,96139210,108306400
+501,Full-service restaurants,,,1694,27208670,65192100
+475,Offices of physicians,,,1473,122758200,187025200
+483,Nursing and community care facilities,,,1222,44321320,76497580
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,St. Clair County         ,,,,,

@@ -1,0 +1,37 @@
+Manistee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,632235338,,Employee Compensation,,380628891
+Total Personal Income,,814533200,,Proprietor Income,,41270749
+Total Employment,,11086,,Other Property Type Income,,180168638
+,,,,Tax on Production and Import,,30167060
+Number of Industries,,163,,,,
+Land Area (Sq. Miles),,544,,Total Value Added,,632235338
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,24420,,Households,,888234508
+Total Households,,10636,,State/Local Government,,250912798
+Average Household Income,,76579,,Federal Government,,24800705
+,,,,Capital,,157534423
+Trade Flows Method,,Trade Flows Model,,Exports,,846942473
+Model Status,,Multipliers,,Imports,,-1474978789
+,,,,Institutional Sales,,-61210779
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67693,,Total Final Demand:,,632235337
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,1119,62865330,265851300
+148,Paperboard mills,,,243,25347740,201870300
+441,Owner-occupied dwellings,,,0,0,95845460
+164,Other basic inorganic chemical manufacturing,,,86,8365582,69962440
+533,"* Employment and payroll of local govt, non-education",,,914,51706750,58250650
+351,Motor vehicle electrical and electronic equipment manufacturing,,,131,10850310,55962460
+226,"Copper rolling, drawing, extruding and alloying",,,41,2643186,46329040
+531,"* Employment and payroll of state govt, non-education",,,500,34567650,39243620
+172,Pesticide and other agricultural chemical manufacturing,,,28,2926368,38396950
+104,Spice and extract manufacturing,,,66,4409477,35867300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Manistee County          ,,,,,

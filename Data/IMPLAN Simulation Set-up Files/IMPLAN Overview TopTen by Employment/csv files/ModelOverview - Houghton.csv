@@ -1,0 +1,37 @@
+Houghton,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1002930132,,Employee Compensation,,628647801
+Total Personal Income,,1170398000,,Proprietor Income,,43576338
+Total Employment,,16312,,Other Property Type Income,,238601987
+,,,,Tax on Production and Import,,92104006
+Number of Industries,,173,,,,
+Land Area (Sq. Miles),,1012,,Total Value Added,,1002930132
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,36495,,Households,,1248924207
+Total Households,,15161,,State/Local Government,,458333054
+Average Household Income,,77197,,Federal Government,,54698317
+,,,,Capital,,279102662
+Trade Flows Method,,Trade Flows Model,,Exports,,600472660
+Model Status,,Multipliers,,Imports,,-1524549509
+,,,,Institutional Sales,,-114051259
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67357,,Total Final Demand:,,1002930132
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+532,"* Employment and payroll of state govt, education",,,1511,90798980,102832900
+482,Hospitals,,,1171,75091240,154512600
+531,"* Employment and payroll of state govt, non-education",,,922,87632200,99486220
+533,"* Employment and payroll of local govt, non-education",,,547,29283850,32989950
+501,Full-service restaurants,,,515,7634290,19223370
+534,"* Employment and payroll of local govt, education",,,500,40072250,45105680
+405,Retail - General merchandise stores,,,473,12965720,35501120
+502,Limited-service restaurants,,,431,6340386,30603700
+503,All other food and drinking places,,,391,7568155,12065520
+400,Retail - Food and beverage stores,,,367,7791724,21103870
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Houghton County          ,,,,,

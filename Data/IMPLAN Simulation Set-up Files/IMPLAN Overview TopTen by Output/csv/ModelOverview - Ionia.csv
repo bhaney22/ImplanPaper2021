@@ -1,0 +1,37 @@
+Ionia,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1614456403,,Employee Compensation,,857624922
+Total Personal Income,,1822389000,,Proprietor Income,,125554143
+Total Employment,,27743,,Other Property Type Income,,469494471
+,,,,Tax on Production and Import,,161782866
+Number of Industries,,190,,,,
+Land Area (Sq. Miles),,573,,Total Value Added,,1614456403
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,64294,,Households,,2119851223
+Total Households,,24079,,State/Local Government,,407105683
+Average Household Income,,75683,,Federal Government,,27040082
+,,,,Capital,,384287410
+Trade Flows Method,,Trade Flows Model,,Exports,,2396853977
+Model Status,,Multipliers,,Imports,,-3614903142
+,,,,Institutional Sales,,-105778833
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66226,,Total Final Demand:,,1614456401
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+346,Motor vehicle body manufacturing,,,2559,154259200,789890900
+49,Electric power transmission and distribution,,,255,9528019,276757800
+441,Owner-occupied dwellings,,,0,0,233523800
+355,Motor vehicle metal stamping,,,335,20700190,122824900
+408,Air transportation,,,429,10739130,115035300
+12,Dairy cattle and milk production,,,294,26809450,109556700
+226,"Copper rolling, drawing, extruding and alloying",,,91,6416038,104359200
+531,"* Employment and payroll of state govt, non-education",,,1028,88679910,100675600
+81,Canned fruits and vegetables manufacturing,,,171,8012746,84816080
+464,Employment services,,,3675,31460420,83990100
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Ionia County             ,,,,,

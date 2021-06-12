@@ -1,0 +1,37 @@
+Oakland,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,93031374724,,Employee Compensation,,52110767483
+Total Personal Income,,74231220000,,Proprietor Income,,7636990634
+Total Employment,,946752,,Other Property Type Income,,27341263151
+,,,,Tax on Production and Import,,5942353457
+Number of Industries,,424,,,,
+Land Area (Sq. Miles),,873,,Total Value Added,,93031374724
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,1237868,,Households,,55200616502
+Total Households,,497528,,State/Local Government,,5700420108
+Average Household Income,,149200,,Federal Government,,950297269
+,,,,Capital,,12460040432
+Trade Flows Method,,Trade Flows Model,,Exports,,70700822650
+Model Status,,Multipliers,,Imports,,-50209230264
+,,,,Institutional Sales,,-1771592023
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73529,,Total Final Demand:,,93031374674
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+395,Wholesale trade,,,43225,4844777000,12267420000
+440,Real estate,,,42475,1387714000,10859840000
+449,"Architectural, engineering, and related services",,,46601,4262246000,7274680000
+441,Owner-occupied dwellings,,,0,0,6392076000
+343,Automobile manufacturing,,,3580,446313900,6386405000
+482,Hospitals,,,33316,2378277000,4655369000
+437,Insurance carriers,,,8048,852233000,4082015000
+461,Management of companies and enterprises,,,14470,2026195000,3521488000
+464,Employment services,,,34540,1799914000,2764225000
+447,Legal services,,,15035,1426753000,2732760000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Oakland County           ,,,,,

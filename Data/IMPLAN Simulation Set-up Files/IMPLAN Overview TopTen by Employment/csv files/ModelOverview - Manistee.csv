@@ -1,0 +1,37 @@
+Manistee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,632235338,,Employee Compensation,,380628891
+Total Personal Income,,814533200,,Proprietor Income,,41270749
+Total Employment,,11086,,Other Property Type Income,,180168638
+,,,,Tax on Production and Import,,30167060
+Number of Industries,,163,,,,
+Land Area (Sq. Miles),,544,,Total Value Added,,632235338
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,24420,,Households,,888234508
+Total Households,,10636,,State/Local Government,,250912798
+Average Household Income,,76579,,Federal Government,,24800705
+,,,,Capital,,157534423
+Trade Flows Method,,Trade Flows Model,,Exports,,846942473
+Model Status,,Multipliers,,Imports,,-1474978789
+,,,,Institutional Sales,,-61210779
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67693,,Total Final Demand:,,632235337
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,1119,62865330,265851300
+533,"* Employment and payroll of local govt, non-education",,,914,51706750,58250650
+531,"* Employment and payroll of state govt, non-education",,,500,34567650,39243620
+534,"* Employment and payroll of local govt, education",,,433,28683890,32286840
+440,Real estate,,,383,1497838,31625710
+148,Paperboard mills,,,243,25347740,201870300
+501,Full-service restaurants,,,229,3388690,8549638
+395,Wholesale trade,,,207,7934732,35123530
+502,Limited-service restaurants,,,206,3480891,15635710
+402,Retail - Gasoline stores,,,200,5044719,13616090
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Manistee County          ,,,,,

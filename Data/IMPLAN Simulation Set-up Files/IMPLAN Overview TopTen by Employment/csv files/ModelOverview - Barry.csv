@@ -1,0 +1,37 @@
+Barry,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1574563483,,Employee Compensation,,701098871
+Total Personal Income,,2180765000,,Proprietor Income,,188816946
+Total Employment,,23094,,Other Property Type Income,,548153752
+,,,,Tax on Production and Import,,136493914
+Number of Industries,,184,,,,
+Land Area (Sq. Miles),,556,,Total Value Added,,1574563483
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,59281,,Households,,2120662676
+Total Households,,22543,,State/Local Government,,251545093
+Average Household Income,,96736,,Federal Government,,23256186
+,,,,Capital,,472053652
+Trade Flows Method,,Trade Flows Model,,Exports,,2001271020
+Model Status,,Multipliers,,Imports,,-3213577267
+,,,,Institutional Sales,,-80647881
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71243,,Total Final Demand:,,1574563479
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,1187,70655960,79530970
+440,Real estate,,,1146,3194289,86987870
+331,Other major household appliance manufacturing,,,1097,149766800,823346500
+509,Personal care services,,,767,11433720,20632430
+533,"* Employment and payroll of local govt, non-education",,,613,28909200,32567890
+482,Hospitals,,,586,40685670,80619410
+502,Limited-service restaurants,,,519,7474017,36218690
+436,Other financial investment activities,,,496,643249,52240690
+407,Retail - Nonstore retailers,,,495,2924213,36070060
+501,Full-service restaurants,,,451,7202564,17340390
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Barry County             ,,,,,

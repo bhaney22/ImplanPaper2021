@@ -1,0 +1,37 @@
+Leelanau,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,559092655,,Employee Compensation,,308364106
+Total Personal Income,,1157722000,,Proprietor Income,,64502579
+Total Employment,,10851,,Other Property Type Income,,159636908
+,,,,Tax on Production and Import,,26589063
+Number of Industries,,159,,,,
+Land Area (Sq. Miles),,349,,Total Value Added,,559092655
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,21915,,Households,,942084196
+Total Households,,9380,,State/Local Government,,113661853
+Average Household Income,,123423,,Federal Government,,27883616
+,,,,Capital,,264051215
+Trade Flows Method,,Trade Flows Model,,Exports,,517206227
+Model Status,,Multipliers,,Imports,,-1270833082
+,,,,Institutional Sales,,-34961373
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.65619,,Total Final Demand:,,559092652
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,1285,63629490,294747500
+440,Real estate,,,621,3812916,69578490
+501,Full-service restaurants,,,541,12458050,24362500
+4,Fruit farming,,,535,19915930,35764310
+533,"* Employment and payroll of local govt, non-education",,,458,21993990,24777510
+534,"* Employment and payroll of local govt, education",,,335,22495030,25320600
+469,Landscape and horticultural services,,,284,4909771,10955550
+509,Personal care services,,,229,4034421,6804764
+483,Nursing and community care facilities,,,227,8174591,14148360
+395,Wholesale trade,,,218,7472636,35149430
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Leelanau County          ,,,,,

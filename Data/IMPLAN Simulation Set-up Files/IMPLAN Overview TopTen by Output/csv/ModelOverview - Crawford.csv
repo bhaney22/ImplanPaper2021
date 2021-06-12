@@ -1,0 +1,37 @@
+Crawford,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,351151520,,Employee Compensation,,201352154
+Total Personal Income,,425078100,,Proprietor Income,,33331010
+Total Employment,,5955,,Other Property Type Income,,81097263
+,,,,Tax on Production and Import,,35371092
+Number of Industries,,131,,,,
+Land Area (Sq. Miles),,558,,Total Value Added,,351151520
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,13745,,Households,,475031205
+Total Households,,5883,,State/Local Government,,88875947
+Average Household Income,,72253,,Federal Government,,31532461
+,,,,Capital,,214898327
+Trade Flows Method,,Trade Flows Model,,Exports,,266399503
+Model Status,,Multipliers,,Imports,,-699471426
+,,,,Institutional Sales,,-26114499
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67159,,Total Final Demand:,,351151519
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,568,37671030,76290300
+138,Reconstituted wood product manufacturing,,,112,7668265,56173420
+441,Owner-occupied dwellings,,,0,0,50669320
+356,Other motor vehicle parts manufacturing,,,81,7218932,45413680
+61,Construction of other new residential structures,,,153,2888776,40897580
+395,Wholesale trade,,,143,6721457,26481630
+531,"* Employment and payroll of state govt, non-education",,,222,21221360,24091980
+50,Natural gas distribution,,,34,2677987,19880900
+440,Real estate,,,263,326039,19629280
+134,Sawmills,,,65,2674476,16883580
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Crawford County          ,,,,,

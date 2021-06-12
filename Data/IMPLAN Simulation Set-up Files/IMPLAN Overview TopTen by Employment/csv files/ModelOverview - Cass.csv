@@ -1,0 +1,37 @@
+Cass,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,917271510,,Employee Compensation,,427322832
+Total Personal Income,,1935178000,,Proprietor Income,,106845683
+Total Employment,,15215,,Other Property Type Income,,298181385
+,,,,Tax on Production and Import,,84921610
+Number of Industries,,178,,,,
+Land Area (Sq. Miles),,492,,Total Value Added,,917271510
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,51608,,Households,,1796766237
+Total Households,,20329,,State/Local Government,,225780918
+Average Household Income,,95192,,Federal Government,,20094182
+,,,,Capital,,272417235
+Trade Flows Method,,Trade Flows Model,,Exports,,783120455
+Model Status,,Multipliers,,Imports,,-2110618086
+,,,,Institutional Sales,,-70289427
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69207,,Total Final Demand:,,917271514
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,1162,68820980,77465500
+14,"Animal production, except cattle and poultry and eggs",,,862,24840990,65762940
+501,Full-service restaurants,,,701,10125150,25927310
+440,Real estate,,,614,4178840,51313060
+533,"* Employment and payroll of local govt, non-education",,,550,26740880,30125150
+395,Wholesale trade,,,516,29058670,102212700
+195,Other plastics product manufacturing,,,494,23784300,122984900
+509,Personal care services,,,311,4974401,8527596
+468,Services to buildings,,,266,2587136,6288121
+469,Landscape and horticultural services,,,260,4021831,9368292
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Cass County              ,,,,,

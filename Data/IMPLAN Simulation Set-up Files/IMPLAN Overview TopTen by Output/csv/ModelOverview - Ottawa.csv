@@ -1,0 +1,37 @@
+Ottawa,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,11242419202,,Employee Compensation,,6571216923
+Total Personal Income,,10673430000,,Proprietor Income,,536903272
+Total Employment,,145325,,Other Property Type Income,,3235597207
+,,,,Tax on Production and Import,,898701801
+Number of Industries,,323,,,,
+Land Area (Sq. Miles),,566,,Total Value Added,,11242419202
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,276292,,Households,,9902136866
+Total Households,,100066,,State/Local Government,,1752247231
+Average Household Income,,106665,,Federal Government,,146295224
+,,,,Capital,,2136941176
+Trade Flows Method,,Trade Flows Model,,Exports,,15794505453
+Model Status,,Multipliers,,Imports,,-17948549444
+,,,,Institutional Sales,,-541157263
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.76233,,Total Final Demand:,,11242419243
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+354,Motor vehicle seating and interior trim manufacturing,,,2737,246414700,1588179000
+42,Electric power generation - Fossil  fuel,,,1029,132959100,1366706000
+395,Wholesale trade,,,5313,383348300,1182668000
+441,Owner-occupied dwellings,,,0,0,1122590000
+90,Meat processed from carcasses,,,2018,142198000,1029100000
+373,Wood office furniture manufacturing,,,2605,220230700,673620000
+87,"Dry, condensed, and evaporated dairy product manufacturing",,,390,36922560,649140400
+233,Custom roll forming,,,1474,98131080,601100500
+375,"Office furniture, except wood, manufacturing",,,1583,88294540,593387900
+174,Pharmaceutical preparation manufacturing,,,501,42090220,580103300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Ottawa County            ,,,,,

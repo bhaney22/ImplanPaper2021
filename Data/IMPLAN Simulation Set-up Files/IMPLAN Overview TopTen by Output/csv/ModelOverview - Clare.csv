@@ -1,0 +1,37 @@
+Clare,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,653661128,,Employee Compensation,,340049951
+Total Personal Income,,963824500,,Proprietor Income,,77812474
+Total Employment,,12646,,Other Property Type Income,,155899504
+,,,,Tax on Production and Import,,79899198
+Number of Industries,,158,,,,
+Land Area (Sq. Miles),,567,,Total Value Added,,653661128
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,30652,,Households,,970984787
+Total Households,,12842,,State/Local Government,,195448705
+Average Household Income,,75054,,Federal Government,,19185394
+,,,,Capital,,319246566
+Trade Flows Method,,Trade Flows Model,,Exports,,437786330
+Model Status,,Multipliers,,Imports,,-1231360247
+,,,,Institutional Sales,,-57630410
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69205,,Total Final Demand:,,653661125
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,101485200
+395,Wholesale trade,,,441,10500690,64368100
+534,"* Employment and payroll of local govt, education",,,896,57124480,64299810
+354,Motor vehicle seating and interior trim manufacturing,,,118,7780081,63759040
+61,Construction of other new residential structures,,,214,4992955,57987770
+440,Real estate,,,615,2568711,47580120
+513,Religious organizations,,,345,10847070,40686870
+385,Sporting and athletic goods manufacturing,,,159,10671010,39777180
+482,Hospitals,,,279,16654400,35511010
+280,Cutting tool and machine tool accessory manufacturing,,,159,14629290,32492490
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Clare County             ,,,,,

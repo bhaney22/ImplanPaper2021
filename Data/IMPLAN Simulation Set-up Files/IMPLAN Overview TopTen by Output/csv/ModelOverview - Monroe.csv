@@ -1,0 +1,37 @@
+Monroe,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4898733085,,Employee Compensation,,2610957921
+Total Personal Income,,6031727000,,Proprietor Income,,289796154
+Total Employment,,59624,,Other Property Type Income,,1454789888
+,,,,Tax on Production and Import,,543189122
+Number of Industries,,244,,,,
+Land Area (Sq. Miles),,551,,Total Value Added,,4898733085
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,149824,,Households,,5474445123
+Total Households,,57195,,State/Local Government,,646252966
+Average Household Income,,105459,,Federal Government,,64708704
+,,,,Capital,,1163222208
+Trade Flows Method,,Trade Flows Model,,Exports,,5813338012
+Model Status,,Multipliers,,Imports,,-8062376852
+,,,,Institutional Sales,,-200857035
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73464,,Total Final Demand:,,4898733126
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+42,Electric power generation - Fossil  fuel,,,1106,182063200,1556508000
+217,Iron and steel mills and ferroalloy manufacturing,,,610,59907610,668954000
+43,Electric power generation - Nuclear,,,777,132374800,658149700
+441,Owner-occupied dwellings,,,0,0,617851700
+395,Wholesale trade,,,2070,134164800,435463300
+461,Management of companies and enterprises,,,1622,235260200,403232400
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,453,48898700,312071000
+534,"* Employment and payroll of local govt, education",,,3269,202438400,227866500
+156,Petroleum refineries,,,23,10115000,200491600
+482,Hospitals,,,1403,83963090,178698700
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Monroe County            ,,,,,

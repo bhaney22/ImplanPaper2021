@@ -1,0 +1,37 @@
+St Joseph,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,2073916498,,Employee Compensation,,1166526409
+Total Personal Income,,2002750000,,Proprietor Income,,98106007
+Total Employment,,31706,,Other Property Type Income,,669605028
+,,,,Tax on Production and Import,,139679054
+Number of Industries,,205,,,,
+Land Area (Sq. Miles),,504,,Total Value Added,,2073916498
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,60946,,Households,,1974075107
+Total Households,,23177,,State/Local Government,,300691564
+Average Household Income,,86412,,Federal Government,,25396153
+,,,,Capital,,297978409
+Trade Flows Method,,Trade Flows Model,,Exports,,4308803115
+Model Status,,Multipliers,,Imports,,-4732787035
+,,,,Institutional Sales,,-100240817
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68796,,Total Final Demand:,,2073916497
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+353,Motor vehicle transmission and power train parts manufacturing,,,1566,90719890,887257500
+87,"Dry, condensed, and evaporated dairy product manufacturing",,,498,37273410,808957400
+192,Polystyrene foam product manufacturing,,,882,51171480,335347600
+195,Other plastics product manufacturing,,,1174,61516800,298431800
+346,Motor vehicle body manufacturing,,,855,62315110,277186500
+156,Petroleum refineries,,,28,4869641,248082000
+441,Owner-occupied dwellings,,,0,0,214765100
+356,Other motor vehicle parts manufacturing,,,311,15082640,150464200
+395,Wholesale trade,,,649,42146390,136485700
+534,"* Employment and payroll of local govt, education",,,1693,98948560,111377400
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,St. Joseph County        ,,,,,

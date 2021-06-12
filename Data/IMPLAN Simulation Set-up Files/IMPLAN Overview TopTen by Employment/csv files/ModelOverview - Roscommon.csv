@@ -1,0 +1,37 @@
+Roscommon,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,412401365,,Employee Compensation,,219732124
+Total Personal Income,,789497700,,Proprietor Income,,23763786
+Total Employment,,7193,,Other Property Type Income,,115962855
+,,,,Tax on Production and Import,,52942600
+Number of Industries,,145,,,,
+Land Area (Sq. Miles),,521,,Total Value Added,,412401365
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,23955,,Households,,854346357
+Total Households,,11225,,State/Local Government,,141666888
+Average Household Income,,70333,,Federal Government,,8819537
+,,,,Capital,,123030463
+Trade Flows Method,,Trade Flows Model,,Exports,,293879238
+Model Status,,Multipliers,,Imports,,-971427291
+,,,,Institutional Sales,,-37913826
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.64774,,Total Final Demand:,,412401365
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,613,38578350,43424130
+355,Motor vehicle metal stamping,,,371,17056400,126511800
+501,Full-service restaurants,,,365,5512047,13713110
+405,Retail - General merchandise stores,,,359,10039880,27185330
+533,"* Employment and payroll of local govt, non-education",,,354,15031930,16934340
+440,Real estate,,,271,1141035,27166940
+483,Nursing and community care facilities,,,248,6745149,13243220
+503,All other food and drinking places,,,244,4183119,7182207
+396,Retail - Motor vehicle and parts dealers,,,193,8460426,21853160
+399,Retail - Building material and garden equipment and supplies stores,,,181,5309400,15668600
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Roscommon County         ,,,,,

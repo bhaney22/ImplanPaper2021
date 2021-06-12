@@ -1,0 +1,37 @@
+Kent,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,36558389931,,Employee Compensation,,21417458708
+Total Personal Income,,26433820000,,Proprietor Income,,2321987656
+Total Employment,,453751,,Other Property Type Income,,10155488967
+,,,,Tax on Production and Import,,2663454600
+Number of Industries,,382,,,,
+Land Area (Sq. Miles),,856,,Total Value Added,,36558389931
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,629237,,Households,,22838831809
+Total Households,,239287,,State/Local Government,,2848226350
+Average Household Income,,110469,,Federal Government,,708564607
+,,,,Capital,,6086051857
+Trade Flows Method,,Trade Flows Model,,Exports,,33458921168
+Model Status,,Multipliers,,Imports,,-28467194000
+,,,,Institutional Sales,,-915011870
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.74536,,Total Final Demand:,,36558389921
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+464,Employment services,,,33174,905533900,1576139000
+395,Wholesale trade,,,24146,1781519000,5491488000
+482,Hospitals,,,23803,1551850000,3168230000
+534,"* Employment and payroll of local govt, education",,,13608,911131300,1025577000
+501,Full-service restaurants,,,13146,259526500,551444500
+440,Real estate,,,11577,307229000,2134676000
+502,Limited-service restaurants,,,10158,171901400,761448000
+483,Nursing and community care facilities,,,8621,269697500,496215100
+405,Retail - General merchandise stores,,,8589,232933400,641665600
+475,Offices of physicians,,,7828,970234500,1296504000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Kent County              ,,,,,

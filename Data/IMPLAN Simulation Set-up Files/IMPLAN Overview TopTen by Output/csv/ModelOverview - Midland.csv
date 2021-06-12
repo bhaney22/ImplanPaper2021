@@ -1,0 +1,37 @@
+Midland,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4340675787,,Employee Compensation,,2777427380
+Total Personal Income,,3930861000,,Proprietor Income,,168414575
+Total Employment,,50618,,Other Property Type Income,,981851603
+,,,,Tax on Production and Import,,412982229
+Number of Industries,,208,,,,
+Land Area (Sq. Miles),,521,,Total Value Added,,4340675787
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,83427,,Households,,3309721693
+Total Households,,33531,,State/Local Government,,421236824
+Average Household Income,,117230,,Federal Government,,35331875
+,,,,Capital,,955476777
+Trade Flows Method,,Trade Flows Model,,Exports,,8994677674
+Model Status,,Multipliers,,Imports,,-9216160842
+,,,,Institutional Sales,,-159608218
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69486,,Total Final Demand:,,4340675782
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+166,Plastics material and resin manufacturing,,,3584,495263600,5621045000
+461,Management of companies and enterprises,,,3002,585784500,911002000
+431,"News syndicates, libraries, archives and all other information services",,,789,7663114,596566700
+441,Owner-occupied dwellings,,,0,0,373846300
+482,Hospitals,,,2446,166111500,332704500
+185,Custom compounding of purchased resins,,,600,44588020,314395500
+156,Petroleum refineries,,,34,4094164,289467900
+464,Employment services,,,2574,180715700,267859600
+42,Electric power generation - Fossil  fuel,,,195,28439440,266296000
+440,Real estate,,,1439,15172630,184079300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Midland County           ,,,,,

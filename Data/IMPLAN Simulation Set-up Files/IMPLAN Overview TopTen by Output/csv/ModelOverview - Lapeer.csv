@@ -1,0 +1,37 @@
+Lapeer,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1851551337,,Employee Compensation,,941149875
+Total Personal Income,,3121427000,,Proprietor Income,,179549032
+Total Employment,,31704,,Other Property Type Income,,552175179
+,,,,Tax on Production and Import,,178677251
+Number of Industries,,219,,,,
+Land Area (Sq. Miles),,654,,Total Value Added,,1851551337
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,88153,,Households,,3141944423
+Total Households,,33015,,State/Local Government,,450990990
+Average Household Income,,94546,,Federal Government,,35152674
+,,,,Capital,,727381026
+Trade Flows Method,,Trade Flows Model,,Exports,,2033065831
+Model Status,,Multipliers,,Imports,,-4403140796
+,,,,Institutional Sales,,-133842813
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72768,,Total Final Demand:,,1851551336
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,353437700
+81,Canned fruits and vegetables manufacturing,,,475,23414810,237750100
+195,Other plastics product manufacturing,,,896,37106390,215591100
+345,Heavy duty truck manufacturing,,,180,11572180,187028700
+440,Real estate,,,1276,9414424,136076400
+61,Construction of other new residential structures,,,440,11025230,120516700
+502,Limited-service restaurants,,,1540,22977550,110642400
+533,"* Employment and payroll of local govt, non-education",,,1929,98084520,110497900
+355,Motor vehicle metal stamping,,,282,17945660,104115700
+261,Other fabricated metal manufacturing,,,442,21412310,89551980
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Lapeer County            ,,,,,

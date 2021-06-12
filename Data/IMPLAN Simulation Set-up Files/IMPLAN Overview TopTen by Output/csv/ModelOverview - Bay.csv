@@ -1,0 +1,37 @@
+Bay,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,3518523502,,Employee Compensation,,1983673629
+Total Personal Income,,3833202000,,Proprietor Income,,171801993
+Total Employment,,47553,,Other Property Type Income,,1005860959
+,,,,Tax on Production and Import,,357186921
+Number of Industries,,232,,,,
+Land Area (Sq. Miles),,444,,Total Value Added,,3518523502
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,106179,,Households,,3883387303
+Total Households,,44110,,State/Local Government,,640486880
+Average Household Income,,86900,,Federal Government,,102284315
+,,,,Capital,,526354917
+Trade Flows Method,,Trade Flows Model,,Exports,,3251899390
+Model Status,,Multipliers,,Imports,,-4707110937
+,,,,Institutional Sales,,-178778359
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72135,,Total Final Demand:,,3518523509
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+42,Electric power generation - Fossil  fuel,,,403,57474360,547174100
+441,Owner-occupied dwellings,,,0,0,426352100
+74,Beet sugar manufacturing,,,481,29038820,335412200
+395,Wholesale trade,,,1543,88697700,310715600
+482,Hospitals,,,1617,138795300,251037700
+49,Electric power transmission and distribution,,,188,25789860,250033800
+534,"* Employment and payroll of local govt, education",,,3018,191405600,215447900
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,307,27984250,202121500
+451,Custom computer programming services,,,713,108392700,190491000
+188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,366,39231440,180519000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Bay County               ,,,,,

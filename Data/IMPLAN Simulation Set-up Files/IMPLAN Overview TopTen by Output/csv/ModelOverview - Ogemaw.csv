@@ -1,0 +1,37 @@
+Ogemaw,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,441386200,,Employee Compensation,,230358621
+Total Personal Income,,634900700,,Proprietor Income,,39852093
+Total Employment,,8480,,Other Property Type Income,,112060029
+,,,,Tax on Production and Import,,59115458
+Number of Industries,,162,,,,
+Land Area (Sq. Miles),,564,,Total Value Added,,441386200
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,21039,,Households,,695131289
+Total Households,,9005,,State/Local Government,,120280872
+Average Household Income,,70504,,Federal Government,,12030616
+,,,,Capital,,141029730
+Trade Flows Method,,Trade Flows Model,,Exports,,267209240
+Model Status,,Multipliers,,Imports,,-762219173
+,,,,Institutional Sales,,-32076374
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66465,,Total Final Demand:,,441386200
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,73160400
+395,Wholesale trade,,,287,11465320,50007120
+533,"* Employment and payroll of local govt, non-education",,,777,38156120,42985080
+12,Dairy cattle and milk production,,,129,8802081,38180770
+482,Hospitals,,,281,17093610,36086420
+405,Retail - General merchandise stores,,,392,10616990,29266450
+440,Real estate,,,259,1245926,26972710
+502,Limited-service restaurants,,,381,5464085,26847720
+403,Retail - Clothing and clothing accessories stores,,,325,5946025,23826110
+61,Construction of other new residential structures,,,74,1594868,19989820
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Ogemaw County            ,,,,,

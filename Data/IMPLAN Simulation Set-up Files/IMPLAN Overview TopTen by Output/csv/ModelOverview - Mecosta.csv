@@ -1,0 +1,37 @@
+Mecosta,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1319127289,,Employee Compensation,,709801029
+Total Personal Income,,1301364000,,Proprietor Income,,91405163
+Total Employment,,19664,,Other Property Type Income,,414267898
+,,,,Tax on Production and Import,,103653199
+Number of Industries,,178,,,,
+Land Area (Sq. Miles),,556,,Total Value Added,,1319127289
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,43186,,Households,,1443961839
+Total Households,,17428,,State/Local Government,,528835409
+Average Household Income,,74670,,Federal Government,,20496942
+,,,,Capital,,201079301
+Trade Flows Method,,Trade Flows Model,,Exports,,1554261657
+Model Status,,Multipliers,,Imports,,-2277927979
+,,,,Institutional Sales,,-151579894
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66477,,Total Final Demand:,,1319127274
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+343,Automobile manufacturing,,,384,35163610,648393500
+532,"* Employment and payroll of state govt, education",,,2794,148695200,168402300
+441,Owner-occupied dwellings,,,0,0,155600000
+152,Sanitary paper product manufacturing,,,179,12149870,140608300
+355,Motor vehicle metal stamping,,,309,18117340,111615400
+86,Cheese manufacturing,,,94,5924294,92112900
+531,"* Employment and payroll of state govt, non-education",,,858,72256640,82030790
+131,Leather and hide tanning and finishing,,,218,7693796,77672500
+132,Footwear manufacturing,,,417,19637080,73863710
+440,Real estate,,,773,3478463,70627060
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Mecosta County           ,,,,,

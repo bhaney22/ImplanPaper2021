@@ -1,0 +1,37 @@
+Antrim,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,482305063,,Employee Compensation,,210385873
+Total Personal Income,,856706200,,Proprietor Income,,67273357
+Total Employment,,9864,,Other Property Type Income,,143713199
+,,,,Tax on Production and Import,,60932634
+Number of Industries,,163,,,,
+Land Area (Sq. Miles),,477,,Total Value Added,,482305063
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,23267,,Households,,854529108
+Total Households,,9748,,State/Local Government,,126223951
+Average Household Income,,87887,,Federal Government,,15722234
+,,,,Capital,,264258203
+Trade Flows Method,,Trade Flows Model,,Exports,,477399096
+Model Status,,Multipliers,,Imports,,-1216648226
+,,,,Institutional Sales,,-39179303
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69043,,Total Final Demand:,,482305063
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+81,Canned fruits and vegetables manufacturing,,,205,6245038,97128350
+441,Owner-occupied dwellings,,,0,0,93667490
+440,Real estate,,,674,4474253,70979060
+61,Construction of other new residential structures,,,183,4322071,49501510
+431,"News syndicates, libraries, archives and all other information services",,,46,925406,35418090
+167,Synthetic rubber manufacturing,,,32,1654581,30770130
+499,"Hotels and motels, including casino hotels",,,285,6539380,27977190
+279,"Special tool, die, jig, and fixture manufacturing",,,175,11018760,27459490
+534,"* Employment and payroll of local govt, education",,,411,24309750,27363270
+533,"* Employment and payroll of local govt, non-education",,,512,23845880,26863770
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Antrim County            ,,,,,

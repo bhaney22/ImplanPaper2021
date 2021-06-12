@@ -1,0 +1,37 @@
+Wayne,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,88435968750,,Employee Compensation,,51568492131
+Total Personal Income,,67237460000,,Proprietor Income,,4449348261
+Total Employment,,921902,,Other Property Type Income,,26705319705
+,,,,Tax on Production and Import,,5712808653
+Number of Industries,,430,,,,
+Land Area (Sq. Miles),,614,,Total Value Added,,88435968750
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,1764804,,Households,,59794083275
+Total Households,,681609,,State/Local Government,,9137410859
+Average Household Income,,98645,,Federal Government,,4410514355
+,,,,Capital,,10083863516
+Trade Flows Method,,Trade Flows Model,,Exports,,95392770475
+Model Status,,Multipliers,,Imports,,-87842188844
+,,,,Institutional Sales,,-2540484911
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.74229,,Total Final Demand:,,88435968725
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+343,Automobile manufacturing,,,18359,2044406000,32168620000
+395,Wholesale trade,,,31561,2906146000,8019917000
+482,Hospitals,,,52665,3918464000,7529871000
+441,Owner-occupied dwellings,,,0,0,6562440000
+461,Management of companies and enterprises,,,22017,3141507000,5418388000
+456,Scientific research and development services,,,17843,2242123000,5114524000
+217,Iron and steel mills and ferroalloy manufacturing,,,4398,488965900,4942032000
+344,Light truck and utility vehicle manufacturing,,,2261,200963100,4838780000
+408,Air transportation,,,10532,1102861000,4086684000
+440,Real estate,,,21291,376135600,3699393000
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Wayne County             ,,,,,

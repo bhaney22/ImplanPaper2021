@@ -1,0 +1,37 @@
+Missaukee,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,340111151,,Employee Compensation,,141010451
+Total Personal Income,,438355700,,Proprietor Income,,61125265
+Total Employment,,5796,,Other Property Type Income,,104825035
+,,,,Tax on Production and Import,,33150400
+Number of Industries,,140,,,,
+Land Area (Sq. Miles),,567,,Total Value Added,,340111151
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,15037,,Households,,491401171
+Total Households,,5923,,State/Local Government,,57572984
+Average Household Income,,74005,,Federal Government,,5530413
+,,,,Capital,,144443132
+Trade Flows Method,,Trade Flows Model,,Exports,,379450227
+Model Status,,Multipliers,,Imports,,-717827270
+,,,,Institutional Sales,,-20459508
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66663,,Total Final Demand:,,340111149
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+12,Dairy cattle and milk production,,,356,31474100,123217600
+134,Sawmills,,,287,11878690,75026940
+441,Owner-occupied dwellings,,,0,0,52700700
+395,Wholesale trade,,,252,7126877,38712500
+411,Truck transportation,,,245,10696580,34613980
+61,Construction of other new residential structures,,,92,2331226,25114160
+534,"* Employment and payroll of local govt, education",,,241,16184110,18216980
+16,Commercial logging,,,152,8334656,17841710
+88,Ice cream and frozen dessert manufacturing,,,43,1618175,15128010
+231,Iron and steel forging,,,34,2137097,14663550
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Missaukee County         ,,,,,

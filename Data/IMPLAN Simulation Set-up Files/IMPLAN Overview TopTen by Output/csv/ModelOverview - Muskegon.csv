@@ -1,0 +1,37 @@
+Muskegon,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,5667016796,,Employee Compensation,,3283893944
+Total Personal Income,,5709559000,,Proprietor Income,,280441454
+Total Employment,,82779,,Other Property Type Income,,1516138978
+,,,,Tax on Production and Import,,586542420
+Number of Industries,,262,,,,
+Land Area (Sq. Miles),,509,,Total Value Added,,5667016796
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,172344,,Households,,5689745836
+Total Households,,67353,,State/Local Government,,885974306
+Average Household Income,,84771,,Federal Government,,108498421
+,,,,Capital,,1082228932
+Trade Flows Method,,Trade Flows Model,,Exports,,6548638858
+Model Status,,Multipliers,,Imports,,-8399767291
+,,,,Institutional Sales,,-248302265
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73329,,Total Final Demand:,,5667016796
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+230,Nonferrous metal foundries,,,2839,207513200,740573600
+441,Owner-occupied dwellings,,,0,0,617394000
+482,Hospitals,,,4330,291886500,586575700
+42,Electric power generation - Fossil  fuel,,,374,47237320,493725000
+395,Wholesale trade,,,1969,131611800,421093900
+163,Synthetic dye and pigment manufacturing,,,330,24957650,308690000
+534,"* Employment and payroll of local govt, education",,,3818,247988200,279137700
+440,Real estate,,,2499,28936240,264111600
+229,Ferrous metal foundries,,,833,52753040,249494900
+502,Limited-service restaurants,,,3255,50103730,236508300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Muskegon County          ,,,,,

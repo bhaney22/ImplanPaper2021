@@ -1,0 +1,37 @@
+Chippewa,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1080606571,,Employee Compensation,,634289280
+Total Personal Income,,1256835000,,Proprietor Income,,44571885
+Total Employment,,17309,,Other Property Type Income,,301068618
+,,,,Tax on Production and Import,,100676787
+Number of Industries,,169,,,,
+Land Area (Sq. Miles),,1561,,Total Value Added,,1080606571
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,38321,,Households,,1358559838
+Total Households,,16192,,State/Local Government,,609001976
+Average Household Income,,77621,,Federal Government,,244233726
+,,,,Capital,,210785083
+Trade Flows Method,,Trade Flows Model,,Exports,,603547284
+Model Status,,Multipliers,,Imports,,-1786718632
+,,,,Institutional Sales,,-158802701
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.64358,,Total Final Demand:,,1080606573
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,2307,110220000,124169200
+534,"* Employment and payroll of local govt, education",,,1314,78247090,88075610
+395,Wholesale trade,,,940,14526080,127114600
+531,"* Employment and payroll of state govt, non-education",,,775,63293520,71855240
+532,"* Employment and payroll of state govt, education",,,666,34361700,38915800
+405,Retail - General merchandise stores,,,608,14944790,43589470
+526,Other local government enterprises,,,592,25558080,131117300
+501,Full-service restaurants,,,441,7329894,17207540
+440,Real estate,,,403,1661089,36702190
+535,"* Employment and payroll of federal govt, non-military",,,390,45623240,67259320
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Chippewa County          ,,,,,

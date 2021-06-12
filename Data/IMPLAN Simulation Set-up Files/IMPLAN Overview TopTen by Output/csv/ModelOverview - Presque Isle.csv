@@ -1,0 +1,37 @@
+Presque Isle,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,273427660,,Employee Compensation,,147218333
+Total Personal Income,,430621100,,Proprietor Income,,14170595
+Total Employment,,4867,,Other Property Type Income,,84494950
+,,,,Tax on Production and Import,,27543781
+Number of Industries,,141,,,,
+Land Area (Sq. Miles),,660,,Total Value Added,,273427660
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,13004,,Households,,467458877
+Total Households,,5844,,State/Local Government,,63045681
+Average Household Income,,73682,,Federal Government,,8131511
+,,,,Capital,,70244637
+Trade Flows Method,,Trade Flows Model,,Exports,,232811315
+Model Status,,Multipliers,,Imports,,-547914433
+,,,,Institutional Sales,,-20349928
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67893,,Total Final Demand:,,273427660
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,49893440
+30,Stone mining and quarrying,,,208,6972341,37004900
+49,Electric power transmission and distribution,,,24,2598978,30028960
+482,Hospitals,,,250,11816070,28494440
+134,Sawmills,,,89,4025119,23647060
+410,Water transportation,,,30,3729488,23160860
+426,Cable and other subscription programming,,,30,792223,21872670
+411,Truck transportation,,,146,4778912,19103910
+188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,43,1368305,15712160
+415,Couriers and messengers,,,92,7131983,15091650
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Presque Isle County      ,,,,,

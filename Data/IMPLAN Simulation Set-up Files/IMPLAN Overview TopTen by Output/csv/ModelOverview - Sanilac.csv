@@ -1,0 +1,37 @@
+Sanilac,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1098227950,,Employee Compensation,,490378738
+Total Personal Income,,1453587000,,Proprietor Income,,129600173
+Total Employment,,17172,,Other Property Type Income,,384237024
+,,,,Tax on Production and Import,,94012016
+Number of Industries,,183,,,,
+Land Area (Sq. Miles),,964,,Total Value Added,,1098227950
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,41587,,Households,,1369786713
+Total Households,,16580,,State/Local Government,,198454607
+Average Household Income,,87671,,Federal Government,,17882523
+,,,,Capital,,296976408
+Trade Flows Method,,Trade Flows Model,,Exports,,1241775750
+Model Status,,Multipliers,,Imports,,-1959412000
+,,,,Institutional Sales,,-67236056
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.70236,,Total Final Demand:,,1098227945
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,147866400
+12,Dairy cattle and milk production,,,443,31277970,144697100
+74,Beet sugar manufacturing,,,203,11294670,139055400
+395,Wholesale trade,,,682,37387200,134466300
+81,Canned fruits and vegetables manufacturing,,,253,11455490,125336800
+2,Grain farming,,,334,5683302,95283720
+482,Hospitals,,,767,35537750,86580560
+250,"Turned product and screw, nut, and bolt manufacturing",,,407,22431290,86196990
+198,Other rubber product manufacturing,,,247,10132920,69103500
+254,"Valve and fittings, other than plumbing, manufacturing",,,213,14007770,66589550
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Sanilac County           ,,,,,

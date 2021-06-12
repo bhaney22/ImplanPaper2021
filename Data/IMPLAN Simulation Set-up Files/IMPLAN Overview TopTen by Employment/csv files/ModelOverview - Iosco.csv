@@ -1,0 +1,37 @@
+Iosco,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,606574609,,Employee Compensation,,348500801
+Total Personal Income,,862315600,,Proprietor Income,,30795513
+Total Employment,,10377,,Other Property Type Income,,166988569
+,,,,Tax on Production and Import,,60289726
+Number of Industries,,164,,,,
+Land Area (Sq. Miles),,549,,Total Value Added,,606574609
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25420,,Households,,911919799
+Total Households,,11582,,State/Local Government,,170152846
+Average Household Income,,74451,,Federal Government,,32778263
+,,,,Capital,,151902341
+Trade Flows Method,,Trade Flows Model,,Exports,,505454813
+Model Status,,Multipliers,,Imports,,-1118218918
+,,,,Institutional Sales,,-47414537
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68037,,Total Final Demand:,,606574608
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,741,32614620,36742260
+502,Limited-service restaurants,,,570,8836591,41697480
+414,Scenic and sightseeing transportation and support activities for transportation,,,543,45825980,98568040
+534,"* Employment and payroll of local govt, education",,,484,26652330,30000100
+440,Real estate,,,407,1085096,33089120
+482,Hospitals,,,334,19493430,42043810
+405,Retail - General merchandise stores,,,330,9319312,25099640
+503,All other food and drinking places,,,326,5394802,9546321
+501,Full-service restaurants,,,237,3360725,8699798
+465,Business support services,,,217,7035217,11110030
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Iosco County             ,,,,,

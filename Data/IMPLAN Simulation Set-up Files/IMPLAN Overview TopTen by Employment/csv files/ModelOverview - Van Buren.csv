@@ -1,0 +1,37 @@
+Van Buren,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1993320122,,Employee Compensation,,1132279038
+Total Personal Income,,2537639000,,Proprietor Income,,104764924
+Total Employment,,26693,,Other Property Type Income,,574811257
+,,,,Tax on Production and Import,,181464903
+Number of Industries,,208,,,,
+Land Area (Sq. Miles),,611,,Total Value Added,,1993320122
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,75199,,Households,,2511808641
+Total Households,,28487,,State/Local Government,,604049279
+Average Household Income,,89080,,Federal Government,,31822191
+,,,,Capital,,340704384
+Trade Flows Method,,Trade Flows Model,,Exports,,2196258284
+Model Status,,Multipliers,,Imports,,-3536849942
+,,,,Institutional Sales,,-154472708
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68002,,Total Final Demand:,,1993320130
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,2137,134885400,151828200
+533,"* Employment and payroll of local govt, non-education",,,1988,104475200,117697400
+456,Scientific research and development services,,,1321,84312910,276327200
+4,Fruit farming,,,1288,47718540,69043880
+501,Full-service restaurants,,,904,13816730,34132500
+502,Limited-service restaurants,,,814,12049930,58252010
+43,Electric power generation - Nuclear,,,702,117074400,590021000
+531,"* Employment and payroll of state govt, non-education",,,651,58923320,66893880
+405,Retail - General merchandise stores,,,633,16503820,46513920
+400,Retail - Food and beverage stores,,,633,14718600,37969520
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Van Buren County         ,,,,,

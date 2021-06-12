@@ -1,0 +1,37 @@
+Lapeer,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1851551337,,Employee Compensation,,941149875
+Total Personal Income,,3121427000,,Proprietor Income,,179549032
+Total Employment,,31704,,Other Property Type Income,,552175179
+,,,,Tax on Production and Import,,178677251
+Number of Industries,,219,,,,
+Land Area (Sq. Miles),,654,,Total Value Added,,1851551337
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,88153,,Households,,3141944423
+Total Households,,33015,,State/Local Government,,450990990
+Average Household Income,,94546,,Federal Government,,35152674
+,,,,Capital,,727381026
+Trade Flows Method,,Trade Flows Model,,Exports,,2033065831
+Model Status,,Multipliers,,Imports,,-4403140796
+,,,,Institutional Sales,,-133842813
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72768,,Total Final Demand:,,1851551336
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,1929,98084520,110497900
+502,Limited-service restaurants,,,1540,22977550,110642400
+440,Real estate,,,1276,9414424,136076400
+534,"* Employment and payroll of local govt, education",,,1168,74071600,83375650
+195,Other plastics product manufacturing,,,896,37106390,215591100
+405,Retail - General merchandise stores,,,853,21445670,61719890
+464,Employment services,,,837,21744950,38306330
+501,Full-service restaurants,,,673,10101340,25223920
+469,Landscape and horticultural services,,,518,11423180,22545990
+400,Retail - Food and beverage stores,,,513,12847450,31858230
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Lapeer County            ,,,,,

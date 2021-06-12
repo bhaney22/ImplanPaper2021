@@ -1,0 +1,37 @@
+Wexford,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1096006800,,Employee Compensation,,672144233
+Total Personal Income,,1037412000,,Proprietor Income,,42082943
+Total Employment,,17327,,Other Property Type Income,,271389013
+,,,,Tax on Production and Import,,110390611
+Number of Industries,,182,,,,
+Land Area (Sq. Miles),,566,,Total Value Added,,1096006800
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,32886,,Households,,1088523901
+Total Households,,13111,,State/Local Government,,220703568
+Average Household Income,,79125,,Federal Government,,32850758
+,,,,Capital,,172851764
+Trade Flows Method,,Trade Flows Model,,Exports,,1469841511
+Model Status,,Multipliers,,Imports,,-1830154927
+,,,,Institutional Sales,,-58609772
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69829,,Total Final Demand:,,1096006803
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+364,Boat building,,,900,74175870,252663800
+198,Other rubber product manufacturing,,,805,37584030,232232500
+534,"* Employment and payroll of local govt, education",,,775,49398660,55603570
+533,"* Employment and payroll of local govt, non-education",,,726,37731110,42506290
+405,Retail - General merchandise stores,,,662,17749560,49228380
+482,Hospitals,,,588,36329710,76131200
+501,Full-service restaurants,,,481,7379329,18177200
+502,Limited-service restaurants,,,477,7071263,34120660
+464,Employment services,,,473,9666155,18208430
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,392,28212170,195047500
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Wexford County           ,,,,,

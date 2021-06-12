@@ -1,0 +1,37 @@
+Oceana,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,649786450,,Employee Compensation,,329117462
+Total Personal Income,,913596700,,Proprietor Income,,60613825
+Total Employment,,10038,,Other Property Type Income,,201178253
+,,,,Tax on Production and Import,,58876910
+Number of Industries,,154,,,,
+Land Area (Sq. Miles),,541,,Total Value Added,,649786450
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,26221,,Households,,827484842
+Total Households,,10049,,State/Local Government,,163269330
+Average Household Income,,90917,,Federal Government,,11291906
+,,,,Capital,,143588722
+Trade Flows Method,,Trade Flows Model,,Exports,,945608744
+Model Status,,Multipliers,,Imports,,-1399733972
+,,,,Institutional Sales,,-41723120
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.66244,,Total Final Demand:,,649786452
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+79,"Frozen fruits, juices and vegetables manufacturing",,,597,28833820,262312800
+81,Canned fruits and vegetables manufacturing,,,370,17991520,184686700
+395,Wholesale trade,,,462,33673540,104924600
+353,Motor vehicle transmission and power train parts manufacturing,,,153,12103730,92708420
+441,Owner-occupied dwellings,,,0,0,88713500
+217,Iron and steel mills and ferroalloy manufacturing,,,58,4351138,60264640
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,120,6603865,56119620
+533,"* Employment and payroll of local govt, non-education",,,731,38625540,43513900
+4,Fruit farming,,,694,23904830,39888160
+375,"Office furniture, except wood, manufacturing",,,91,5275790,34500860
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Oceana County            ,,,,,

@@ -1,0 +1,37 @@
+Crawford,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,351151520,,Employee Compensation,,201352154
+Total Personal Income,,425078100,,Proprietor Income,,33331010
+Total Employment,,5955,,Other Property Type Income,,81097263
+,,,,Tax on Production and Import,,35371092
+Number of Industries,,131,,,,
+Land Area (Sq. Miles),,558,,Total Value Added,,351151520
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,13745,,Households,,475031205
+Total Households,,5883,,State/Local Government,,88875947
+Average Household Income,,72253,,Federal Government,,31532461
+,,,,Capital,,214898327
+Trade Flows Method,,Trade Flows Model,,Exports,,266399503
+Model Status,,Multipliers,,Imports,,-699471426
+,,,,Institutional Sales,,-26114499
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67159,,Total Final Demand:,,351151519
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,568,37671030,76290300
+440,Real estate,,,263,326039,19629280
+502,Limited-service restaurants,,,227,3287697,15988970
+531,"* Employment and payroll of state govt, non-education",,,222,21221360,24091980
+534,"* Employment and payroll of local govt, education",,,198,13487360,15181490
+533,"* Employment and payroll of local govt, non-education",,,189,8112682,9139405
+61,Construction of other new residential structures,,,153,2888776,40897580
+501,Full-service restaurants,,,144,2390707,5612507
+395,Wholesale trade,,,143,6721457,26481630
+483,Nursing and community care facilities,,,115,3432294,6455028
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Crawford County          ,,,,,

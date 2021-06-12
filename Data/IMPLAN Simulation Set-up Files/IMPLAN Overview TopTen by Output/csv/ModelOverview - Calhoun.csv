@@ -1,0 +1,37 @@
+Calhoun,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,6014071879,,Employee Compensation,,3606044434
+Total Personal Income,,5118186000,,Proprietor Income,,169840180
+Total Employment,,68120,,Other Property Type Income,,1880464043
+,,,,Tax on Production and Import,,357723221
+Number of Industries,,236,,,,
+Land Area (Sq. Miles),,709,,Total Value Added,,6014071879
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,134878,,Households,,4738884381
+Total Households,,54655,,State/Local Government,,928573450
+Average Household Income,,93645,,Federal Government,,969258105
+,,,,Capital,,721395944
+Trade Flows Method,,Trade Flows Model,,Exports,,6535349362
+Model Status,,Multipliers,,Imports,,-7623075443
+,,,,Institutional Sales,,-256313912
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.70712,,Total Final Demand:,,6014071887
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+356,Other motor vehicle parts manufacturing,,,3573,283439000,1929710000
+73,Breakfast cereal manufacturing,,,1139,136622900,1210007000
+351,Motor vehicle electrical and electronic equipment manufacturing,,,1922,101399500,729308200
+441,Owner-occupied dwellings,,,0,0,517945500
+395,Wholesale trade,,,2055,184075700,516927100
+535,"* Employment and payroll of federal govt, non-military",,,2605,274361300,404472600
+482,Hospitals,,,2533,173561300,346202900
+461,Management of companies and enterprises,,,1201,186758700,312318900
+456,Scientific research and development services,,,1162,119379000,299827700
+534,"* Employment and payroll of local govt, education",,,3897,258759200,291261600
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Calhoun County           ,,,,,

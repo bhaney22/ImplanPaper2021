@@ -1,0 +1,37 @@
+Presque Isle,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,273427660,,Employee Compensation,,147218333
+Total Personal Income,,430621100,,Proprietor Income,,14170595
+Total Employment,,4867,,Other Property Type Income,,84494950
+,,,,Tax on Production and Import,,27543781
+Number of Industries,,141,,,,
+Land Area (Sq. Miles),,660,,Total Value Added,,273427660
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,13004,,Households,,467458877
+Total Households,,5844,,State/Local Government,,63045681
+Average Household Income,,73682,,Federal Government,,8131511
+,,,,Capital,,70244637
+Trade Flows Method,,Trade Flows Model,,Exports,,232811315
+Model Status,,Multipliers,,Imports,,-547914433
+,,,,Institutional Sales,,-20349928
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.67893,,Total Final Demand:,,273427660
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+533,"* Employment and payroll of local govt, non-education",,,257,10061420,11334780
+482,Hospitals,,,250,11816070,28494440
+30,Stone mining and quarrying,,,208,6972341,37004900
+534,"* Employment and payroll of local govt, education",,,183,11325630,12748230
+502,Limited-service restaurants,,,179,2499124,12519830
+440,Real estate,,,168,545571,13182170
+411,Truck transportation,,,146,4778912,19103910
+16,Commercial logging,,,135,4054232,11809410
+483,Nursing and community care facilities,,,135,4248070,7794267
+400,Retail - Food and beverage stores,,,109,2834784,6919482
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Presque Isle County      ,,,,,

@@ -1,0 +1,37 @@
+Gogebic,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,438756106,,Employee Compensation,,269430054
+Total Personal Income,,554838100,,Proprietor Income,,23465435
+Total Employment,,7646,,Other Property Type Income,,121294651
+,,,,Tax on Production and Import,,24565966
+Number of Industries,,147,,,,
+Land Area (Sq. Miles),,1102,,Total Value Added,,438756106
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,15737,,Households,,568543220
+Total Households,,7374,,State/Local Government,,126302515
+Average Household Income,,75240,,Federal Government,,33915706
+,,,,Capital,,91517757
+Trade Flows Method,,Trade Flows Model,,Exports,,363740140
+Model Status,,Multipliers,,Imports,,-709931101
+,,,,Institutional Sales,,-35332131
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.6593,,Total Final Demand:,,438756106
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+526,Other local government enterprises,,,651,30579900,147304100
+441,Owner-occupied dwellings,,,0,0,59996020
+440,Real estate,,,278,3543691,53425720
+136,Veneer and plywood manufacturing,,,154,7460390,40708980
+482,Hospitals,,,229,18936200,34768740
+195,Other plastics product manufacturing,,,139,6526653,34399180
+534,"* Employment and payroll of local govt, education",,,428,24183010,27220610
+533,"* Employment and payroll of local govt, non-education",,,444,20292900,22861130
+395,Wholesale trade,,,114,4661416,19939850
+405,Retail - General merchandise stores,,,265,6868556,19436750
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Gogebic County           ,,,,,

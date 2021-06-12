@@ -1,0 +1,37 @@
+Cheboygan,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,534245303,,Employee Compensation,,253949382
+Total Personal Income,,858828200,,Proprietor Income,,55313644
+Total Employment,,11274,,Other Property Type Income,,147436405
+,,,,Tax on Production and Import,,77545873
+Number of Industries,,167,,,,
+Land Area (Sq. Miles),,716,,Total Value Added,,534245303
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,25675,,Households,,902990754
+Total Households,,10989,,State/Local Government,,115947450
+Average Household Income,,78150,,Federal Government,,46436864
+,,,,Capital,,360678598
+Trade Flows Method,,Trade Flows Model,,Exports,,288076220
+Model Status,,Multipliers,,Imports,,-1141196731
+,,,,Institutional Sales,,-38687851
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69405,,Total Final Demand:,,534245304
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+441,Owner-occupied dwellings,,,0,0,96683390
+61,Construction of other new residential structures,,,192,3340095,51609550
+440,Real estate,,,595,1497392,46265290
+534,"* Employment and payroll of local govt, education",,,463,29956640,33719460
+502,Limited-service restaurants,,,397,6735356,29830850
+58,Construction of other new nonresidential structures,,,218,7377434,26944660
+395,Wholesale trade,,,165,5636510,26872080
+356,Other motor vehicle parts manufacturing,,,56,2375561,26427100
+62,Maintenance and repair construction of nonresidential structures,,,191,6192986,26212340
+536,"* Employment and payroll of federal govt, military",,,119,7118306,25291760
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Cheboygan County         ,,,,,

@@ -1,0 +1,37 @@
+Montcalm,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1656285811,,Employee Compensation,,910416483
+Total Personal Income,,1762055000,,Proprietor Income,,93034571
+Total Employment,,20908,,Other Property Type Income,,536934132
+,,,,Tax on Production and Import,,115900624
+Number of Industries,,186,,,,
+Land Area (Sq. Miles),,708,,Total Value Added,,1656285811
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,62893,,Households,,1981325221
+Total Households,,24196,,State/Local Government,,313303976
+Average Household Income,,72824,,Federal Government,,24341896
+,,,,Capital,,340418465
+Trade Flows Method,,Trade Flows Model,,Exports,,1883820673
+Model Status,,Multipliers,,Imports,,-2803320365
+,,,,Institutional Sales,,-83604054
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.68981,,Total Final Demand:,,1656285811
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+329,Household refrigerator and home freezer manufacturing,,,1166,169471000,783992400
+441,Owner-occupied dwellings,,,0,0,212561400
+482,Hospitals,,,1571,91436900,197330000
+350,Motor vehicle gasoline engine and engine parts manufacturing,,,243,23032360,161636200
+395,Wholesale trade,,,422,22224530,81369450
+195,Other plastics product manufacturing,,,276,13599440,69075540
+12,Dairy cattle and milk production,,,204,14555420,63011280
+533,"* Employment and payroll of local govt, non-education",,,979,52050490,58637890
+534,"* Employment and payroll of local govt, education",,,823,50763670,57140040
+3,Vegetable and melon farming,,,353,28002860,56699540
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Montcalm County          ,,,,,

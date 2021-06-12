@@ -1,0 +1,37 @@
+Livingston,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,5918674593,,Employee Compensation,,2943817218
+Total Personal Income,,8453330000,,Proprietor Income,,395811986
+Total Employment,,80453,,Other Property Type Income,,2036228638
+,,,,Tax on Production and Import,,542816751
+Number of Industries,,269,,,,
+Land Area (Sq. Miles),,568,,Total Value Added,,5918674593
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,185596,,Households,,7731145453
+Total Households,,68728,,State/Local Government,,749924161
+Average Household Income,,122996,,Federal Government,,77058548
+,,,,Capital,,1691540283
+Trade Flows Method,,Trade Flows Model,,Exports,,5080274984
+Model Status,,Multipliers,,Imports,,-9177317521
+,,,,Institutional Sales,,-233951318
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73004,,Total Final Demand:,,5918674590
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+440,Real estate,,,4306,40748590,631478100
+502,Limited-service restaurants,,,3767,56636500,270740300
+534,"* Employment and payroll of local govt, education",,,3020,198815200,223788100
+454,Management consulting services,,,2756,105521200,239758000
+464,Employment services,,,2463,91096860,148383600
+395,Wholesale trade,,,2378,192127600,565290000
+501,Full-service restaurants,,,2310,41593250,93151810
+405,Retail - General merchandise stores,,,2218,63549890,169770100
+533,"* Employment and payroll of local govt, non-education",,,1991,105830900,119224600
+436,Other financial investment activities,,,1623,4562752,174606700
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Livingston County        ,,,,,

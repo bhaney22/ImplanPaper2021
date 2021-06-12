@@ -1,0 +1,37 @@
+Ottawa,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,11242419202,,Employee Compensation,,6571216923
+Total Personal Income,,10673430000,,Proprietor Income,,536903272
+Total Employment,,145325,,Other Property Type Income,,3235597207
+,,,,Tax on Production and Import,,898701801
+Number of Industries,,323,,,,
+Land Area (Sq. Miles),,566,,Total Value Added,,11242419202
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,276292,,Households,,9902136866
+Total Households,,100066,,State/Local Government,,1752247231
+Average Household Income,,106665,,Federal Government,,146295224
+,,,,Capital,,2136941176
+Trade Flows Method,,Trade Flows Model,,Exports,,15794505453
+Model Status,,Multipliers,,Imports,,-17948549444
+,,,,Institutional Sales,,-541157263
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.76233,,Total Final Demand:,,11242419243
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,6843,454082700,511119500
+395,Wholesale trade,,,5313,383348300,1182668000
+532,"* Employment and payroll of state govt, education",,,4356,292270700,331006400
+502,Limited-service restaurants,,,4190,67015120,308271800
+464,Employment services,,,3919,101618200,179146600
+440,Real estate,,,3774,43242250,528056200
+468,Services to buildings,,,3709,77411200,131536300
+501,Full-service restaurants,,,3523,59965740,138840800
+533,"* Employment and payroll of local govt, non-education",,,3308,183940400,207219500
+411,Truck transportation,,,3041,157540500,466133400
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Ottawa County            ,,,,,

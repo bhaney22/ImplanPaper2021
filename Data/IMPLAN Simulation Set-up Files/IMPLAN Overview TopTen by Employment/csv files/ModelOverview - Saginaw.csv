@@ -1,0 +1,37 @@
+Saginaw,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,7756269794,,Employee Compensation,,4561890457
+Total Personal Income,,6810764000,,Proprietor Income,,348880823
+Total Employment,,105965,,Other Property Type Income,,2154177131
+,,,,Tax on Production and Import,,691321383
+Number of Industries,,252,,,,
+Land Area (Sq. Miles),,809,,Total Value Added,,7756269794
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,195012,,Households,,6853560839
+Total Households,,79022,,State/Local Government,,1108882275
+Average Household Income,,86188,,Federal Government,,414130437
+,,,,Capital,,1133814235
+Trade Flows Method,,Trade Flows Model,,Exports,,7449914303
+Model Status,,Multipliers,,Imports,,-8896243588
+,,,,Institutional Sales,,-307788698
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.72672,,Total Final Demand:,,7756269803
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,6250,426905900,852649000
+501,Full-service restaurants,,,4098,73385940,164732200
+464,Employment services,,,3614,137644800,223044000
+352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,3469,321481400,1847021000
+534,"* Employment and payroll of local govt, education",,,3404,214804300,241785600
+502,Limited-service restaurants,,,2901,42569000,206792700
+533,"* Employment and payroll of local govt, non-education",,,2850,146275700,164788000
+395,Wholesale trade,,,2641,192175100,593476500
+405,Retail - General merchandise stores,,,2443,61866300,177306100
+468,Services to buildings,,,2411,68518400,104672800
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Saginaw County           ,,,,,

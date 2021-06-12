@@ -1,0 +1,37 @@
+Antrim,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,482305063,,Employee Compensation,,210385873
+Total Personal Income,,856706200,,Proprietor Income,,67273357
+Total Employment,,9864,,Other Property Type Income,,143713199
+,,,,Tax on Production and Import,,60932634
+Number of Industries,,163,,,,
+Land Area (Sq. Miles),,477,,Total Value Added,,482305063
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,23267,,Households,,854529108
+Total Households,,9748,,State/Local Government,,126223951
+Average Household Income,,87887,,Federal Government,,15722234
+,,,,Capital,,264258203
+Trade Flows Method,,Trade Flows Model,,Exports,,477399096
+Model Status,,Multipliers,,Imports,,-1216648226
+,,,,Institutional Sales,,-39179303
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.69043,,Total Final Demand:,,482305063
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+440,Real estate,,,674,4474253,70979060
+533,"* Employment and payroll of local govt, non-education",,,512,23845880,26863770
+534,"* Employment and payroll of local govt, education",,,411,24309750,27363270
+501,Full-service restaurants,,,302,4718309,11494580
+4,Fruit farming,,,289,7826865,16042340
+400,Retail - Food and beverage stores,,,287,7274151,17901670
+499,"Hotels and motels, including casino hotels",,,285,6539380,27977190
+502,Limited-service restaurants,,,244,3782740,17660030
+474,Other educational services,,,238,684574,4400606
+460,"Marketing research and all other miscellaneous professional, scientific, and technical services",,,233,4861642,10617570
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Antrim County            ,,,,,

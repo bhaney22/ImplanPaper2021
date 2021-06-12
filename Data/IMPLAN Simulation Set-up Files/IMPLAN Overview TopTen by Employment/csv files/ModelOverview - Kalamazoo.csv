@@ -1,0 +1,37 @@
+Kalamazoo,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,12805025064,,Employee Compensation,,7192362345
+Total Personal Income,,10527220000,,Proprietor Income,,621462002
+Total Employment,,150382,,Other Property Type Income,,4046342119
+,,,,Tax on Production and Import,,944858598
+Number of Industries,,289,,,,
+Land Area (Sq. Miles),,562,,Total Value Added,,12805025064
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,258818,,Households,,9816638174
+Total Households,,106626,,State/Local Government,,1662113463
+Average Household Income,,98731,,Federal Government,,163637159
+,,,,Capital,,1996974774
+Trade Flows Method,,Trade Flows Model,,Exports,,12668038885
+Model Status,,Multipliers,,Imports,,-13003775267
+,,,,Institutional Sales,,-498602174
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.7358,,Total Final Demand:,,12805025015
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,6643,510501300,967235100
+395,Wholesale trade,,,6625,475893500,1491914000
+534,"* Employment and payroll of local govt, education",,,5848,354377000,398889800
+464,Employment services,,,5601,219270400,353513100
+532,"* Employment and payroll of state govt, education",,,5454,430095800,487098000
+440,Real estate,,,5023,146163500,1266806000
+502,Limited-service restaurants,,,4793,71651660,342698000
+501,Full-service restaurants,,,4654,79725040,183799400
+405,Retail - General merchandise stores,,,3165,81175440,230887600
+433,Monetary authorities and depository credit intermediation,,,2964,173929800,439198200
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Kalamazoo County         ,,,,,

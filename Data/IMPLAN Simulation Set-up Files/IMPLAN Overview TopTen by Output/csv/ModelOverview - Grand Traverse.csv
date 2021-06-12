@@ -1,0 +1,37 @@
+Grand Traverse,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,4560526033,,Employee Compensation,,2561546573
+Total Personal Income,,3884008000,,Proprietor Income,,535097128
+Total Employment,,68458,,Other Property Type Income,,1028214971
+,,,,Tax on Production and Import,,435667361
+Number of Industries,,251,,,,
+Land Area (Sq. Miles),,465,,Total Value Added,,4560526033
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,90782,,Households,,3578049617
+Total Households,,37556,,State/Local Government,,711875386
+Average Household Income,,103419,,Federal Government,,167704100
+,,,,Capital,,1216239162
+Trade Flows Method,,Trade Flows Model,,Exports,,3346322597
+Model Status,,Multipliers,,Imports,,-4253056993
+,,,,Institutional Sales,,-206607818
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73558,,Total Final Demand:,,4560526051
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+482,Hospitals,,,3498,228818100,466272200
+441,Owner-occupied dwellings,,,0,0,399469200
+440,Real estate,,,2777,22492230,338182000
+395,Wholesale trade,,,1667,91892520,329617100
+475,Offices of physicians,,,1831,212974100,290831000
+438,"Insurance agencies, brokerages, and related activities",,,1192,88410180,248104600
+156,Petroleum refineries,,,23,11790610,210421500
+42,Electric power generation - Fossil  fuel,,,152,19549220,201265400
+20,Extraction of natural gas and crude petroleum,,,1130,105561300,195334300
+534,"* Employment and payroll of local govt, education",,,2541,159836900,179913800
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Grand Traverse County    ,,,,,

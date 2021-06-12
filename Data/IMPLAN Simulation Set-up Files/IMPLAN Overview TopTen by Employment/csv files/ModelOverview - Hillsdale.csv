@@ -1,0 +1,37 @@
+Hillsdale,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1265938895,,Employee Compensation,,679653605
+Total Personal Income,,1449760000,,Proprietor Income,,103380750
+Total Employment,,19643,,Other Property Type Income,,388029862
+,,,,Tax on Production and Import,,94874678
+Number of Industries,,196,,,,
+Land Area (Sq. Miles),,599,,Total Value Added,,1265938895
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,45830,,Households,,1508548720
+Total Households,,17911,,State/Local Government,,270753013
+Average Household Income,,80945,,Federal Government,,21490870
+,,,,Capital,,287481583
+Trade Flows Method,,Trade Flows Model,,Exports,,1957806949
+Model Status,,Multipliers,,Imports,,-2699444085
+,,,,Institutional Sales,,-80698147
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71891,,Total Final Demand:,,1265938903
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,1263,80233000,90310980
+355,Motor vehicle metal stamping,,,808,61731420,314941300
+533,"* Employment and payroll of local govt, non-education",,,785,41069530,46267200
+464,Employment services,,,635,24553580,39666720
+440,Real estate,,,614,2813151,63526780
+356,Other motor vehicle parts manufacturing,,,511,36303740,268299800
+351,Motor vehicle electrical and electronic equipment manufacturing,,,468,28917290,184503700
+11,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",,,466,3650328,18378610
+517,Private households,,,413,2526507,2526507
+395,Wholesale trade,,,390,19632870,73803300
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Hillsdale County         ,,,,,

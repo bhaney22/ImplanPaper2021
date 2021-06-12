@@ -1,0 +1,37 @@
+Mason,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,996578610,,Employee Compensation,,548589958
+Total Personal Income,,1042491000,,Proprietor Income,,78943060
+Total Employment,,15617,,Other Property Type Income,,270783839
+,,,,Tax on Production and Import,,98261753
+Number of Industries,,175,,,,
+Land Area (Sq. Miles),,495,,Total Value Added,,996578610
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,28824,,Households,,1024750245
+Total Households,,12025,,State/Local Government,,206234558
+Average Household Income,,86694,,Federal Government,,27657229
+,,,,Capital,,275917734
+Trade Flows Method,,Trade Flows Model,,Exports,,1079030533
+Model Status,,Multipliers,,Imports,,-1555053196
+,,,,Institutional Sales,,-61958493
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71576,,Total Final Demand:,,996578610
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+534,"* Employment and payroll of local govt, education",,,930,54274770,61092160
+533,"* Employment and payroll of local govt, non-education",,,616,28048360,31598100
+440,Real estate,,,583,4274280,63752470
+405,Retail - General merchandise stores,,,540,15381300,41212480
+501,Full-service restaurants,,,530,7989501,19901060
+482,Hospitals,,,502,28726300,62540120
+19,Support activities for agriculture and forestry,,,432,16030900,26040930
+249,Machine shops,,,424,20523610,57503780
+464,Employment services,,,387,23162430,34991350
+399,Retail - Building material and garden equipment and supplies stores,,,305,10227090,28057450
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Mason County             ,,,,,

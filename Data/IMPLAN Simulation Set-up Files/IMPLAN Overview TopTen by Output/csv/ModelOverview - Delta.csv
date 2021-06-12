@@ -1,0 +1,37 @@
+Delta,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,1209418921,,Employee Compensation,,705920449
+Total Personal Income,,1258834000,,Proprietor Income,,49510750
+Total Employment,,18363,,Other Property Type Income,,333756236
+,,,,Tax on Production and Import,,120231486
+Number of Industries,,202,,,,
+Land Area (Sq. Miles),,1170,,Total Value Added,,1209418921
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,36559,,Households,,1326515560
+Total Households,,15854,,State/Local Government,,225419220
+Average Household Income,,79402,,Federal Government,,45805652
+,,,,Capital,,348362394
+Trade Flows Method,,Trade Flows Model,,Exports,,1439766111
+Model Status,,Multipliers,,Imports,,-2108818649
+,,,,Institutional Sales,,-67631361
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.71889,,Total Final Demand:,,1209418926
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+147,Paper mills,,,762,90762060,618789100
+441,Owner-occupied dwellings,,,0,0,143623400
+249,Machine shops,,,528,33374620,80646340
+148,Paperboard mills,,,87,9234984,72635180
+482,Hospitals,,,480,33941990,66739340
+42,Electric power generation - Fossil  fuel,,,50,6357121,66660620
+395,Wholesale trade,,,338,17919480,65580660
+409,Rail transportation,,,198,20067990,62262940
+534,"* Employment and payroll of local govt, education",,,820,50186040,56489850
+433,Monetary authorities and depository credit intermediation,,,384,18376460,51490170
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Delta County             ,,,,,

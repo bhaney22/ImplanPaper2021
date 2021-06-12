@@ -1,0 +1,37 @@
+Berrien,,"Copyright 2019 Minnesota IMPLAN Group, Inc.",,,,
+,,,,,,
+Model Information,,,,,,
+Model Year,,2014,,Value Added,,
+GRP,,6224825841,,Employee Compensation,,3649244909
+Total Personal Income,,6118138000,,Proprietor Income,,363785039
+Total Employment,,83297,,Other Property Type Income,,1753444635
+,,,,Tax on Production and Import,,458351258
+Number of Industries,,285,,,,
+Land Area (Sq. Miles),,571,,Total Value Added,,6224825841
+Area Count,,1,,,,
+,,,,Final Demand,,
+Population,,155233,,Households,,5603621759
+Total Households,,63162,,State/Local Government,,910667786
+Average Household Income,,96864,,Federal Government,,88942012
+,,,,Capital,,1169727195
+Trade Flows Method,,Trade Flows Model,,Exports,,7505280851
+Model Status,,Multipliers,,Imports,,-8788695011
+,,,,Institutional Sales,,-264718738
+Economic Indicators,,,,,,
+Shannon-Weaver Index,,0.73873,,Total Final Demand:,,6224825854
+,,,,,,
+Top Ten Industries,,,,,,
+Sector,Description,,,Employment,Labor Income,Output
+330,Household laundry equipment manufacturing,,,2354,373081700,1744647000
+43,Electric power generation - Nuclear,,,1152,195010200,973108600
+441,Owner-occupied dwellings,,,0,0,617313100
+526,Other local government enterprises,,,2183,112516300,506134100
+395,Wholesale trade,,,2216,165462500,499586600
+482,Hospitals,,,2758,178970600,366179400
+344,Light truck and utility vehicle manufacturing,,,176,10552090,359352600
+320,Analytical laboratory instrument manufacturing,,,976,90892140,324906600
+440,Real estate,,,2605,20054030,302475500
+534,"* Employment and payroll of local govt, education",,,4341,262427000,295390200
+,,,,,,
+Areas In the Model,,,,,,
+Michigan                 ,Berrien County           ,,,,,
