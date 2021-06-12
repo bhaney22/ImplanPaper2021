@@ -1,0 +1,751 @@
+county,year,industry,description,notused1,notused2,employment,laborinc,output
+Alcona,2014,441,Owner-occupied dwellings,,,0,0,41528320
+Alcona,2014,440,Real estate,,,254,1400644,20528580
+Alcona,2014,475,Offices of physicians,,,143,10693350,16980270
+Alcona,2014,47,Electric power generation - Biomass,,,15,1256283,16911320
+Alcona,2014,134,Sawmills,,,57,1357502,13668850
+Alcona,2014,279,"Special tool, die, jig, and fixture manufacturing",,,75,6043680,13247640
+Alcona,2014,61,Construction of other new residential structures,,,47,1255685,12972200
+Alcona,2014,446,Lessors of nonfinancial intangible assets,,,10,253298,12624070
+Alcona,2014,77,Chocolate and confectionery manufacturing from cacao beans,,,22,302070,12069960
+Alcona,2014,20,Extraction of natural gas and crude petroleum,,,72,102692,11604300
+Allegan,2014,174,Pharmaceutical preparation manufacturing,,,2774,261842000,3262593000
+Allegan,2014,375,"Office furniture, except wood, manufacturing",,,1921,140692400,790714300
+Allegan,2014,89,"Animal, except poultry, slaughtering",,,1034,41500540,613556000
+Allegan,2014,156,Petroleum refineries,,,50,8499513,444991300
+Allegan,2014,441,Owner-occupied dwellings,,,0,0,444350700
+Allegan,2014,395,Wholesale trade,,,2206,112416700,419980500
+Allegan,2014,440,Real estate,,,2986,18547350,278760400
+Allegan,2014,526,Other local government enterprises,,,1088,50856780,245883000
+Allegan,2014,411,Truck transportation,,,1439,74218430,218043000
+Allegan,2014,179,Soap and other detergent manufacturing,,,221,23470810,213053900
+Alpena,2014,205,Cement manufacturing,,,270,27482070,155974900
+Alpena,2014,262,Farm machinery and equipment manufacturing,,,177,13709430,109716800
+Alpena,2014,441,Owner-occupied dwellings,,,0,0,109402000
+Alpena,2014,138,Reconstituted wood product manufacturing,,,213,13762600,106053000
+Alpena,2014,395,Wholesale trade,,,478,24839220,92497420
+Alpena,2014,533,"* Employment and payroll of local govt, non-education",,,1366,77787570,87632200
+Alpena,2014,291,Conveyor and conveying equipment manufacturing,,,287,18357810,73392550
+Alpena,2014,534,"* Employment and payroll of local govt, education",,,900,60109250,67659500
+Alpena,2014,440,Real estate,,,472,4189553,57060430
+Alpena,2014,405,Retail - General merchandise stores,,,468,13102030,35467380
+Antrim,2014,81,Canned fruits and vegetables manufacturing,,,205,6245038,97128350
+Antrim,2014,441,Owner-occupied dwellings,,,0,0,93667490
+Antrim,2014,440,Real estate,,,674,4474253,70979060
+Antrim,2014,61,Construction of other new residential structures,,,183,4322071,49501510
+Antrim,2014,431,"News syndicates, libraries, archives and all other information services",,,46,925406,35418090
+Antrim,2014,167,Synthetic rubber manufacturing,,,32,1654581,30770130
+Antrim,2014,499,"Hotels and motels, including casino hotels",,,285,6539380,27977190
+Antrim,2014,279,"Special tool, die, jig, and fixture manufacturing",,,175,11018760,27459490
+Antrim,2014,534,"* Employment and payroll of local govt, education",,,411,24309750,27363270
+Antrim,2014,533,"* Employment and payroll of local govt, non-education",,,512,23845880,26863770
+Arenac,2014,441,Owner-occupied dwellings,,,0,0,55705260
+Arenac,2014,293,"Industrial truck, trailer, and stacker manufacturing",,,135,6585830,53928770
+Arenac,2014,395,Wholesale trade,,,309,6845470,44997960
+Arenac,2014,188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,99,3970937,37527510
+Arenac,2014,20,Extraction of natural gas and crude petroleum,,,230,937103,37491020
+Arenac,2014,411,Truck transportation,,,241,11308500,35649770
+Arenac,2014,428,Wireless telecommunications carriers (except satellite),,,16,843858,29609320
+Arenac,2014,291,Conveyor and conveying equipment manufacturing,,,113,6811486,28341230
+Arenac,2014,61,Construction of other new residential structures,,,103,2097197,27410100
+Arenac,2014,440,Real estate,,,347,1122736,25906290
+Barry,2014,331,Other major household appliance manufacturing,,,1097,149766800,823346500
+Barry,2014,441,Owner-occupied dwellings,,,0,0,237375800
+Barry,2014,353,Motor vehicle transmission and power train parts manufacturing,,,307,22703830,182664200
+Barry,2014,437,Insurance carriers,,,416,28745730,168095400
+Barry,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,224,16107220,139550200
+Barry,2014,197,Rubber and plastics hoses and belting manufacturing,,,371,19807480,104641200
+Barry,2014,12,Dairy cattle and milk production,,,398,24085450,98952540
+Barry,2014,61,Construction of other new residential structures,,,339,8755359,92482960
+Barry,2014,440,Real estate,,,1146,3194289,86987870
+Barry,2014,482,Hospitals,,,586,40685670,80619410
+Bay,2014,42,Electric power generation - Fossil  fuel,,,403,57474360,547174100
+Bay,2014,441,Owner-occupied dwellings,,,0,0,426352100
+Bay,2014,74,Beet sugar manufacturing,,,481,29038820,335412200
+Bay,2014,395,Wholesale trade,,,1543,88697700,310715600
+Bay,2014,482,Hospitals,,,1617,138795300,251037700
+Bay,2014,49,Electric power transmission and distribution,,,188,25789860,250033800
+Bay,2014,534,"* Employment and payroll of local govt, education",,,3018,191405600,215447900
+Bay,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,307,27984250,202121500
+Bay,2014,451,Custom computer programming services,,,713,108392700,190491000
+Bay,2014,188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,366,39231440,180519000
+Benzie,2014,83,Dehydrated food products manufacturing,,,346,18183160,142342800
+Benzie,2014,441,Owner-occupied dwellings,,,0,0,70345380
+Benzie,2014,42,Electric power generation - Fossil  fuel,,,47,3754017,56833340
+Benzie,2014,61,Construction of other new residential structures,,,173,3264798,46116910
+Benzie,2014,499,"Hotels and motels, including casino hotels",,,431,10916980,44056470
+Benzie,2014,440,Real estate,,,521,576244,38755950
+Benzie,2014,533,"* Employment and payroll of local govt, non-education",,,344,16666200,18775440
+Benzie,2014,395,Wholesale trade,,,117,3229985,17955960
+Benzie,2014,327,Small electrical appliance manufacturing,,,40,2176103,17116950
+Benzie,2014,58,Construction of other new nonresidential structures,,,146,4243484,16994070
+Berrien,2014,330,Household laundry equipment manufacturing,,,2354,373081700,1744647000
+Berrien,2014,43,Electric power generation - Nuclear,,,1152,195010200,973108600
+Berrien,2014,441,Owner-occupied dwellings,,,0,0,617313100
+Berrien,2014,526,Other local government enterprises,,,2183,112516300,506134100
+Berrien,2014,395,Wholesale trade,,,2216,165462500,499586600
+Berrien,2014,482,Hospitals,,,2758,178970600,366179400
+Berrien,2014,344,Light truck and utility vehicle manufacturing,,,176,10552090,359352600
+Berrien,2014,320,Analytical laboratory instrument manufacturing,,,976,90892140,324906600
+Berrien,2014,440,Real estate,,,2605,20054030,302475500
+Berrien,2014,534,"* Employment and payroll of local govt, education",,,4341,262427000,295390200
+Branch,2014,228,Secondary processing of other nonferrous metals,,,473,39155890,685932500
+Branch,2014,395,Wholesale trade,,,881,44085330,167205600
+Branch,2014,441,Owner-occupied dwellings,,,0,0,154444400
+Branch,2014,411,Truck transportation,,,584,43313290,103522900
+Branch,2014,416,Warehousing and storage,,,870,43138570,94396400
+Branch,2014,533,"* Employment and payroll of local govt, non-education",,,1082,64767660,72964510
+Branch,2014,502,Limited-service restaurants,,,974,14249570,69119230
+Branch,2014,534,"* Employment and payroll of local govt, education",,,774,52470760,59061550
+Branch,2014,61,Construction of other new residential structures,,,215,4461741,57764080
+Branch,2014,67,Flour milling,,,36,3051856,57130230
+Calhoun,2014,356,Other motor vehicle parts manufacturing,,,3573,283439000,1929710000
+Calhoun,2014,73,Breakfast cereal manufacturing,,,1139,136622900,1210007000
+Calhoun,2014,351,Motor vehicle electrical and electronic equipment manufacturing,,,1922,101399500,729308200
+Calhoun,2014,441,Owner-occupied dwellings,,,0,0,517945500
+Calhoun,2014,395,Wholesale trade,,,2055,184075700,516927100
+Calhoun,2014,535,"* Employment and payroll of federal govt, non-military",,,2605,274361300,404472600
+Calhoun,2014,482,Hospitals,,,2533,173561300,346202900
+Calhoun,2014,461,Management of companies and enterprises,,,1201,186758700,312318900
+Calhoun,2014,456,Scientific research and development services,,,1162,119379000,299827700
+Calhoun,2014,534,"* Employment and payroll of local govt, education",,,3897,258759200,291261600
+Cass,2014,441,Owner-occupied dwellings,,,0,0,198095800
+Cass,2014,195,Other plastics product manufacturing,,,494,23784300,122984900
+Cass,2014,395,Wholesale trade,,,516,29058670,102212700
+Cass,2014,534,"* Employment and payroll of local govt, education",,,1162,68820980,77465500
+Cass,2014,14,"Animal production, except cattle and poultry and eggs",,,862,24840990,65762940
+Cass,2014,2,Grain farming,,,172,3672078,53337570
+Cass,2014,440,Real estate,,,614,4178840,51313060
+Cass,2014,49,Electric power transmission and distribution,,,39,5071929,51221190
+Cass,2014,193,Urethane and other foam product (except polystyrene) manufacturing,,,144,8803971,51029700
+Cass,2014,61,Construction of other new residential structures,,,177,4912432,48792640
+Charlevoix,2014,229,Ferrous metal foundries,,,517,42002520,170430500
+Charlevoix,2014,195,Other plastics product manufacturing,,,580,35721110,153960700
+Charlevoix,2014,49,Electric power transmission and distribution,,,106,11693740,134050300
+Charlevoix,2014,441,Owner-occupied dwellings,,,0,0,108095500
+Charlevoix,2014,440,Real estate,,,721,7674543,92425890
+Charlevoix,2014,315,"Search, detection, and navigation instruments manufacturing",,,185,22883840,72171100
+Charlevoix,2014,198,Other rubber product manufacturing,,,210,12724340,65016000
+Charlevoix,2014,499,"Hotels and motels, including casino hotels",,,529,15966970,58195740
+Charlevoix,2014,533,"* Employment and payroll of local govt, non-education",,,878,45420000,51168260
+Charlevoix,2014,476,Offices of dentists,,,375,25605270,49823380
+Cheboygan,2014,441,Owner-occupied dwellings,,,0,0,96683390
+Cheboygan,2014,61,Construction of other new residential structures,,,192,3340095,51609550
+Cheboygan,2014,440,Real estate,,,595,1497392,46265290
+Cheboygan,2014,534,"* Employment and payroll of local govt, education",,,463,29956640,33719460
+Cheboygan,2014,502,Limited-service restaurants,,,397,6735356,29830850
+Cheboygan,2014,58,Construction of other new nonresidential structures,,,218,7377434,26944660
+Cheboygan,2014,395,Wholesale trade,,,165,5636510,26872080
+Cheboygan,2014,356,Other motor vehicle parts manufacturing,,,56,2375561,26427100
+Cheboygan,2014,62,Maintenance and repair construction of nonresidential structures,,,191,6192986,26212340
+Cheboygan,2014,536,"* Employment and payroll of federal govt, military",,,119,7118306,25291760
+Chippewa,2014,441,Owner-occupied dwellings,,,0,0,147488000
+Chippewa,2014,526,Other local government enterprises,,,592,25558080,131117300
+Chippewa,2014,166,Plastics material and resin manufacturing,,,86,6212487,127234100
+Chippewa,2014,395,Wholesale trade,,,940,14526080,127114600
+Chippewa,2014,533,"* Employment and payroll of local govt, non-education",,,2307,110220000,124169200
+Chippewa,2014,42,Electric power generation - Fossil  fuel,,,73,9044624,96109410
+Chippewa,2014,534,"* Employment and payroll of local govt, education",,,1314,78247090,88075610
+Chippewa,2014,531,"* Employment and payroll of state govt, non-education",,,775,63293520,71855240
+Chippewa,2014,535,"* Employment and payroll of federal govt, non-military",,,390,45623240,67259320
+Chippewa,2014,536,"* Employment and payroll of federal govt, military",,,244,15962950,56717310
+Clare,2014,441,Owner-occupied dwellings,,,0,0,101485200
+Clare,2014,395,Wholesale trade,,,441,10500690,64368100
+Clare,2014,534,"* Employment and payroll of local govt, education",,,896,57124480,64299810
+Clare,2014,354,Motor vehicle seating and interior trim manufacturing,,,118,7780081,63759040
+Clare,2014,61,Construction of other new residential structures,,,214,4992955,57987770
+Clare,2014,440,Real estate,,,615,2568711,47580120
+Clare,2014,513,Religious organizations,,,345,10847070,40686870
+Clare,2014,385,Sporting and athletic goods manufacturing,,,159,10671010,39777180
+Clare,2014,482,Hospitals,,,279,16654400,35511010
+Clare,2014,280,Cutting tool and machine tool accessory manufacturing,,,159,14629290,32492490
+Clinton,2014,441,Owner-occupied dwellings,,,0,0,340378400
+Clinton,2014,395,Wholesale trade,,,1213,66937780,240139500
+Clinton,2014,87,"Dry, condensed, and evaporated dairy product manufacturing",,,126,9609107,204324700
+Clinton,2014,12,Dairy cattle and milk production,,,524,41583620,171907700
+Clinton,2014,354,Motor vehicle seating and interior trim manufacturing,,,298,21636730,164303800
+Clinton,2014,440,Real estate,,,1542,7621480,148573500
+Clinton,2014,170,Phosphatic fertilizer manufacturing,,,54,6071172,118398800
+Clinton,2014,61,Construction of other new residential structures,,,423,11865200,118135200
+Clinton,2014,154,Printing,,,758,31683230,108771600
+Clinton,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,127,22867700,104088600
+Crawford,2014,482,Hospitals,,,568,37671030,76290300
+Crawford,2014,138,Reconstituted wood product manufacturing,,,112,7668265,56173420
+Crawford,2014,441,Owner-occupied dwellings,,,0,0,50669320
+Crawford,2014,356,Other motor vehicle parts manufacturing,,,81,7218932,45413680
+Crawford,2014,61,Construction of other new residential structures,,,153,2888776,40897580
+Crawford,2014,395,Wholesale trade,,,143,6721457,26481630
+Crawford,2014,531,"* Employment and payroll of state govt, non-education",,,222,21221360,24091980
+Crawford,2014,50,Natural gas distribution,,,34,2677987,19880900
+Crawford,2014,440,Real estate,,,263,326039,19629280
+Crawford,2014,134,Sawmills,,,65,2674476,16883580
+Delta,2014,147,Paper mills,,,762,90762060,618789100
+Delta,2014,441,Owner-occupied dwellings,,,0,0,143623400
+Delta,2014,249,Machine shops,,,528,33374620,80646340
+Delta,2014,148,Paperboard mills,,,87,9234984,72635180
+Delta,2014,482,Hospitals,,,480,33941990,66739340
+Delta,2014,42,Electric power generation - Fossil  fuel,,,50,6357121,66660620
+Delta,2014,395,Wholesale trade,,,338,17919480,65580660
+Delta,2014,409,Rail transportation,,,198,20067990,62262940
+Delta,2014,534,"* Employment and payroll of local govt, education",,,820,50186040,56489850
+Delta,2014,433,Monetary authorities and depository credit intermediation,,,384,18376460,51490170
+Dickinson,2014,147,Paper mills,,,486,49115380,380687500
+Dickinson,2014,264,Construction machinery manufacturing,,,440,31579060,307862600
+Dickinson,2014,138,Reconstituted wood product manufacturing,,,318,26511080,166064200
+Dickinson,2014,229,Ferrous metal foundries,,,357,26725640,113834600
+Dickinson,2014,395,Wholesale trade,,,492,32938560,107073600
+Dickinson,2014,441,Owner-occupied dwellings,,,0,0,105217600
+Dickinson,2014,535,"* Employment and payroll of federal govt, non-military",,,707,67568740,99612100
+Dickinson,2014,533,"* Employment and payroll of local govt, non-education",,,1130,68524900,77197260
+Dickinson,2014,49,Electric power transmission and distribution,,,55,8060330,74876660
+Dickinson,2014,58,Construction of other new nonresidential structures,,,403,25627650,66203910
+Eaton,2014,343,Automobile manufacturing,,,1080,69896660,1724578000
+Eaton,2014,437,Insurance carriers,,,3288,314281200,1573392000
+Eaton,2014,441,Owner-occupied dwellings,,,0,0,473658700
+Eaton,2014,222,Secondary smelting and alloying of aluminum,,,476,24588520,426107200
+Eaton,2014,395,Wholesale trade,,,1339,93029080,294662300
+Eaton,2014,411,Truck transportation,,,1696,96037210,271037100
+Eaton,2014,440,Real estate,,,1317,14902080,180912500
+Eaton,2014,416,Warehousing and storage,,,1539,82241870,174751000
+Eaton,2014,152,Sanitary paper product manufacturing,,,216,16571710,174633200
+Eaton,2014,531,"* Employment and payroll of state govt, non-education",,,1581,142458700,161729100
+Emmet,2014,344,Light truck and utility vehicle manufacturing,,,197,16243870,418444900
+Emmet,2014,482,Hospitals,,,1489,106009900,207750900
+Emmet,2014,526,Other local government enterprises,,,724,33266170,162870700
+Emmet,2014,441,Owner-occupied dwellings,,,0,0,146667800
+Emmet,2014,440,Real estate,,,971,6816326,109512400
+Emmet,2014,475,Offices of physicians,,,585,61835530,86891640
+Emmet,2014,499,"Hotels and motels, including casino hotels",,,725,17672830,72851470
+Emmet,2014,502,Limited-service restaurants,,,942,16308560,72286020
+Emmet,2014,464,Employment services,,,1688,38053960,69671460
+Emmet,2014,395,Wholesale trade,,,311,15183690,57867800
+Genesee,2014,344,Light truck and utility vehicle manufacturing,,,1993,189764300,4333224000
+Genesee,2014,441,Owner-occupied dwellings,,,0,0,1559677000
+Genesee,2014,427,Wired telecommunications carriers,,,3087,257046900,1295612000
+Genesee,2014,395,Wholesale trade,,,6067,391157800,1290260000
+Genesee,2014,482,Hospitals,,,6784,506122300,971446600
+Genesee,2014,440,Real estate,,,5987,88250390,880127200
+Genesee,2014,475,Offices of physicians,,,4971,477600500,691594400
+Genesee,2014,534,"* Employment and payroll of local govt, education",,,9042,605594000,681662100
+Genesee,2014,355,Motor vehicle metal stamping,,,1654,123872000,640854700
+Genesee,2014,49,Electric power transmission and distribution,,,404,43943820,508544600
+Gladwin,2014,343,Automobile manufacturing,,,129,9212278,208855600
+Gladwin,2014,441,Owner-occupied dwellings,,,0,0,90548750
+Gladwin,2014,271,All other industrial machinery manufacturing,,,234,18674640,63369100
+Gladwin,2014,440,Real estate,,,171,2968167,36075940
+Gladwin,2014,41,Electric power generation - Hydroelectric,,,41,4392309,26545970
+Gladwin,2014,188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,70,2081872,25268140
+Gladwin,2014,534,"* Employment and payroll of local govt, education",,,325,21610160,24324580
+Gladwin,2014,16,Commercial logging,,,217,6952570,19974930
+Gladwin,2014,401,Retail - Health and personal care stores,,,176,8979877,17410890
+Gladwin,2014,483,Nursing and community care facilities,,,250,7872327,14432710
+Gogebic,2014,526,Other local government enterprises,,,651,30579900,147304100
+Gogebic,2014,441,Owner-occupied dwellings,,,0,0,59996020
+Gogebic,2014,440,Real estate,,,278,3543691,53425720
+Gogebic,2014,136,Veneer and plywood manufacturing,,,154,7460390,40708980
+Gogebic,2014,482,Hospitals,,,229,18936200,34768740
+Gogebic,2014,195,Other plastics product manufacturing,,,139,6526653,34399180
+Gogebic,2014,534,"* Employment and payroll of local govt, education",,,428,24183010,27220610
+Gogebic,2014,533,"* Employment and payroll of local govt, non-education",,,444,20292900,22861130
+Gogebic,2014,395,Wholesale trade,,,114,4661416,19939850
+Gogebic,2014,405,Retail - General merchandise stores,,,265,6868556,19436750
+Grand Traverse,2014,482,Hospitals,,,3498,228818100,466272200
+Grand Traverse,2014,441,Owner-occupied dwellings,,,0,0,399469200
+Grand Traverse,2014,440,Real estate,,,2777,22492230,338182000
+Grand Traverse,2014,395,Wholesale trade,,,1667,91892520,329617100
+Grand Traverse,2014,475,Offices of physicians,,,1831,212974100,290831000
+Grand Traverse,2014,438,"Insurance agencies, brokerages, and related activities",,,1192,88410180,248104600
+Grand Traverse,2014,156,Petroleum refineries,,,23,11790610,210421500
+Grand Traverse,2014,42,Electric power generation - Fossil  fuel,,,152,19549220,201265400
+Grand Traverse,2014,20,Extraction of natural gas and crude petroleum,,,1130,105561300,195334300
+Grand Traverse,2014,534,"* Employment and payroll of local govt, education",,,2541,159836900,179913800
+Gratiot,2014,166,Plastics material and resin manufacturing,,,257,17456990,380719300
+Gratiot,2014,395,Wholesale trade,,,747,124225800,235249700
+Gratiot,2014,441,Owner-occupied dwellings,,,0,0,149874900
+Gratiot,2014,183,Printing ink manufacturing,,,292,19620720,126009600
+Gratiot,2014,12,Dairy cattle and milk production,,,282,27247670,121100700
+Gratiot,2014,49,Electric power transmission and distribution,,,87,10881990,113163900
+Gratiot,2014,353,Motor vehicle transmission and power train parts manufacturing,,,189,11642600,108372000
+Gratiot,2014,106,Bottled and canned soft drinks & water,,,97,3940405,70592500
+Gratiot,2014,534,"* Employment and payroll of local govt, education",,,1020,62649530,70518860
+Gratiot,2014,2,Grain farming,,,188,4356280,69234340
+Hillsdale,2014,355,Motor vehicle metal stamping,,,808,61731420,314941300
+Hillsdale,2014,356,Other motor vehicle parts manufacturing,,,511,36303740,268299800
+Hillsdale,2014,351,Motor vehicle electrical and electronic equipment manufacturing,,,468,28917290,184503700
+Hillsdale,2014,441,Owner-occupied dwellings,,,0,0,163351400
+Hillsdale,2014,90,Meat processed from carcasses,,,333,14062390,156967100
+Hillsdale,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,167,16796580,112877100
+Hillsdale,2014,353,Motor vehicle transmission and power train parts manufacturing,,,172,17751930,111449900
+Hillsdale,2014,66,Other animal food manufacturing,,,72,2555233,96691340
+Hillsdale,2014,534,"* Employment and payroll of local govt, education",,,1263,80233000,90310980
+Hillsdale,2014,217,Iron and steel mills and ferroalloy manufacturing,,,81,5576367,83558740
+Houghton,2014,482,Hospitals,,,1171,75091240,154512600
+Houghton,2014,166,Plastics material and resin manufacturing,,,92,6798154,136243900
+Houghton,2014,441,Owner-occupied dwellings,,,0,0,133809000
+Houghton,2014,532,"* Employment and payroll of state govt, education",,,1511,90798980,102832900
+Houghton,2014,531,"* Employment and payroll of state govt, non-education",,,922,87632200,99486220
+Houghton,2014,534,"* Employment and payroll of local govt, education",,,500,40072250,45105680
+Houghton,2014,395,Wholesale trade,,,249,11009690,45032250
+Houghton,2014,440,Real estate,,,346,2172396,44644090
+Houghton,2014,49,Electric power transmission and distribution,,,29,3483593,37200560
+Houghton,2014,264,Construction machinery manufacturing,,,56,2477955,37086060
+Huron,2014,12,Dairy cattle and milk production,,,430,51762130,243227700
+Huron,2014,71,Soybean and other oilseed processing,,,45,2760487,234925600
+Huron,2014,74,Beet sugar manufacturing,,,247,14682280,171917800
+Huron,2014,11,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",,,679,21888900,149979900
+Huron,2014,2,Grain farming,,,246,8271010,141613600
+Huron,2014,21,Extraction of natural gas liquids,,,209,5807237,134549500
+Huron,2014,441,Owner-occupied dwellings,,,0,0,124753400
+Huron,2014,482,Hospitals,,,916,56692080,118661100
+Huron,2014,66,Other animal food manufacturing,,,56,4438743,81832970
+Huron,2014,395,Wholesale trade,,,406,21658360,78871340
+Ingham,2014,343,Automobile manufacturing,,,4369,520978300,7776703000
+Ingham,2014,440,Real estate,,,5584,153040500,1430506000
+Ingham,2014,441,Owner-occupied dwellings,,,0,0,1204827000
+Ingham,2014,437,Insurance carriers,,,2382,239766500,1173554000
+Ingham,2014,531,"* Employment and payroll of state govt, non-education",,,10592,989786400,1123675000
+Ingham,2014,482,Hospitals,,,7445,578837100,1091229000
+Ingham,2014,395,Wholesale trade,,,3863,325786200,907238900
+Ingham,2014,532,"* Employment and payroll of state govt, education",,,13562,801003000,907162900
+Ingham,2014,534,"* Employment and payroll of local govt, education",,,8506,574446800,646602400
+Ingham,2014,461,Management of companies and enterprises,,,2661,246471200,508650000
+Ionia,2014,346,Motor vehicle body manufacturing,,,2559,154259200,789890900
+Ionia,2014,49,Electric power transmission and distribution,,,255,9528019,276757800
+Ionia,2014,441,Owner-occupied dwellings,,,0,0,233523800
+Ionia,2014,355,Motor vehicle metal stamping,,,335,20700190,122824900
+Ionia,2014,408,Air transportation,,,429,10739130,115035300
+Ionia,2014,12,Dairy cattle and milk production,,,294,26809450,109556700
+Ionia,2014,226,"Copper rolling, drawing, extruding and alloying",,,91,6416038,104359200
+Ionia,2014,531,"* Employment and payroll of state govt, non-education",,,1028,88679910,100675600
+Ionia,2014,81,Canned fruits and vegetables manufacturing,,,171,8012746,84816080
+Ionia,2014,464,Employment services,,,3675,31460420,83990100
+Iosco,2014,414,Scenic and sightseeing transportation and support activities for transportation,,,543,45825980,98568040
+Iosco,2014,441,Owner-occupied dwellings,,,0,0,96371590
+Iosco,2014,355,Motor vehicle metal stamping,,,199,9807938,68931380
+Iosco,2014,189,Unlaminated plastics profile shape manufacturing,,,177,6349376,55638040
+Iosco,2014,482,Hospitals,,,334,19493430,42043810
+Iosco,2014,502,Limited-service restaurants,,,570,8836591,41697480
+Iosco,2014,533,"* Employment and payroll of local govt, non-education",,,741,32614620,36742260
+Iosco,2014,440,Real estate,,,407,1085096,33089120
+Iosco,2014,534,"* Employment and payroll of local govt, education",,,484,26652330,30000100
+Iosco,2014,395,Wholesale trade,,,168,6282482,28204900
+Iron,2014,441,Owner-occupied dwellings,,,0,0,44962660
+Iron,2014,482,Hospitals,,,310,19065930,40011460
+Iron,2014,271,All other industrial machinery manufacturing,,,125,5660704,28832480
+Iron,2014,533,"* Employment and payroll of local govt, non-education",,,553,24833490,27976360
+Iron,2014,141,"Other millwork, including flooring",,,126,5592551,21790610
+Iron,2014,440,Real estate,,,157,1023082,17526740
+Iron,2014,433,Monetary authorities and depository credit intermediation,,,113,5391129,14758720
+Iron,2014,511,Dry-cleaning and laundry services,,,154,8814119,14120790
+Iron,2014,395,Wholesale trade,,,82,2675559,13184370
+Iron,2014,461,Management of companies and enterprises,,,82,4213049,11998370
+Isabella,2014,264,Construction machinery manufacturing,,,745,42335280,505030300
+Isabella,2014,526,Other local government enterprises,,,1821,93692530,421988500
+Isabella,2014,277,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",,,936,56656610,359135400
+Isabella,2014,532,"* Employment and payroll of state govt, education",,,5677,292859900,331673700
+Isabella,2014,441,Owner-occupied dwellings,,,0,0,246847800
+Isabella,2014,440,Real estate,,,1174,14065190,150936200
+Isabella,2014,134,Sawmills,,,422,31833860,126573900
+Isabella,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,200,14749830,125244500
+Isabella,2014,534,"* Employment and payroll of local govt, education",,,1722,104499000,117625000
+Isabella,2014,411,Truck transportation,,,761,35837990,113005900
+Jackson,2014,49,Electric power transmission and distribution,,,1416,230279300,1973906000
+Jackson,2014,42,Electric power generation - Fossil  fuel,,,488,81542060,689056600
+Jackson,2014,356,Other motor vehicle parts manufacturing,,,1255,77712580,637485200
+Jackson,2014,441,Owner-occupied dwellings,,,0,0,630656800
+Jackson,2014,395,Wholesale trade,,,2514,151709600,516978900
+Jackson,2014,217,Iron and steel mills and ferroalloy manufacturing,,,424,50925930,484341300
+Jackson,2014,97,"Dry pasta, mixes, and dough manufacturing",,,770,71277280,478545200
+Jackson,2014,482,Hospitals,,,3169,248574900,466812200
+Jackson,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,507,44426480,330536400
+Jackson,2014,440,Real estate,,,2084,17900210,282474000
+Kalamazoo,2014,174,Pharmaceutical preparation manufacturing,,,2017,247408100,2474595000
+Kalamazoo,2014,343,Automobile manufacturing,,,858,138569300,1650041000
+Kalamazoo,2014,395,Wholesale trade,,,6625,475893500,1491914000
+Kalamazoo,2014,380,Surgical appliance and supplies manufacturing,,,2898,413741700,1290875000
+Kalamazoo,2014,440,Real estate,,,5023,146163500,1266806000
+Kalamazoo,2014,441,Owner-occupied dwellings,,,0,0,1088347000
+Kalamazoo,2014,482,Hospitals,,,6643,510501300,967235100
+Kalamazoo,2014,149,Paperboard container manufacturing,,,1486,125293900,676345000
+Kalamazoo,2014,532,"* Employment and payroll of state govt, education",,,5454,430095800,487098000
+Kalamazoo,2014,433,Monetary authorities and depository credit intermediation,,,2964,173929800,439198200
+Kalkaska,2014,38,Support activities for oil and gas operations,,,418,37936770,70915020
+Kalkaska,2014,471,Waste management and remediation services,,,313,22948890,68258190
+Kalkaska,2014,441,Owner-occupied dwellings,,,0,0,60604980
+Kalkaska,2014,533,"* Employment and payroll of local govt, non-education",,,890,43538440,49048580
+Kalkaska,2014,395,Wholesale trade,,,167,13862720,40445820
+Kalkaska,2014,445,Commercial and industrial machinery and equipment rental and leasing,,,84,7330802,22320260
+Kalkaska,2014,37,Drilling oil and gas wells,,,81,8386977,21782370
+Kalkaska,2014,20,Extraction of natural gas and crude petroleum,,,145,16985940,21619980
+Kalkaska,2014,428,Wireless telecommunications carriers (except satellite),,,11,800902,21098640
+Kalkaska,2014,250,"Turned product and screw, nut, and bolt manufacturing",,,97,5105742,20210700
+Kent,2014,395,Wholesale trade,,,24146,1781519000,5491488000
+Kent,2014,482,Hospitals,,,23803,1551850000,3168230000
+Kent,2014,441,Owner-occupied dwellings,,,0,0,2559863000
+Kent,2014,437,Insurance carriers,,,5704,425320400,2393539000
+Kent,2014,355,Motor vehicle metal stamping,,,6087,432275900,2317070000
+Kent,2014,440,Real estate,,,11577,307229000,2134676000
+Kent,2014,179,Soap and other detergent manufacturing,,,2049,281966300,2109505000
+Kent,2014,375,"Office furniture, except wood, manufacturing",,,3435,357530600,1635608000
+Kent,2014,464,Employment services,,,33174,905533900,1576139000
+Kent,2014,475,Offices of physicians,,,7828,970234500,1296504000
+Lake,2014,441,Owner-occupied dwellings,,,0,0,38479630
+Lake,2014,475,Offices of physicians,,,175,10878690,18731800
+Lake,2014,395,Wholesale trade,,,115,2970216,16133600
+Lake,2014,61,Construction of other new residential structures,,,56,1234222,15046120
+Lake,2014,440,Real estate,,,183,714102,14302090
+Lake,2014,533,"* Employment and payroll of local govt, non-education",,,254,11254950,12679350
+Lake,2014,446,Lessors of nonfinancial intangible assets,,,17,7109,11142780
+Lake,2014,483,Nursing and community care facilities,,,169,4821432,9255762
+Lake,2014,463,Facilities support services,,,85,1601651,8877299
+Lake,2014,260,Fabricated pipe and pipe fitting manufacturing,,,26,1046963,6077675
+Lapeer,2014,441,Owner-occupied dwellings,,,0,0,353437700
+Lapeer,2014,81,Canned fruits and vegetables manufacturing,,,475,23414810,237750100
+Lapeer,2014,195,Other plastics product manufacturing,,,896,37106390,215591100
+Lapeer,2014,345,Heavy duty truck manufacturing,,,180,11572180,187028700
+Lapeer,2014,440,Real estate,,,1276,9414424,136076400
+Lapeer,2014,61,Construction of other new residential structures,,,440,11025230,120516700
+Lapeer,2014,502,Limited-service restaurants,,,1540,22977550,110642400
+Lapeer,2014,533,"* Employment and payroll of local govt, non-education",,,1929,98084520,110497900
+Lapeer,2014,355,Motor vehicle metal stamping,,,282,17945660,104115700
+Lapeer,2014,261,Other fabricated metal manufacturing,,,442,21412310,89551980
+Leelanau,2014,526,Other local government enterprises,,,1285,63629490,294747500
+Leelanau,2014,441,Owner-occupied dwellings,,,0,0,106817600
+Leelanau,2014,440,Real estate,,,621,3812916,69578490
+Leelanau,2014,4,Fruit farming,,,535,19915930,35764310
+Leelanau,2014,395,Wholesale trade,,,218,7472636,35149430
+Leelanau,2014,109,Wineries,,,147,3907052,34094700
+Leelanau,2014,61,Construction of other new residential structures,,,116,3466342,32744440
+Leelanau,2014,436,Other financial investment activities,,,191,5273690,26876160
+Leelanau,2014,534,"* Employment and payroll of local govt, education",,,335,22495030,25320600
+Leelanau,2014,533,"* Employment and payroll of local govt, non-education",,,458,21993990,24777510
+Lenawee,2014,166,Plastics material and resin manufacturing,,,474,53709500,727865600
+Lenawee,2014,355,Motor vehicle metal stamping,,,1208,93617460,473026300
+Lenawee,2014,156,Petroleum refineries,,,43,9323449,397199000
+Lenawee,2014,441,Owner-occupied dwellings,,,0,0,383432100
+Lenawee,2014,356,Other motor vehicle parts manufacturing,,,686,49900530,361863300
+Lenawee,2014,165,Other basic organic chemical manufacturing,,,172,16963010,359242700
+Lenawee,2014,161,Petrochemical manufacturing,,,32,5424246,285947800
+Lenawee,2014,395,Wholesale trade,,,851,61768460,192102000
+Lenawee,2014,534,"* Employment and payroll of local govt, education",,,2171,138247700,155612800
+Lenawee,2014,440,Real estate,,,1179,6951855,128371100
+Livingston,2014,441,Owner-occupied dwellings,,,0,0,903602500
+Livingston,2014,356,Other motor vehicle parts manufacturing,,,1479,139354500,839925800
+Livingston,2014,440,Real estate,,,4306,40748590,631478100
+Livingston,2014,395,Wholesale trade,,,2378,192127600,565290000
+Livingston,2014,437,Insurance carriers,,,778,69554220,358647600
+Livingston,2014,159,Petroleum lubricating oil and grease manufacturing,,,237,30565900,341164200
+Livingston,2014,156,Petroleum refineries,,,38,6227580,334810900
+Livingston,2014,502,Limited-service restaurants,,,3767,56636500,270740300
+Livingston,2014,454,Management consulting services,,,2756,105521200,239758000
+Livingston,2014,355,Motor vehicle metal stamping,,,609,39546710,226235300
+Mackinac,2014,526,Other local government enterprises,,,490,20749870,108097600
+Mackinac,2014,499,"Hotels and motels, including casino hotels",,,643,20017950,71407980
+Mackinac,2014,441,Owner-occupied dwellings,,,0,0,43579780
+Mackinac,2014,410,Water transportation,,,66,1536703,38797280
+Mackinac,2014,440,Real estate,,,270,1858177,27555700
+Mackinac,2014,482,Hospitals,,,232,11561360,27085660
+Mackinac,2014,531,"* Employment and payroll of state govt, non-education",,,173,18899870,21456450
+Mackinac,2014,495,Gambling industries (except casino hotels),,,153,4738274,20304560
+Mackinac,2014,17,Commercial fishing,,,340,1676386,19421710
+Mackinac,2014,30,Stone mining and quarrying,,,82,4490032,18836590
+Macomb,2014,344,Light truck and utility vehicle manufacturing,,,6480,690345200,14362760000
+Macomb,2014,343,Automobile manufacturing,,,6677,1058216000,12767750000
+Macomb,2014,441,Owner-occupied dwellings,,,0,0,3705220000
+Macomb,2014,353,Motor vehicle transmission and power train parts manufacturing,,,5004,580810300,3363891000
+Macomb,2014,395,Wholesale trade,,,13795,1203200000,3346715000
+Macomb,2014,355,Motor vehicle metal stamping,,,6657,649183000,2822846000
+Macomb,2014,440,Real estate,,,13277,266140300,2523430000
+Macomb,2014,354,Motor vehicle seating and interior trim manufacturing,,,2588,240863000,1514888000
+Macomb,2014,534,"* Employment and payroll of local govt, education",,,17203,1235847000,1391080000
+Macomb,2014,482,Hospitals,,,10108,652169000,1338004000
+Manistee,2014,526,Other local government enterprises,,,1119,62865330,265851300
+Manistee,2014,148,Paperboard mills,,,243,25347740,201870300
+Manistee,2014,441,Owner-occupied dwellings,,,0,0,95845460
+Manistee,2014,164,Other basic inorganic chemical manufacturing,,,86,8365582,69962440
+Manistee,2014,533,"* Employment and payroll of local govt, non-education",,,914,51706750,58250650
+Manistee,2014,351,Motor vehicle electrical and electronic equipment manufacturing,,,131,10850310,55962460
+Manistee,2014,226,"Copper rolling, drawing, extruding and alloying",,,41,2643186,46329040
+Manistee,2014,531,"* Employment and payroll of state govt, non-education",,,500,34567650,39243620
+Manistee,2014,172,Pesticide and other agricultural chemical manufacturing,,,28,2926368,38396950
+Manistee,2014,104,Spice and extract manufacturing,,,66,4409477,35867300
+Marquette,2014,23,Iron ore mining,,,1275,164512300,983834200
+Marquette,2014,42,Electric power generation - Fossil  fuel,,,246,27883850,317514100
+Marquette,2014,441,Owner-occupied dwellings,,,0,0,287092100
+Marquette,2014,482,Hospitals,,,2184,110516000,256504800
+Marquette,2014,532,"* Employment and payroll of state govt, education",,,2053,130981600,148341100
+Marquette,2014,428,Wireless telecommunications carriers (except satellite),,,68,6852739,148154500
+Marquette,2014,395,Wholesale trade,,,660,37794210,133008100
+Marquette,2014,475,Offices of physicians,,,606,101862100,125877900
+Marquette,2014,440,Real estate,,,951,7458513,123291900
+Marquette,2014,502,Limited-service restaurants,,,1328,18866190,93489360
+Mason,2014,441,Owner-occupied dwellings,,,0,0,110973700
+Mason,2014,42,Electric power generation - Fossil  fuel,,,80,12329310,110297900
+Mason,2014,375,"Office furniture, except wood, manufacturing",,,260,15668270,99872020
+Mason,2014,164,Other basic inorganic chemical manufacturing,,,113,9579580,89463000
+Mason,2014,81,Canned fruits and vegetables manufacturing,,,170,6606075,82442090
+Mason,2014,440,Real estate,,,583,4274280,63752470
+Mason,2014,482,Hospitals,,,502,28726300,62540120
+Mason,2014,229,Ferrous metal foundries,,,204,13311980,61628560
+Mason,2014,534,"* Employment and payroll of local govt, education",,,930,54274770,61092160
+Mason,2014,312,Printed circuit assembly (electronic assembly) manufacturing,,,192,12014650,59972550
+Mecosta,2014,343,Automobile manufacturing,,,384,35163610,648393500
+Mecosta,2014,532,"* Employment and payroll of state govt, education",,,2794,148695200,168402300
+Mecosta,2014,441,Owner-occupied dwellings,,,0,0,155600000
+Mecosta,2014,152,Sanitary paper product manufacturing,,,179,12149870,140608300
+Mecosta,2014,355,Motor vehicle metal stamping,,,309,18117340,111615400
+Mecosta,2014,86,Cheese manufacturing,,,94,5924294,92112900
+Mecosta,2014,531,"* Employment and payroll of state govt, non-education",,,858,72256640,82030790
+Mecosta,2014,131,Leather and hide tanning and finishing,,,218,7693796,77672500
+Mecosta,2014,132,Footwear manufacturing,,,417,19637080,73863710
+Mecosta,2014,440,Real estate,,,773,3478463,70627060
+Menominee,2014,526,Other local government enterprises,,,1150,48361760,253189000
+Menominee,2014,327,Small electrical appliance manufacturing,,,291,28991350,146324900
+Menominee,2014,357,Aircraft manufacturing,,,208,12974300,134671900
+Menominee,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,201,14114960,124771700
+Menominee,2014,254,"Valve and fittings, other than plumbing, manufacturing",,,297,21095450,95165720
+Menominee,2014,147,Paper mills,,,128,9576255,94997180
+Menominee,2014,441,Owner-occupied dwellings,,,0,0,91212200
+Menominee,2014,395,Wholesale trade,,,363,21847680,71812690
+Menominee,2014,134,Sawmills,,,191,8981164,51056460
+Menominee,2014,12,Dairy cattle and milk production,,,142,8943002,39150170
+Midland,2014,166,Plastics material and resin manufacturing,,,3584,495263600,5621045000
+Midland,2014,461,Management of companies and enterprises,,,3002,585784500,911002000
+Midland,2014,431,"News syndicates, libraries, archives and all other information services",,,789,7663114,596566700
+Midland,2014,441,Owner-occupied dwellings,,,0,0,373846300
+Midland,2014,482,Hospitals,,,2446,166111500,332704500
+Midland,2014,185,Custom compounding of purchased resins,,,600,44588020,314395500
+Midland,2014,156,Petroleum refineries,,,34,4094164,289467900
+Midland,2014,464,Employment services,,,2574,180715700,267859600
+Midland,2014,42,Electric power generation - Fossil  fuel,,,195,28439440,266296000
+Midland,2014,440,Real estate,,,1439,15172630,184079300
+Missaukee,2014,12,Dairy cattle and milk production,,,356,31474100,123217600
+Missaukee,2014,134,Sawmills,,,287,11878690,75026940
+Missaukee,2014,441,Owner-occupied dwellings,,,0,0,52700700
+Missaukee,2014,395,Wholesale trade,,,252,7126877,38712500
+Missaukee,2014,411,Truck transportation,,,245,10696580,34613980
+Missaukee,2014,61,Construction of other new residential structures,,,92,2331226,25114160
+Missaukee,2014,534,"* Employment and payroll of local govt, education",,,241,16184110,18216980
+Missaukee,2014,16,Commercial logging,,,152,8334656,17841710
+Missaukee,2014,88,Ice cream and frozen dessert manufacturing,,,43,1618175,15128010
+Missaukee,2014,231,Iron and steel forging,,,34,2137097,14663550
+Monroe,2014,42,Electric power generation - Fossil  fuel,,,1106,182063200,1556508000
+Monroe,2014,217,Iron and steel mills and ferroalloy manufacturing,,,610,59907610,668954000
+Monroe,2014,43,Electric power generation - Nuclear,,,777,132374800,658149700
+Monroe,2014,441,Owner-occupied dwellings,,,0,0,617851700
+Monroe,2014,395,Wholesale trade,,,2070,134164800,435463300
+Monroe,2014,461,Management of companies and enterprises,,,1622,235260200,403232400
+Monroe,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,453,48898700,312071000
+Monroe,2014,534,"* Employment and payroll of local govt, education",,,3269,202438400,227866500
+Monroe,2014,156,Petroleum refineries,,,23,10115000,200491600
+Monroe,2014,482,Hospitals,,,1403,83963090,178698700
+Montcalm,2014,329,Household refrigerator and home freezer manufacturing,,,1166,169471000,783992400
+Montcalm,2014,441,Owner-occupied dwellings,,,0,0,212561400
+Montcalm,2014,482,Hospitals,,,1571,91436900,197330000
+Montcalm,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,243,23032360,161636200
+Montcalm,2014,395,Wholesale trade,,,422,22224530,81369450
+Montcalm,2014,195,Other plastics product manufacturing,,,276,13599440,69075540
+Montcalm,2014,12,Dairy cattle and milk production,,,204,14555420,63011280
+Montcalm,2014,533,"* Employment and payroll of local govt, non-education",,,979,52050490,58637890
+Montcalm,2014,534,"* Employment and payroll of local govt, education",,,823,50763670,57140040
+Montcalm,2014,3,Vegetable and melon farming,,,353,28002860,56699540
+Muskegon,2014,230,Nonferrous metal foundries,,,2839,207513200,740573600
+Muskegon,2014,441,Owner-occupied dwellings,,,0,0,617394000
+Muskegon,2014,482,Hospitals,,,4330,291886500,586575700
+Muskegon,2014,42,Electric power generation - Fossil  fuel,,,374,47237320,493725000
+Muskegon,2014,395,Wholesale trade,,,1969,131611800,421093900
+Muskegon,2014,163,Synthetic dye and pigment manufacturing,,,330,24957650,308690000
+Muskegon,2014,534,"* Employment and payroll of local govt, education",,,3818,247988200,279137700
+Muskegon,2014,440,Real estate,,,2499,28936240,264111600
+Muskegon,2014,229,Ferrous metal foundries,,,833,52753040,249494900
+Muskegon,2014,502,Limited-service restaurants,,,3255,50103730,236508300
+Newaygo,2014,82,Canned specialties,,,450,24975580,377865500
+Newaygo,2014,437,Insurance carriers,,,537,31727340,202015800
+Newaygo,2014,441,Owner-occupied dwellings,,,0,0,167625200
+Newaygo,2014,12,Dairy cattle and milk production,,,327,21210600,79492660
+Newaygo,2014,49,Electric power transmission and distribution,,,64,6095496,78770150
+Newaygo,2014,66,Other animal food manufacturing,,,55,2754835,76199090
+Newaygo,2014,200,"Brick, tile, and other structural clay product manufacturing",,,257,19286990,70324520
+Newaygo,2014,534,"* Employment and payroll of local govt, education",,,967,59880830,67402390
+Newaygo,2014,482,Hospitals,,,452,28640030,59262640
+Newaygo,2014,356,Other motor vehicle parts manufacturing,,,100,7432192,53195650
+Oakland,2014,395,Wholesale trade,,,43225,4844777000,12267420000
+Oakland,2014,440,Real estate,,,42475,1387714000,10859840000
+Oakland,2014,449,"Architectural, engineering, and related services",,,46601,4262246000,7274680000
+Oakland,2014,441,Owner-occupied dwellings,,,0,0,6392076000
+Oakland,2014,343,Automobile manufacturing,,,3580,446313900,6386405000
+Oakland,2014,482,Hospitals,,,33316,2378277000,4655369000
+Oakland,2014,437,Insurance carriers,,,8048,852233000,4082015000
+Oakland,2014,461,Management of companies and enterprises,,,14470,2026195000,3521488000
+Oakland,2014,464,Employment services,,,34540,1799914000,2764225000
+Oakland,2014,447,Legal services,,,15035,1426753000,2732760000
+Oceana,2014,79,"Frozen fruits, juices and vegetables manufacturing",,,597,28833820,262312800
+Oceana,2014,81,Canned fruits and vegetables manufacturing,,,370,17991520,184686700
+Oceana,2014,395,Wholesale trade,,,462,33673540,104924600
+Oceana,2014,353,Motor vehicle transmission and power train parts manufacturing,,,153,12103730,92708420
+Oceana,2014,441,Owner-occupied dwellings,,,0,0,88713500
+Oceana,2014,217,Iron and steel mills and ferroalloy manufacturing,,,58,4351138,60264640
+Oceana,2014,352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,120,6603865,56119620
+Oceana,2014,533,"* Employment and payroll of local govt, non-education",,,731,38625540,43513900
+Oceana,2014,4,Fruit farming,,,694,23904830,39888160
+Oceana,2014,375,"Office furniture, except wood, manufacturing",,,91,5275790,34500860
+Ogemaw,2014,441,Owner-occupied dwellings,,,0,0,73160400
+Ogemaw,2014,395,Wholesale trade,,,287,11465320,50007120
+Ogemaw,2014,533,"* Employment and payroll of local govt, non-education",,,777,38156120,42985080
+Ogemaw,2014,12,Dairy cattle and milk production,,,129,8802081,38180770
+Ogemaw,2014,482,Hospitals,,,281,17093610,36086420
+Ogemaw,2014,405,Retail - General merchandise stores,,,392,10616990,29266450
+Ogemaw,2014,440,Real estate,,,259,1245926,26972710
+Ogemaw,2014,502,Limited-service restaurants,,,381,5464085,26847720
+Ogemaw,2014,403,Retail - Clothing and clothing accessories stores,,,325,5946025,23826110
+Ogemaw,2014,61,Construction of other new residential structures,,,74,1594868,19989820
+Osceola,2014,84,Fluid milk manufacturing,,,196,13607610,153624800
+Osceola,2014,441,Owner-occupied dwellings,,,0,0,77393650
+Osceola,2014,195,Other plastics product manufacturing,,,236,14583780,62657980
+Osceola,2014,240,Metal window and door manufacturing,,,240,14892590,54380750
+Osceola,2014,12,Dairy cattle and milk production,,,163,8983013,40480110
+Osceola,2014,482,Hospitals,,,334,17288970,39620550
+Osceola,2014,58,Construction of other new nonresidential structures,,,190,14237620,33970490
+Osceola,2014,351,Motor vehicle electrical and electronic equipment manufacturing,,,77,6430608,33027310
+Osceola,2014,62,Maintenance and repair construction of nonresidential structures,,,157,11675990,30578230
+Osceola,2014,534,"* Employment and payroll of local govt, education",,,391,26863530,30237820
+Otsego,2014,441,Owner-occupied dwellings,,,0,0,96469260
+Otsego,2014,20,Extraction of natural gas and crude petroleum,,,665,25343240,92870000
+Otsego,2014,226,"Copper rolling, drawing, extruding and alloying",,,82,4322871,89487060
+Otsego,2014,482,Hospitals,,,546,36556070,73730220
+Otsego,2014,395,Wholesale trade,,,357,19451690,70577670
+Otsego,2014,356,Other motor vehicle parts manufacturing,,,123,9279173,65593740
+Otsego,2014,198,Other rubber product manufacturing,,,195,9196635,56383200
+Otsego,2014,440,Real estate,,,491,2963513,55303860
+Otsego,2014,405,Retail - General merchandise stores,,,679,18564890,50885100
+Otsego,2014,428,Wireless telecommunications carriers (except satellite),,,23,1595087,45105580
+Ottawa,2014,354,Motor vehicle seating and interior trim manufacturing,,,2737,246414700,1588179000
+Ottawa,2014,42,Electric power generation - Fossil  fuel,,,1029,132959100,1366706000
+Ottawa,2014,395,Wholesale trade,,,5313,383348300,1182668000
+Ottawa,2014,441,Owner-occupied dwellings,,,0,0,1122590000
+Ottawa,2014,90,Meat processed from carcasses,,,2018,142198000,1029100000
+Ottawa,2014,373,Wood office furniture manufacturing,,,2605,220230700,673620000
+Ottawa,2014,87,"Dry, condensed, and evaporated dairy product manufacturing",,,390,36922560,649140400
+Ottawa,2014,233,Custom roll forming,,,1474,98131080,601100500
+Ottawa,2014,375,"Office furniture, except wood, manufacturing",,,1583,88294540,593387900
+Ottawa,2014,174,Pharmaceutical preparation manufacturing,,,501,42090220,580103300
+Presque Isle,2014,441,Owner-occupied dwellings,,,0,0,49893440
+Presque Isle,2014,30,Stone mining and quarrying,,,208,6972341,37004900
+Presque Isle,2014,49,Electric power transmission and distribution,,,24,2598978,30028960
+Presque Isle,2014,482,Hospitals,,,250,11816070,28494440
+Presque Isle,2014,134,Sawmills,,,89,4025119,23647060
+Presque Isle,2014,410,Water transportation,,,30,3729488,23160860
+Presque Isle,2014,426,Cable and other subscription programming,,,30,792223,21872670
+Presque Isle,2014,411,Truck transportation,,,146,4778912,19103910
+Presque Isle,2014,188,Plastics packaging materials and unlaminated film and sheet manufacturing,,,43,1368305,15712160
+Presque Isle,2014,415,Couriers and messengers,,,92,7131983,15091650
+Roscommon,2014,355,Motor vehicle metal stamping,,,371,17056400,126511800
+Roscommon,2014,441,Owner-occupied dwellings,,,0,0,89184800
+Roscommon,2014,354,Motor vehicle seating and interior trim manufacturing,,,129,5337560,64327600
+Roscommon,2014,534,"* Employment and payroll of local govt, education",,,613,38578350,43424130
+Roscommon,2014,405,Retail - General merchandise stores,,,359,10039880,27185330
+Roscommon,2014,440,Real estate,,,271,1141035,27166940
+Roscommon,2014,396,Retail - Motor vehicle and parts dealers,,,193,8460426,21853160
+Roscommon,2014,531,"* Employment and payroll of state govt, non-education",,,175,17700840,20095240
+Roscommon,2014,61,Construction of other new residential structures,,,73,1692637,19746660
+Roscommon,2014,49,Electric power transmission and distribution,,,16,1243898,19229790
+Saginaw,2014,352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,3469,321481400,1847021000
+Saginaw,2014,482,Hospitals,,,6250,426905900,852649000
+Saginaw,2014,441,Owner-occupied dwellings,,,0,0,748541800
+Saginaw,2014,395,Wholesale trade,,,2641,192175100,593476500
+Saginaw,2014,42,Electric power generation - Fossil  fuel,,,444,58005800,590658000
+Saginaw,2014,214,Ground or treated mineral and earth manufacturing,,,613,71438420,414674900
+Saginaw,2014,440,Real estate,,,2208,23059840,342950700
+Saginaw,2014,437,Insurance carriers,,,722,62430120,326769500
+Saginaw,2014,427,Wired telecommunications carriers,,,713,62863640,305461700
+Saginaw,2014,475,Offices of physicians,,,2242,167407100,266206200
+Sanilac,2014,441,Owner-occupied dwellings,,,0,0,147866400
+Sanilac,2014,12,Dairy cattle and milk production,,,443,31277970,144697100
+Sanilac,2014,74,Beet sugar manufacturing,,,203,11294670,139055400
+Sanilac,2014,395,Wholesale trade,,,682,37387200,134466300
+Sanilac,2014,81,Canned fruits and vegetables manufacturing,,,253,11455490,125336800
+Sanilac,2014,2,Grain farming,,,334,5683302,95283720
+Sanilac,2014,482,Hospitals,,,767,35537750,86580560
+Sanilac,2014,250,"Turned product and screw, nut, and bolt manufacturing",,,407,22431290,86196990
+Sanilac,2014,198,Other rubber product manufacturing,,,247,10132920,69103500
+Sanilac,2014,254,"Valve and fittings, other than plumbing, manufacturing",,,213,14007770,66589550
+Shiawassee,2014,395,Wholesale trade,,,2137,84008620,370696600
+Shiawassee,2014,441,Owner-occupied dwellings,,,0,0,259278400
+Shiawassee,2014,345,Heavy duty truck manufacturing,,,249,14959650,256172400
+Shiawassee,2014,482,Hospitals,,,1310,71851060,159844400
+Shiawassee,2014,534,"* Employment and payroll of local govt, education",,,1647,97197730,109406600
+Shiawassee,2014,190,Plastics pipe and pipe fitting manufacturing,,,176,8748202,84293730
+Shiawassee,2014,356,Other motor vehicle parts manufacturing,,,159,7218200,76061180
+Shiawassee,2014,49,Electric power transmission and distribution,,,51,6442715,66371140
+Shiawassee,2014,333,Motor and generator manufacturing,,,171,12374120,63930590
+Shiawassee,2014,149,Paperboard container manufacturing,,,135,7710468,57152270
+St. Clair,2014,42,Electric power generation - Fossil  fuel,,,1109,201370600,1603601000
+St. Clair,2014,441,Owner-occupied dwellings,,,0,0,634407500
+St. Clair,2014,356,Other motor vehicle parts manufacturing,,,1073,59617880,532568500
+St. Clair,2014,395,Wholesale trade,,,1790,161882800,441006000
+St. Clair,2014,147,Paper mills,,,425,46653590,338359100
+St. Clair,2014,482,Hospitals,,,2633,158082800,335854500
+St. Clair,2014,50,Natural gas distribution,,,403,59382270,271744300
+St. Clair,2014,440,Real estate,,,2217,33025290,271650500
+St. Clair,2014,534,"* Employment and payroll of local govt, education",,,3124,203239100,228767800
+St. Clair,2014,226,"Copper rolling, drawing, extruding and alloying",,,188,11868260,211576400
+St. Joseph,2014,353,Motor vehicle transmission and power train parts manufacturing,,,1566,90719890,887257500
+St. Joseph,2014,87,"Dry, condensed, and evaporated dairy product manufacturing",,,498,37273410,808957400
+St. Joseph,2014,192,Polystyrene foam product manufacturing,,,882,51171480,335347600
+St. Joseph,2014,195,Other plastics product manufacturing,,,1174,61516800,298431800
+St. Joseph,2014,346,Motor vehicle body manufacturing,,,855,62315110,277186500
+St. Joseph,2014,156,Petroleum refineries,,,28,4869641,248082000
+St. Joseph,2014,441,Owner-occupied dwellings,,,0,0,214765100
+St. Joseph,2014,356,Other motor vehicle parts manufacturing,,,311,15082640,150464200
+St. Joseph,2014,395,Wholesale trade,,,649,42146390,136485700
+St. Joseph,2014,534,"* Employment and payroll of local govt, education",,,1693,98948560,111377400
+Tuscola,2014,441,Owner-occupied dwellings,,,0,0,196325900
+Tuscola,2014,350,Motor vehicle gasoline engine and engine parts manufacturing,,,292,20134580,180708700
+Tuscola,2014,395,Wholesale trade,,,658,43390070,141636400
+Tuscola,2014,352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,234,11557780,107232600
+Tuscola,2014,2,Grain farming,,,445,5556648,93341990
+Tuscola,2014,534,"* Employment and payroll of local govt, education",,,1315,77790420,87561580
+Tuscola,2014,74,Beet sugar manufacturing,,,119,8482002,85786300
+Tuscola,2014,165,Other basic organic chemical manufacturing,,,42,3328571,85769850
+Tuscola,2014,356,Other motor vehicle parts manufacturing,,,172,8393420,83397940
+Tuscola,2014,13,Poultry and egg production,,,204,9787853,70327640
+Van Buren,2014,43,Electric power generation - Nuclear,,,702,117074400,590021000
+Van Buren,2014,81,Canned fruits and vegetables manufacturing,,,627,24662580,304826600
+Van Buren,2014,456,Scientific research and development services,,,1321,84312910,276327200
+Van Buren,2014,441,Owner-occupied dwellings,,,0,0,276060800
+Van Buren,2014,534,"* Employment and payroll of local govt, education",,,2137,134885400,151828200
+Van Buren,2014,42,Electric power generation - Fossil  fuel,,,106,17078760,148336700
+Van Buren,2014,395,Wholesale trade,,,599,35988450,123042500
+Van Buren,2014,533,"* Employment and payroll of local govt, non-education",,,1988,104475200,117697400
+Van Buren,2014,461,Management of companies and enterprises,,,579,48814000,105370700
+Van Buren,2014,4,Fruit farming,,,1288,47718540,69043880
+Washtenaw,2014,531,"* Employment and payroll of state govt, non-education",,,36060,2665438000,3025991000
+Washtenaw,2014,441,Owner-occupied dwellings,,,0,0,1807844000
+Washtenaw,2014,440,Real estate,,,6799,128637300,1624962000
+Washtenaw,2014,456,Scientific research and development services,,,5845,550494300,1443329000
+Washtenaw,2014,395,Wholesale trade,,,5537,485668500,1364310000
+Washtenaw,2014,482,Hospitals,,,6914,503328300,976657900
+Washtenaw,2014,532,"* Employment and payroll of state govt, education",,,16505,771044600,873234000
+Washtenaw,2014,449,"Architectural, engineering, and related services",,,4395,482511000,760789700
+Washtenaw,2014,475,Offices of physicians,,,4389,526914400,710875800
+Washtenaw,2014,354,Motor vehicle seating and interior trim manufacturing,,,1284,84292720,692836400
+Wayne,2014,343,Automobile manufacturing,,,18359,2044406000,32168620000
+Wayne,2014,395,Wholesale trade,,,31561,2906146000,8019917000
+Wayne,2014,482,Hospitals,,,52665,3918464000,7529871000
+Wayne,2014,441,Owner-occupied dwellings,,,0,0,6562440000
+Wayne,2014,461,Management of companies and enterprises,,,22017,3141507000,5418388000
+Wayne,2014,456,Scientific research and development services,,,17843,2242123000,5114524000
+Wayne,2014,217,Iron and steel mills and ferroalloy manufacturing,,,4398,488965900,4942032000
+Wayne,2014,344,Light truck and utility vehicle manufacturing,,,2261,200963100,4838780000
+Wayne,2014,408,Air transportation,,,10532,1102861000,4086684000
+Wayne,2014,440,Real estate,,,21291,376135600,3699393000
+Wexford,2014,364,Boat building,,,900,74175870,252663800
+Wexford,2014,198,Other rubber product manufacturing,,,805,37584030,232232500
+Wexford,2014,352,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",,,392,28212170,195047500
+Wexford,2014,165,Other basic organic chemical manufacturing,,,70,3859353,141750200
+Wexford,2014,441,Owner-occupied dwellings,,,0,0,117158000
+Wexford,2014,327,Small electrical appliance manufacturing,,,226,16049350,103296000
+Wexford,2014,482,Hospitals,,,588,36329710,76131200
+Wexford,2014,261,Other fabricated metal manufacturing,,,291,19342340,65474160
+Wexford,2014,411,Truck transportation,,,392,21673560,61771150
+Wexford,2014,534,"* Employment and payroll of local govt, education",,,775,49398660,55603570
