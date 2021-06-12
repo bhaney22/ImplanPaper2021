@@ -158,6 +158,7 @@ as_tibble(shock01)
 
 no_matrices <- select(shock01,-c(g, IO, A, L, Y, Bona_cent))
 
-write.dta(no_matrices,"shock01_2014.dta")
+library(foreign)
+write.dta(no_matrices,"../Data/shock01_2014.dta")
 
 ```

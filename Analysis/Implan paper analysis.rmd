@@ -4,6 +4,7 @@ output:
   html_document:
     df_print: paged
   word_document: default
+  pdf_document: default
 ---
 
 
@@ -61,7 +62,7 @@ This paper proposes that the rate of aggregation decay is much smaller than sqrt
 
 ```{r getdata, include=TRUE}
 
-shock01 <- read_dta("../IMPLAN Simulation Results/shock01.dta")
+shock01 <- read_dta("../Data/shock01_2014.dta")
 
 ```
 
@@ -92,7 +93,7 @@ gf_point(pctindirect ~ B_sd,data=(shock01 %>%
   gf_refine(
     scale_color_manual(values = c("navy","limegreen"))) %>%
   gf_theme(
-    theme=theme_tufte())
+    theme=theme_minimal())
 
 ###
 ### Induced Impact (IMPLAN) 
@@ -118,7 +119,7 @@ gf_point(pctinduced ~ B_sd,data=(shock01 %>%
   gf_refine(
     scale_color_manual(values = c("navy","limegreen"))) %>%
   gf_theme(
-    theme=theme_tufte())
+    theme=theme_minimal())
 ```
 
 ```{r dens, include=TRUE }
@@ -131,7 +132,7 @@ gf_density(~B_sd,
          xlab = "Measure of Balance",
          ylab = "Density",
          alpha=.5 )%>%
-  gf_refine(theme=theme_tufte()) %>%
+  gf_refine(theme=theme_minimal()) %>%
   gf_labs(
     fill="Main Industry") %>%
   gf_refine(scale_fill_manual(values = c("navy","limegreen")))
@@ -142,7 +143,8 @@ gf_density(~B_sd,
 ## Regression Analysis
 
 ```{r}
-mydata <- shock01 %>% 
+library(haven)
+mydata <- read_dta("shock01.dta") %>% 
   select(year,county,sector,Y,TotIndOut,B_mean,B_sd,swindex,totemp,avghhinc,
          pctunder18,pctover65,lfpover16,pctblack,pcthisp,cropacres,
          pcttotdrop,pctadddrop,pctinduced,pctinddrop) %>%
