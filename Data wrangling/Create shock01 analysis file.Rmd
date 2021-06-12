@@ -29,7 +29,7 @@ library(scales)
 library(ggthemes)
 
 
-data   <- file.path("Data")
+data   <- file.path("../Data/AggData")
 
 ```
 
@@ -153,5 +153,11 @@ shock01$IndustryTypebyOutput <- set_labels(
 )
 
 dollar_format(shock01$GRP)
+
+as_tibble(shock01)
+
+no_matrices <- select(shock01,-c(g, IO, A, L, Y, Bona_cent))
+
+write.dta(no_matrices,"shock01_2014.dta")
 
 ```

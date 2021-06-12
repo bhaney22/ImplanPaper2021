@@ -11,7 +11,7 @@ g="/mnt/c/Users/bhane/Google Drive"
 IMPLAN="_ Energy Economics/Sabbatical Project/KN - Implan Research"
 setup="IMPLAN Overview Files and Simulation Set-up Files/$year/IMPLAN Overview Files TopTen by Output/csv"
 
-rhome="/mnt/c/Users/bhane/Google Drive/_ Energy Economics/Sabbatical Project/KN - Implan Research/ImplanPaper2021"
+rhome="/mnt/c/Users/brh22/Documents/R Projects/Implan Paper" ### 6.11.2018 BH Now in "../Data/AggData"
 data="Data"
 input="$rhome/$data/MIcounties.csv"
 outfilename="AggTopTenIndustryFileOutput$year.csv"

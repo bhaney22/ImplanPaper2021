@@ -13,7 +13,7 @@ IMPLAN="_ Energy Economics/Sabbatical Project/KN - Implan Research"
 setup="IMPLAN Simulation Set-up Files/$year/IMPLAN Overview Files TopTen by Output/csv"
 IOfiles="IMPLAN IO Tables/$year"
 
-rhome="/mnt/c/Users/brh22/Documents/R Projects/Implan Paper"
+rhome="/mnt/c/Users/brh22/Documents/R Projects/Implan Paper" ### 6.11.2018 BH Now in "../Data/AggData"
 data="Data"
 input="$rhome/$data/MIcounties.csv"
 outfilename="AggIOall$year.csv"
